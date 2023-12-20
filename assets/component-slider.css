@@ -331,12 +331,15 @@ slider-component.slider-component-full-width {
   align-items: center;
   justify-content: center;
   /* prueba de posicion */
+
+  
+}
+
+.section-template--17220397629675__ca01f063-fe15-4b13-9d39-cb27e04dbf9a-padding .slider-buttons{
   justify-content: space-between !important;
   position: absolute !important;
   top: -1rem !important;
   width: 100% !important;
-  
-  
 }
 
 @media screen and (min-width: 990px) {
