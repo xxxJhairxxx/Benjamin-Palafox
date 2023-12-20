@@ -67,7 +67,7 @@
 @media screen and (min-width: 990px) {
   .quick-add-modal__content {
     width: 70%;
-    border-radius: 10rem;
+    border-radius: 2rem;
   }
 }
 
