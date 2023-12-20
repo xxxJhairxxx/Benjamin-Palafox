@@ -4133,6 +4133,8 @@ details-disclosure > details {
   height: 4.8rem;
   background: #025159;
   padding-left: 4.5rem;
+  display: flex;
+  align-items: center;
 
   @media (min-width: 1200px) {
     height: calc(8.1rem * var(--scale));
