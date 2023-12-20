@@ -28,19 +28,25 @@
     & .Contact_container_details{
           heigth:100%;
 
+          .Contact_container_details_title{
+              text-transform:uppercase;
+              color: var(--primary)
+          }
+
           @media screen and (min-width: 1200px) {
-     width:32%;
-    }
+         width:32%;
+          }
           
     }
 
     & .Contact_container_form{
-         background-color: white;
-         padding:5%;
+        
+         
          border-radius:2rem;
 
          @media screen and (min-width: 1200px) {
-
+          padding:5%;
+          background-color: white;
          width: calc(95.1rem * var(--scale));
           }
 
@@ -76,8 +82,9 @@
     <div class=" Contact_container_details">
 
 
-   <h3></h3> {{section.settings.heading}}
-    </div>
+   <h3 class="Contact_container_details_title">{{section.settings.heading}}</h3> 
+    {{section.settings.description}} 
+   </div>
 
     {%- form 'contact', id: 'ContactForm', class: 'Contact_container_form' -%}
       {%- if form.posted_successfully? -%}
@@ -214,6 +221,11 @@
       "id": "heading",
       "default": "Contact form",
       "label": "Heading"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "description"
     },
     {
       "type": "select",
