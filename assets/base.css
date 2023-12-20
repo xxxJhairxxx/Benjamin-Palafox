@@ -4128,7 +4128,7 @@ details-disclosure > details {
   }
 }
 
-.modal-view{
+.my-store.index .modal-view{
   border: 1px solid transparent;
   height: 4.8rem;
   background: #025159;
@@ -4142,7 +4142,7 @@ details-disclosure > details {
   
 }
 
-.modal-view p{
+.my-store.index .modal-view p{
   font-size: 1.67rem;
   font-weight: 600;
   line-height: 2.08rem;
