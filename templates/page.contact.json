@@ -22,7 +22,13 @@
         "padding_bottom": 36,
         "iconSvg": "shopify:\/\/shop_images\/Group_8822.svg",
         "titleCard": "Phone Number:",
-        "decriptionCard": "(213) 700-2382"
+        "decriptionCard": "(213) 700-2382",
+        "iconSvg2": "shopify:\/\/shop_images\/Group_8821_1.svg",
+        "titleCard2": "Email:",
+        "decriptionCard2": "customer@avitaatlhetic.com",
+        "iconSvg3": "shopify:\/\/shop_images\/Group_8824_1.svg",
+        "titleCard3": "Location:",
+        "decriptionCard3": "Los Angeles, CA 90011"
       }
     }
   },
