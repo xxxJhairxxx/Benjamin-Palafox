@@ -74,21 +74,9 @@
 
 <div  class="Contact_container">
     <div class=" Contact_container_details">
-        {%- if section.settings.heading != blank -%}
-      <h2 class="title title-wrapper--no-top-margin inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-        {{ section.settings.heading }}
-      </h2>
-    {%- else -%}
-      <h2 class="visually-hidden">{{ 'templates.contact.form.title' | t }}</h2>
-    {%- endif -%}
-    {%- liquid
-      assign contact_form_class = 'isolate'
-      if settings.animations_reveal_on_scroll
-        assign contact_form_class = 'isolate scroll-trigger animate--slide-in'
-      endif
-    -%}
 
-    {{section.settings.heading}}
+
+   <h3></h3> {{section.settings.heading}}
     </div>
 
     {%- form 'contact', id: 'ContactForm', class: 'Contact_container_form' -%}
