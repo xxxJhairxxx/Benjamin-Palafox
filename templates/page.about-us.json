@@ -33,39 +33,40 @@
       "type": "AboutCards",
       "settings": {
         "aboutCardImage": "shopify:\/\/shop_images\/Rectangle_54.png",
-        "aboutCardTitle": "",
-        "aboutCardText": ""
+        "aboutCardTitle": "OUR STORY",
+        "aboutCardText": "<p>At Avita Athletica, we believe in the power of self-expression through sportswear. As both designers and manufacturers, we bring our creations to life, ensuring that every piece reflects our commitment to style, comfort, and functionality.<\/p>"
       }
     },
     "e4679374-f1fd-41de-ba10-cb2d82dd9d4a": {
       "type": "AboutCards",
       "settings": {
         "aboutCardImage": "shopify:\/\/shop_images\/Rectangle_2447.png",
-        "aboutCardTitle": "",
-        "aboutCardText": ""
+        "aboutCardTitle": "DESIGNING THE DIFFERENCE",
+        "aboutCardText": "<p>Our design process is driven by a love for fashion and a deep understanding of what athletes and fitness enthusiasts need. From the drawing board to the final stitch, we infuse each garment with a touch of uniqueness that sets it apart.<\/p>"
       }
     },
     "4410ccd4-1c92-4e61-8aa4-b7f8d3ae0968": {
       "type": "AboutCards",
       "settings": {
         "aboutCardImage": "shopify:\/\/shop_images\/Rectangle_2448.png",
-        "aboutCardTitle": "",
-        "aboutCardText": ""
+        "aboutCardTitle": "CRAFTING EXCELLENCE",
+        "aboutCardText": "<p>We're not just sellers; we're creators. With our in-house manufacturing, we oversee every aspect of production, ensuring that the quality of our sportswear meets the highest standards. We believe in delivering products that inspire confidence and empower your athletic journey.<\/p>"
       }
     },
     "f944ce35-766a-45fd-953e-f4982a466de0": {
       "type": "AboutCards",
       "settings": {
         "aboutCardImage": "shopify:\/\/shop_images\/Rectangle_2449.png",
-        "aboutCardTitle": "",
-        "aboutCardText": ""
+        "aboutCardTitle": "PASSION FOR PERFORMANCE",
+        "aboutCardText": "<p>We're not just in the business of selling sportswear; we're in the business of enhancing your performance. Whether you're hitting the gym, running trails, or conquering new heights, our sportswear is designed to keep up with your ambitions.<\/p>"
       }
     },
     "4fd305a0-efa1-460e-8e70-c1eb039ce06b": {
       "type": "AboutCards",
       "settings": {
-        "aboutCardTitle": "",
-        "aboutCardText": ""
+        "aboutCardImage": "shopify:\/\/shop_images\/Rectangle_2466.png",
+        "aboutCardTitle": "JOIN US ON THE JOURNEY",
+        "aboutCardText": "<p>We invite you to explore our collections, each piece a testament to our dedication to your athletic experience. Join us on this journey where design, craftsmanship, and performance converge. Thank you for choosing Avita Athletica—where your journey begins in style.<\/p>"
       }
     }
   },
