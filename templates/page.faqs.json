@@ -1,28 +1,11 @@
 {
   "sections": {
-    "309fb08e-4e6d-41e8-abd6-8a73f29b0038": {
-      "type": "bannerPageInter",
-      "settings": {
-        "titleFirts": "HOLA",
-        "titleBanner": "<p>YOUR ACTIVE LIFESTYLE WITH <\/p>",
-        "titleEnd": "HOLA"
-      }
-    },
     "main": {
       "type": "main-page",
       "disabled": true,
       "settings": {
         "padding_top": 0,
         "padding_bottom": 0
-      }
-    },
-    "76390ed2-dff8-4ca1-9658-f9c6459c55a0": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<section class='abouttext'>\n<p class='abouttext-p'>\nWelcome to Avita Athletica, where passion meets performance! We take pride in crafting sportswear that not only looks good but is born from our dedication to quality and innovation.<\/h2>\n<\/section>",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 76
       }
     },
     "8d78e346-5f5e-4945-8587-30a6dbcd3c21": {
@@ -46,9 +29,7 @@
     }
   },
   "order": [
-    "309fb08e-4e6d-41e8-abd6-8a73f29b0038",
     "main",
-    "76390ed2-dff8-4ca1-9658-f9c6459c55a0",
     "8d78e346-5f5e-4945-8587-30a6dbcd3c21",
     "4a590c03-5604-4ff0-921c-d500b31a7f0b"
   ]
