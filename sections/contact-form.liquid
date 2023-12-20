@@ -55,7 +55,6 @@
     -%}
 
     {{section.settings.heading}}
-
     </div>
 
     {%- form 'contact', id: 'ContactForm', class: 'Contact_container_form' -%}
@@ -86,7 +85,7 @@
           
           <input
             class="field__input"
-            autocomplete="name"
+            autocomplete="given-name"
             type="text"
             id="ContactForm-name"
             name="contact[{{ 'templates.contact.form.name' | t }}]"
@@ -94,6 +93,19 @@
             placeholder="{{ 'templates.contact.form.name' | t }}"
           >
           <label class="field__label" for="ContactForm-name">{{ 'templates.contact.form.name' | t }}</label>
+        </div>
+         <div class="field">
+          
+          <input
+            class="field__input"
+            autocomplete="family-name"
+            type="text"
+            id="ContactForm-lastname"
+            name="contact[{{ 'templates.contact.form.lastname' | t }}]"
+            value="{% if form.lastname %}{{ form.lastname }}{% elsif customer %}{{ customer.lastname }}{% endif %}"
+            placeholder="{{ 'templates.contact.form.lastname' | t }}"
+          >
+          <label class="field__label" for="ContactForm-lastname">{{ 'templates.contact.form.lastname' | t }}</label>
         </div>
         <div class="field field--with-error">
           <input
@@ -127,8 +139,7 @@
             </small>
           {%- endif -%}
         </div>
-      </div>
-      <div class="field">
+        <div class="field">
         <input
           type="tel"
           id="ContactForm-phone"
@@ -141,6 +152,8 @@
         >
         <label class="field__label" for="ContactForm-phone">{{ 'templates.contact.form.phone' | t }}</label>
       </div>
+      </div>
+      
       <div class="field">
         <textarea
           rows="10"

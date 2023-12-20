@@ -1329,12 +1329,12 @@ deferred-media {
 
 .button--secondary,
 .button--tertiary {
-  --color-button: var(--color-secondary-button);
-  --color-button-text: var(--color-secondary-button-text);
+  --color-button: var(--primary);
+  --color-button-text: white;
 }
 
 .button--tertiary {
-  --alpha-button-background: 0;
+  background-color: var(--primary);
   --alpha-button-border: 0.2;
 }
 
@@ -1953,7 +1953,8 @@ details[open] > .share-button__fallback {
   position: absolute;
   right: 0;
   top: 0;
-  width: 4.4rem;border-radius: 10rem !important;
+  width: 4.4rem;
+  border-radius: 10rem !important;
 }
 
 .field__button > svg {
