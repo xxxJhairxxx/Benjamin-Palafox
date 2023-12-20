@@ -27,14 +27,22 @@
 
     & .Contact_container_details{
           heigth:100%;
-
+           @media screen and (min-width: 1200px) {
+              padding-inline: calc(7rem * var(--scale));   
+              width:42%;
+          }
+          
           .Contact_container_details_title{
               text-transform:uppercase;
-              ;
+              
               color: var(--primary);
-              font-family: var(--textFont);
+              font-family: var(--titleFont);
               font-size:2.5rem;
               margin-block:1rem;
+              @media screen and (min-width: 1200px) {}
+              font-size: calc(3rem * var(--scale));
+              
+
           }
 
           & p{
@@ -42,9 +50,6 @@
             font-size:1.7rem;
           }
 
-          @media screen and (min-width: 1200px) {
-         width:32%;
-          }
           
     }
 
@@ -56,7 +61,7 @@
          @media screen and (min-width: 1200px) {
           padding:5%;
           background-color: white;
-         width: calc(95.1rem * var(--scale));
+         width: calc(80.1rem * var(--scale));
           }
 
 
@@ -80,6 +85,10 @@
          }
         }
   }
+
+  .ContactCard{
+
+  }
   
 {%- endstyle -%}
 
@@ -89,10 +98,29 @@
 
 <div  class="Contact_container">
     <div class=" Contact_container_details">
-
-
    <h3 class="Contact_container_details_title">{{section.settings.heading}}</h3> 
     {{section.settings.description}} 
+
+        <section class="ContactCard">
+
+        <picture class="ContactCard_thumb">    
+                  <img
+                srcset="{{ section.settings.iconSvg | image_url: width: section.settings.aboutCardImage_width }}, {{ section.settings.aboutCardImage | image_url: width: section.settings.aboutCardImage }} 2x"
+                  src="{{ section.settings.iconSvg}}"
+                  alt="{{ section.settings.iconSvg.alt | escape }}"
+                  loading="lazy"
+                    width="{{ section.settings.iconSvg.width }}"
+                  height="{{ section.settings.iconSvg.height }}"
+              >
+          </picture>
+
+          <div class="ContactCard_description">
+                  <h3>{{section.settings.titleCard}}</h3>
+
+                  <p>{{section.settings.decriptionCard}}</p>
+          </div>
+          </section>
+   
    </div>
 
     {%- form 'contact', id: 'ContactForm', class: 'Contact_container_form' -%}
@@ -285,7 +313,21 @@
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
       "default": 36
-    }
+    },{
+    "id": "iconSvg",
+    "type": "image_picker",
+    "label": "icono"
+  },
+  {
+    "id": "titleCard",
+    "type": "text",
+    "label": "title"
+  },
+   {
+    "id": "decriptionCard",
+    "type": "text",
+    "label": "description"
+  }
   ],
   "presets": [
     {
