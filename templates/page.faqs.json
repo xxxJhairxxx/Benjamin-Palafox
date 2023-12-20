@@ -82,6 +82,24 @@
             "row_content": "<p>Absolutely! Our customer support team is here to assist you. Reach out to us through the Contact Us page with your preferences, and we'll provide personalized recommendations tailored to your specific needs.<\/p>",
             "page": ""
           }
+        },
+        "725fe240-1160-4b7f-b4d8-25259d36f53a": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "9. Can I modify my order after it has been placed?",
+            "icon": "none",
+            "row_content": "<p>Once an order is confirmed, it goes into processing promptly. To make any modifications, reach out to our customer support team as soon as possible, and we'll do our best to assist you.<\/p>",
+            "page": ""
+          }
+        },
+        "380dca82-de9d-4a27-be5d-65567ecf459a": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "8. Can I get personalized recommendations for sportswear based on my preferences?",
+            "icon": "none",
+            "row_content": "<p>Absolutely! Our customer support team is here to assist you. Reach out to us through the Contact Us page with your preferences, and we'll provide personalized recommendations tailored to your specific needs.<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -92,7 +110,9 @@
         "bfc6fdd9-ec72-47d5-a45a-61e139942a88",
         "65969322-99ac-48be-96f0-ca6630f4807f",
         "84e4f8d3-b956-48ca-b507-26f1e0a42467",
-        "011037d0-1a8e-4814-9850-3b8bf23899c6"
+        "011037d0-1a8e-4814-9850-3b8bf23899c6",
+        "725fe240-1160-4b7f-b4d8-25259d36f53a",
+        "380dca82-de9d-4a27-be5d-65567ecf459a"
       ],
       "custom_css": [
 
