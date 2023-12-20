@@ -4127,3 +4127,59 @@ details-disclosure > details {
     display: block; /* Asegura que se muestre en dispositivos de escritorio */
   }
 }
+
+.my-store.index .modal-view{
+  border: 1px solid transparent;
+  height: 4.8rem;
+  background: #025159;
+  padding-left: 4.5rem;
+  display: flex;
+  align-items: center;
+
+  @media (min-width: 1200px) {
+    height: calc(8.1rem * var(--scale));
+    padding-left: calc(9.4rem * var(--scale));
+  }
+  
+}
+
+.modal-view p{
+  display: none;
+}
+
+.my-store.index .modal-view p{
+  display: block;
+  font-size: 1.67rem;
+  font-weight: 600;
+  line-height: 2.08rem;
+  color: #FFF0C9;
+  position: relative;
+
+    @media (min-width: 1200px) {
+    font-size: calc(2.35rem * var(--scale));
+    line-height: calc(2.94rem * var(--scale));
+  }
+
+  
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -3rem;
+    width: 2rem;
+    height: 2rem;
+    background: url("./eye-icon.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 100;
+  }
+}
+
+@media (min-width: 1200px) {
+   .my-store.index .modal-view p:before{
+      height: calc(3rem * var(--scale));
+      width: calc(3rem * var(--scale));
+      left: calc(-6rem * var(--scale));
+    }
+}
