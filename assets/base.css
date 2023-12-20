@@ -4189,6 +4189,6 @@ details-disclosure > details {
   color: white;
 }
 
-.product .product__media-item.grid__item slider__slide{
+.product .product__media-item.grid__item.slider__slide{
   width: 25%;
 }
