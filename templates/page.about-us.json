@@ -1,1 +1,111 @@
-{"sections":{"366ba0be-1326-4b71-86fb-d12e90349ed6":{"type":"bannerPageInter","settings":{"titleFirts":"ELEVATE","titleBanner":"<p> YOUR ACTIVE LIFESTYLE WITH <\/p>","titleEnd":"AVITA ATHLETICA"}},"main":{"type":"main-page","settings":{"padding_top":28,"padding_bottom":28}}},"order":["366ba0be-1326-4b71-86fb-d12e90349ed6","main"]}
+{
+  "sections": {
+    "366ba0be-1326-4b71-86fb-d12e90349ed6": {
+      "type": "bannerPageInter",
+      "settings": {
+        "titleFirts": "ELEVATE",
+        "titleBanner": "<p> YOUR ACTIVE LIFESTYLE WITH <\/p>",
+        "titleEnd": "AVITA ATHLETICA"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "e595e96b-0c49-429c-bbb0-dc548b59b3e0": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17220397957355__e595e96b-0c49-429c-bbb0-dc548b59b3e0-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "template--17220397957355__e595e96b-0c49-429c-bbb0-dc548b59b3e0-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--17220397957355__e595e96b-0c49-429c-bbb0-dc548b59b3e0-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17220397957355__e595e96b-0c49-429c-bbb0-dc548b59b3e0-heading-1",
+        "template--17220397957355__e595e96b-0c49-429c-bbb0-dc548b59b3e0-text-1",
+        "template--17220397957355__e595e96b-0c49-429c-bbb0-dc548b59b3e0-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "70f032ef-2858-4314-aa22-45fd885dc7fa": {
+      "type": "AboutCards",
+      "settings": {
+        "aboutCardImage": "shopify:\/\/shop_images\/Rectangle_54.png",
+        "aboutCardTitle": "",
+        "aboutCardText": ""
+      }
+    },
+    "e4679374-f1fd-41de-ba10-cb2d82dd9d4a": {
+      "type": "AboutCards",
+      "settings": {
+        "aboutCardImage": "shopify:\/\/shop_images\/Rectangle_2447.png",
+        "aboutCardTitle": "",
+        "aboutCardText": ""
+      }
+    },
+    "4410ccd4-1c92-4e61-8aa4-b7f8d3ae0968": {
+      "type": "AboutCards",
+      "settings": {
+        "aboutCardImage": "shopify:\/\/shop_images\/Rectangle_2448.png",
+        "aboutCardTitle": "",
+        "aboutCardText": ""
+      }
+    },
+    "f944ce35-766a-45fd-953e-f4982a466de0": {
+      "type": "AboutCards",
+      "settings": {
+        "aboutCardImage": "shopify:\/\/shop_images\/Rectangle_2449.png",
+        "aboutCardTitle": "",
+        "aboutCardText": ""
+      }
+    },
+    "4fd305a0-efa1-460e-8e70-c1eb039ce06b": {
+      "type": "AboutCards",
+      "settings": {
+        "aboutCardTitle": "",
+        "aboutCardText": ""
+      }
+    }
+  },
+  "order": [
+    "366ba0be-1326-4b71-86fb-d12e90349ed6",
+    "main",
+    "e595e96b-0c49-429c-bbb0-dc548b59b3e0",
+    "70f032ef-2858-4314-aa22-45fd885dc7fa",
+    "e4679374-f1fd-41de-ba10-cb2d82dd9d4a",
+    "4410ccd4-1c92-4e61-8aa4-b7f8d3ae0968",
+    "f944ce35-766a-45fd-953e-f4982a466de0",
+    "4fd305a0-efa1-460e-8e70-c1eb039ce06b"
+  ]
+}
