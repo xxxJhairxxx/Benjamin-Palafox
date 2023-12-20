@@ -4127,3 +4127,7 @@ details-disclosure > details {
     display: block; /* Asegura que se muestre en dispositivos de escritorio */
   }
 }
+
+.modal-view{
+  border: 2px solid red;
+}
