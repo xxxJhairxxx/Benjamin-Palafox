@@ -551,8 +551,7 @@ blockquote {
 .field__input,
 .form__label,
 .select__select {
-  font-size: 1.5rem;
-  font-weight: 300;
+  font-size: 1.3rem;
   line-height: calc(1 + 0.5 / var(--font-body-scale));
   letter-spacing: 0.04rem;
 }
@@ -1974,6 +1973,7 @@ details[open] > .share-button__fallback {
 .text-area {
   font-family: var(--font-body-family);
   font-style: var(--font-body-style);
+  font-weight: var(--font-body-weight);
   min-height: 10rem;
   resize: none;
 }
@@ -4129,8 +4129,9 @@ details-disclosure > details {
 }
 
 .my-store.index .modal-view{
-  border: 1px solid transparent;
+  border: 1px solid #025159;
   height: 4.8rem;
+  height: 7rem;
   background: #025159;
   padding-left: 4.5rem;
   display: flex;
