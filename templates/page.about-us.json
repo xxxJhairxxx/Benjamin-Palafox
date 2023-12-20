@@ -16,44 +16,15 @@
         "padding_bottom": 28
       }
     },
-    "e595e96b-0c49-429c-bbb0-dc548b59b3e0": {
-      "type": "rich-text",
-      "blocks": {
-        "template--17220397957355__e595e96b-0c49-429c-bbb0-dc548b59b3e0-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "template--17220397957355__e595e96b-0c49-429c-bbb0-dc548b59b3e0-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "template--17220397957355__e595e96b-0c49-429c-bbb0-dc548b59b3e0-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--17220397957355__e595e96b-0c49-429c-bbb0-dc548b59b3e0-heading-1",
-        "template--17220397957355__e595e96b-0c49-429c-bbb0-dc548b59b3e0-text-1",
-        "template--17220397957355__e595e96b-0c49-429c-bbb0-dc548b59b3e0-button-1"
+    "f9d0d7cc-3da7-4830-9021-e31580f63c24": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".abouttext {padding-inline: 10%; text-align: center;}",
+        ".abouttext-p {max-width: calc(110rem * var(--scale)); margin: auto;}"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "custom_liquid": "<section class='abouttext'>\n<p class='abouttext-p'>\nWelcome to Avita Athletica, where passion meets performance! We take pride in crafting sportswear that not only looks good but is born from our dedication to quality and innovation.<\/h2>\n<\/section>",
         "color_scheme": "",
-        "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -101,7 +72,7 @@
   "order": [
     "366ba0be-1326-4b71-86fb-d12e90349ed6",
     "main",
-    "e595e96b-0c49-429c-bbb0-dc548b59b3e0",
+    "f9d0d7cc-3da7-4830-9021-e31580f63c24",
     "70f032ef-2858-4314-aa22-45fd885dc7fa",
     "e4679374-f1fd-41de-ba10-cb2d82dd9d4a",
     "4410ccd4-1c92-4e61-8aa4-b7f8d3ae0968",
