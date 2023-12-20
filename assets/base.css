@@ -4154,11 +4154,11 @@ details-disclosure > details {
   &::before {
     content: "";
     position: absolute;
-    top: 22.5%;
-    left: 20%;
+    top: 0;
+    left: 0;
     width: 55%;
     height: 55%;
-    background: url("./cart-icon.svg");
+    background: url("./eye-icon.svg");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
