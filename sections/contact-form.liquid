@@ -15,15 +15,31 @@
     }
   }
 
+  .Contact_container{
+    display: flex;
+    
+
+    & .Contact_container_details{
+          heigth:100%;
+          width:32%;
+    }
+
+    & .Contact_container_form{
+         background-color: white;
+         padding:5%;
+         border-radius:2rem;
+         width: calc(95.1rem * var(--scale));
+        }
+  }
   
 {%- endstyle -%}
 
 <div class="container2">
-  <div class="contact page-width  section-{{ section.id }}-padding " ">
+  <div class="contact page-width  section-{{ section.id }}-padding " >
 
 
-<div style="background:blue;display:flex;width:100%">
-    <div style="heigth:100%;background:green;width:100%">
+<div  class="Contact_container">
+    <div class=" Contact_container_details">
         {%- if section.settings.heading != blank -%}
       <h2 class="title title-wrapper--no-top-margin inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
         {{ section.settings.heading }}
@@ -37,12 +53,12 @@
         assign contact_form_class = 'isolate scroll-trigger animate--slide-in'
       endif
     -%}
+
+    {{section.settings.heading}}
+
     </div>
 
-
-
-
-    {%- form 'contact', id: 'ContactForm', class: contact_form_class ,style: "background-color: red;padding:10%;border-radius:2rem" -%}
+    {%- form 'contact', id: 'ContactForm', class: 'Contact_container_form' -%}
       {%- if form.posted_successfully? -%}
         <h2 class="form-status form-status-list form__message" tabindex="-1" autofocus>
           {% render 'icon-success' %}
