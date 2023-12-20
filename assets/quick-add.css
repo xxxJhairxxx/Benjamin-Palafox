@@ -76,10 +76,10 @@
 
 .quick-add-modal__content-info {
   --modal-padding: 2.5rem;
-  padding-right: 4.4rem;
   display: flex;
   overflow-y: auto;
-  padding: var(--modal-padding);
+  /* padding-right: 4.4rem;
+  padding: var(--modal-padding); */
   height: 100%;
 }
 
