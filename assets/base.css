@@ -4142,7 +4142,12 @@ details-disclosure > details {
   
 }
 
+.modal-view p{
+  display: none;
+}
+
 .my-store.index .modal-view p{
+  display: block;
   font-size: 1.67rem;
   font-weight: 600;
   line-height: 2.08rem;
