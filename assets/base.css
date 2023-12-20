@@ -4185,3 +4185,7 @@ details-disclosure > details {
       left: calc(-6rem * var(--scale));
     }
 }
+
+.product-form__submit{
+  background: #025159;
+}
