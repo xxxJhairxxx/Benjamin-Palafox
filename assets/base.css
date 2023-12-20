@@ -1,8 +1,151 @@
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --scale: 1;
+  --phone: 414px;
+  --tablet: 768px;
+  --tabletlg: 960px;
+  --tabletxl: 1024px;
+  --laptop: 1200px;
+  --laptoplg: 1400px;
+  --desktop: 1700px;
+  @media (min-width: 1200px) {
+    --scale: 0.631578947368421;
+  }
+  @media (min-width: 1250px) {
+    --scale: 0.6578947368421053;
+  }
+  @media (min-width: 1280px) {
+    --scale: 0.6736842105263158;
+  }
+  @media (min-width: 1300px) {
+    --scale: 0.6842105263157895;
+  }
+  @media (min-width: 1350px) {
+    --scale: 0.7105263157894737;
+  }
+  @media (min-width: 1366px) {
+    --scale: 0.7189473684210527;
+  }
+  @media (min-width: 1400px) {
+    --scale: 0.7368421052631579;
+  }
+  @media (min-width: 1440px) {
+    --scale: 0.7578947368421053;
+  }
+  @media (min-width: 1450px) {
+    --scale: 0.7631578947368421;
+  }
+  @media (min-width: 1500px) {
+    --scale: 0.7894736842105263;
+  }
+  @media (min-width: 1536px) {
+    --scale: 0.8084210526315789;
+  }
+  @media (min-width: 1550px) {
+    --scale: 0.8157894736842105;
+  }
+  @media (min-width: 1600px) {
+    --scale: 0.8421052631578947;
+  }
+  @media (min-width: 1650px) {
+    --scale: 0.868421052631579;
+  }
+  @media (min-width: 1700px) {
+    --scale: 0.8947368421052632;
+  }
+  @media (min-width: 1750px) {
+    --scale: 0.9210526315789473;
+  }
+  @media (min-width: 1800px) {
+    --scale: 0.9473684210526315;
+  }
+  @media (min-width: 1850px) {
+    --scale: 0.9736842105263158;
+  }
+  @media (min-width: 1900px) {
+    --scale: 1;
+  }
+
+
+}
+
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('./icomoon.eot?sf4wnd');
+  src:  url('./icomoon.eot?sf4wnd#iefix') format('embedded-opentype'),
+    url('./icomoon.ttf?sf4wnd') format('truetype'),
+    url('./icomoon.woff?sf4wnd') format('woff'),
+    url('./icomoon.svg?sf4wnd#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-comillas:before {
+  content: "\e900";
+}
+.icon-instagram:before {
+  content: "\e901";
+}
+.icon-facebook:before {
+  content: "\e902";
+}
+.icon-paypal:before {
+  content: "\e903";
+}
+.icon-visa:before {
+  content: "\e904";
+}
+.icon-pay:before {
+  content: "\e905";
+}
+
+
+.container-general {
+  width:90%;
+  margin-inline:auto;
+   @media screen and (min-width: 1200px){
+     width:92.2%;
+     max-width: 170rem;
+   }
+   @media screen and (min-width: 1024px) {
+     width:78%;
+   }
+}
+
+
+
+
 :root {
   --alpha-button-background: 1;
   --alpha-button-border: 1;
   --alpha-link: 0.85;
   --alpha-badge-border: 0.1;
+  --primary:#025159;
+  --secondary:#FFF0C9;
+  --tertiary:#F8F6F3;
+  --gray-100:#F8F6F3;
+  --gray-200:#606060;
+  --dark:#232323;
 }
 
 .product-card-wrapper .card,
@@ -3509,5 +3652,414 @@ details-disclosure > details {
 
   .animate--hover-vertical-lift .button:not([disabled]).button--secondary:hover:after {
     --border-offset: 0px; /* Prevent the border from growing on buttons when this effect is on. */
+  }
+}
+
+/*@font-face {
+    font-family: 'Mulish';
+    src: url('./Mulish-Regular.woff2') format('woff2'),
+        url('./Mulish-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Averta-Light';
+    src: url('AvertaStd-Light.woff2') format('woff2'),
+        url('AvertaStd-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Averta-Semibold';
+    src: url('Averta-Semibold.woff2') format('woff2'),
+        url('Averta-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Averta';
+    src: url('Averta-Regular.woff2') format('woff2'),
+        url('Averta-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Averta-Extrabold';
+    src: url('Averta-ExtraBold.woff2') format('woff2'),
+        url('Averta-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+} */
+
+/* body{
+    font-family: var(--body2Font) !important;
+    font-weight: var(--body2FontWeight) !important;
+} */
+
+.my-store.index .BannerPageInter{
+    display: none
+}
+
+.my-store.index .collection__title{
+    text-align: center;
+}
+
+.my-store.index .collection__title h2{
+    text-align: center !important;
+    letter-spacing: -0.2px !important;
+    color: #025159 !important;
+    font-size: 2.36rem;
+    line-height: 2.96rem;
+
+   @media (min-width: 1200px){
+      font-size: calc(4rem * var(--scale));
+      line-height: calc(5.01rem * var(--scale));
+     
+    }
+}
+
+.my-store.index .collection__description{
+    text-align: center;
+    color: #606060 !important;
+    font-size: 1.6rem;
+    line-height: 1.96rem;
+  
+
+     @media (min-width: 1200px){
+      font-size: calc(1.9rem * var(--scale));
+      line-height: calc(2.33rem * var(--scale));
+      width: calc(60.5rem * var(--scale));
+      margin: 0 auto;
+       
+    }
+
+}
+
+.banner__text p{
+    font-family: var(--bannerFont) !important;
+    font-size: 2rem !important;
+    line-height: 2.65rem !important;
+
+   @media (min-width: 1200px) {
+        font-size: calc(2.45rem * var(--scale)) !important;
+        line-height: calc(3.25rem * var(--scale)) !important;
+    }
+}
+
+.banner__heading{
+    color: #025159;
+    font-size: 3rem;
+    font-weight: 600 !important;
+    line-height: 3.97rem;
+    font-family: var(--banner2Font) !important;
+  
+    @media (min-width: 1200px) {
+        font-size: calc(5rem * var(--scale));
+        line-height: calc(6.75rem * var(--scale));
+    }
+}
+
+.banner__heading strong{
+    font-family: var(--bannerFont) !important;
+    font-weight: 700;
+  
+}
+
+/* PRODUCT CARDS */
+.card__heading a{
+    font-family: var(--bodySemiboldFont) !important;
+    color: #202020;
+    font-size: 1.6rem;
+    
+    @media (min-width: 1200px){
+       font-size: calc(2.16rem * var(--scale));
+    }
+}
+
+.price__container{
+    color: #606060;
+    font-family: var(--bodyRegularFont) !important;
+    font-size: 1.5rem;
+
+    @media (min-width: 1200px){
+       font-size: calc(2.03rem * var(--scale));
+    }
+}
+
+.grid__item{
+    padding : 2.20rem 1.65rem;
+    background: white;
+    border-radius: 10px;
+    position: relative;
+
+    @media (min-width: 1200px){
+        padding : calc(3rem * var(--scale)) calc(2.25rem * var(--scale));
+    }
+}
+
+.grid__item .quick-add{ 
+    position: absolute;
+    width: 4.22rem;
+    height: 4.22rem;
+    bottom: 1.4rem;
+    right: 1.65rem;
+    padding: 0 !important;
+
+    @media (min-width: 1200px){
+       width: calc(5.73rem * var(--scale));
+       height: calc(5.73rem * var(--scale));
+       right: calc(1rem * var(--scale));
+       bottom: calc(1rem * var(--scale));
+    }
+}
+
+.grid__item .quick-add__submit{ 
+    background: #025159;
+    border-radius: 10px;
+    color: white;
+    min-height: 100%;
+    height: 100%;
+    min-width: 100%;
+    width: 100%;
+    position: relative;
+    color: transparent;
+
+  &::before{
+    content: '';
+    position: absolute;
+    top: 22.5%;
+    left: 20%;
+    width: 55%;
+    height: 55%;
+    background: url('./cart-icon.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 100;
+    padding: 1rem;
+  }
+
+  &::after{
+      display: none;
+  }
+}
+
+.multicolumn-list__item{
+    border: 3px solid red;
+}
+
+
+
+/**Estilo de primer slider pero esta afectando a reviews section****/
+
+.multicolumn {
+  background: #fff0c9;
+}
+
+.multicolumn .inline-richtext {
+  display: none; 
+} 
+
+.inline-richtext.h0 {
+  display: block;
+} 
+
+.inline-richtext.h1 {
+  display: block;
+} 
+
+.multicolumn-list__item {
+  border: none;
+  background: transparent;
+  border-radius: unset;
+  padding: 0 !important;
+
+     @media (min-width: 1200px) {
+      border-right: 1px solid #025159;
+
+      &:last-child {
+        border: none;
+     }
+  }
+}
+
+.rte p {
+  color: #232323;
+  font-family: var(--bodySemiboldFont) !important;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27.29px;
+}
+
+.multicolumn-card {
+  background: transparent !important;
+
+    &::after{
+    box-shadow: none;
+  }
+}
+
+.multicolumn-card__info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  padding: 0 !important;
+}
+
+.multicolumn-card__info .rte{
+  margin-top: 0 !important;
+}
+
+.center {
+  display: none;
+}
+
+.title-wrapper-with-link {
+  margin: 0;
+}
+
+.multicolumn .title-wrapper-with-link{
+  display: none; 
+}
+
+
+/* Middle Banners */
+
+.discoverMiddle {
+  background-image: url('./middle-bg2.jpg');
+  background-size: cover;
+  background-position: center;
+  padding-top: 4.79rem;
+  padding-bottom: 4.91rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+
+      @media (min-width: 1200px) {
+      padding-top: calc(6.1rem * var(--scale));
+      padding-bottom: calc(6.2rem * var(--scale));
+  }
+}
+
+.discoverMiddle p {
+  font-size: 1.69rem;
+  line-height: 2.24rem;
+
+    @media (min-width: 1200px) {
+      font-size: calc(3.5rem * var(--scale));
+      line-height: calc(4.64rem * var(--scale));
+      width: calc(105.7rem * var(--scale));
+  }
+}
+
+.believeMiddle {
+  background-image: url('./middle-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  padding-top: 6.48rem;
+  padding-bottom: 5.22rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+
+    @media (min-width: 1200px) {
+      padding-top: calc(5.3rem * var(--scale));
+      padding-bottom: calc(6.8rem * var(--scale));
+  }
+}
+
+.believeMiddle p{
+    font-size: 1.75rem;
+    line-height: 2.32rem;
+
+     @media (min-width: 1200px) {
+      font-size: calc(3.5rem * var(--scale));
+      line-height: calc(4.64rem * var(--scale));
+      width: calc(110.2rem * var(--scale));
+  }
+}
+
+.experienceMiddle {
+  background-image: url('./middle-bg3.jpg');
+  padding-top: 4.1rem;
+  padding-bottom: 3.9rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+
+  @media (min-width: 1200px) {
+      padding-top: calc(5.2rem * var(--scale));
+      padding-bottom: calc(5.1rem * var(--scale));
+  }
+}
+
+.experienceMiddle p {
+    font-size: 1.8rem;
+    line-height: 2.25rem;
+    color: #025159;
+
+     @media (min-width: 1200px) {
+      font-size: calc(3.5rem * var(--scale));
+      line-height: calc(4.38rem * var(--scale));
+  }
+}
+
+.experienceMiddle span {
+    font-size: 1.6rem;
+    line-height: 2.56rem;
+    color: #025159;
+
+     @media (min-width: 1200px) {
+      font-size: calc(1.9rem * var(--scale));
+      line-height: calc(3.04rem * var(--scale));
+      width: calc(99rem * var(--scale));
+  }
+}
+
+.section-template--17172252197099__d4e53bdf-33d7-4146-b235-d83944ee457f-padding{
+    background-image: url('./featured-bg.jpg');
+}
+
+.card__information{
+    width: 75%;
+}
+
+.banner__content{
+    min-height: 56rem !important;
+}
+
+.slider-counter{
+  display: none !important;
+}
+
+.banner__media {
+  width: 100%;
+}
+
+/* Estilos específicos para la versión móvil */
+.banner__media-mobile {
+  display: block;  /* Asegura que se muestre en dispositivos móviles */
+}
+
+/* Estilos específicos para la versión de escritorio */
+.banner__media-desktop {
+  display: none;  /* Oculta en dispositivos móviles */
+}
+
+@media screen and (min-width: 768px) {
+  /* Estilos específicos para dispositivos con un ancho mínimo de 768px (escritorio) */
+  .banner__media-mobile {
+    display: none;  /* Oculta en dispositivos de escritorio */
+  }
+
+  .banner__media-desktop {
+    display: block;  /* Asegura que se muestre en dispositivos de escritorio */
   }
 }

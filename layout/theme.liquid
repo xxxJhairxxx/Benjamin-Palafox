@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="">
     <link rel="canonical" href="{{ canonical_url }}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 
     {%- if settings.favicon != blank -%}
       <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
@@ -95,6 +97,7 @@
         background-color: rgb(var(--color-background));
       }
 
+
       :root {
         --font-body-family: {{ settings.type_body_font.family }}, {{ settings.type_body_font.fallback_families }};
         --font-body-style: {{ settings.type_body_font.style }};
@@ -176,8 +179,8 @@
 
         --grid-desktop-vertical-spacing: {{ settings.spacing_grid_vertical }}px;
         --grid-desktop-horizontal-spacing: {{ settings.spacing_grid_horizontal }}px;
-        --grid-mobile-vertical-spacing: {{ settings.spacing_grid_vertical | divided_by: 2 }}px;
-        --grid-mobile-horizontal-spacing: {{ settings.spacing_grid_horizontal | divided_by: 2 }}px;
+        --grid-mobile-vertical-spacing: {{ settings.spacing_grid_vertical | divided_by: 1 }}px;
+        --grid-mobile-horizontal-spacing: {{ settings.spacing_grid_horizontal | divided_by: 1 }}px;
 
         --text-boxes-border-opacity: {{ settings.text_boxes_border_opacity | divided_by: 100.0 }};
         --text-boxes-border-width: {{ settings.text_boxes_border_thickness }}px;
@@ -250,7 +253,29 @@
         }
       }
     {% endstyle %}
+    <style>
+      {{ settings.banner_font | font_face }}
+      {{ settings.banner2_font | font_face }}
+      {{ settings.title_font | font_face }}
+      {{ settings.bodySemibold_font | font_face }}
+      {{ settings.bodyRegular_font | font_face }}
+  
+      
+      :root {
+          --bannerFont: {{ settings.banner_font.family }};
+          --banner2Font: {{ settings.banner2_font.family }};
+          --titleFont: {{ settings.title_font.family }};
+          --bodySemiboldFont: {{ settings.bodySemibold_font.family }};
+          --bodyRegularFont: {{ settings.bodyRegular_font.family }};
 
+        
+          --bannerFontWeight: {{ settings.banner_font.weight }};
+      }
+
+      
+
+  
+    </style>
     {{ 'base.css' | asset_url | stylesheet_tag }}
 
     {%- unless settings.type_body_font.system? -%}
@@ -282,7 +307,7 @@
     </script>
   </head>
 
-  <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
+  <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %} {{ page_title | handle }} {{ template.name }}">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ 'accessibility.skip_to_text' | t }}
     </a>
