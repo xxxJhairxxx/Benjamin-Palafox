@@ -1,6 +1,6 @@
 {
   "current": {
-    "swatchColors": "Black:#000000\nWhite:#f5f5f5\nBlue:#005eff\nRed:#c9002c\nPink:#ffd5e6\nBrown:#a2896b\nOlive:#808000\nPurple:#dac6ef\nGrey:#e2e2e7\nBeige:#d8c7af\nNavy: #073974\nBlue LT: #c1cbec\nGreen: #023c19\nBurgundy: #800020\nLavander: #C080FF",
+    "swatchColors": "Black:#000000\nWhite:#f5f5f5\nBlue:#005eff\nRed:#c9002c\nPink:#ffd5e6\nBrown:#a2896b\nOlive:#808000\nPurple:#dac6ef\nGrey:#e2e2e7\nBeige:#d8c7af\nNavy: #073974\nBlue LT: #c1cbec\nGreen: #023c19\nBurgundy: #800020\nLavander: #C080FF\nApricot: #FFB16D",
     "logo": "shopify:\/\/shop_images\/Group_154.svg",
     "logo_width": 220,
     "type_header_font": "prompt_n7",
