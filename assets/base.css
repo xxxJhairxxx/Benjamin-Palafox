@@ -4176,9 +4176,9 @@ details-disclosure > details {
   }
 }
 
-.my-store.index .modal-view p:before{
+@media (min-width: 1200px) {
+   .my-store.index .modal-view p:before{
 
-    @media (min-width: 1200px) {
       height: calc(3rem * var(--scale));
       width: calc(3rem * var(--scale));
       left: calc(-6rem * var(--scale));
