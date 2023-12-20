@@ -87,6 +87,36 @@
   }
 
   .ContactCard{
+      display: none;
+
+       @media screen and (min-width: 1200px) {
+        display:flex;
+      }
+      align-items:center;
+      gap: calc(2.5rem * var(--scale));
+      margin-bottom: calc(2rem * var(--scale));
+    .ContactCard_thumb{
+      background: var(--primary);
+      width: calc(6.3rem * var(--scale));
+      height: calc(6.3rem * var(--scale));
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      border-radius: calc(1rem * var(--scale));
+      padding: calc(1rem * var(--scale));
+    }
+    .ContactCard_description{
+      display :flex;
+      flex-direction: column;
+      justify-content:center;
+      gap:calc(0.2rem * var(--scale));
+
+      h3,p{
+        margin:0px;
+      }
+
+   
+    }
 
   }
   
@@ -104,12 +134,12 @@
         <section class="ContactCard">
 
         <picture class="ContactCard_thumb">    
-                  <img
-                srcset="{{ section.settings.iconSvg | image_url: width: section.settings.aboutCardImage_width }}, {{ section.settings.aboutCardImage | image_url: width: section.settings.aboutCardImage }} 2x"
+              <img
+                  srcset="{{ section.settings.iconSvg | image_url: width: section.settings.iconSvg_width }}, {{ section.settings.iconSvg | image_url: width: section.settings.iconSvg }} 2x"
                   src="{{ section.settings.iconSvg}}"
                   alt="{{ section.settings.iconSvg.alt | escape }}"
                   loading="lazy"
-                    width="{{ section.settings.iconSvg.width }}"
+                  width="{{ section.settings.iconSvg.width }}"
                   height="{{ section.settings.iconSvg.height }}"
               >
           </picture>
@@ -118,6 +148,44 @@
                   <h3>{{section.settings.titleCard}}</h3>
 
                   <p>{{section.settings.decriptionCard}}</p>
+          </div>
+          </section>
+           <section class="ContactCard">
+
+        <picture class="ContactCard_thumb">    
+              <img
+                  srcset="{{ section.settings.iconSvg2 | image_url: width: section.settings.iconSvg2_width }}, {{ section.settings.iconSvg2 | image_url: width: section.settings.iconSvg2 }} 2x"
+                  src="{{ section.settings.iconSvg2}}"
+                  alt="{{ section.settings.iconSvg2.alt | escape }}"
+                  loading="lazy"
+                  width="{{ section.settings.iconSvg2.width }}"
+                  height="{{ section.settings.iconSvg2.height }}"
+              >
+          </picture>
+
+          <div class="ContactCard_description">
+                  <h3>{{section.settings.titleCard2}}</h3>
+
+                  <p>{{section.settings.decriptionCard2}}</p>
+          </div>
+          </section>
+           <section class="ContactCard">
+
+        <picture class="ContactCard_thumb">    
+              <img
+                  srcset="{{ section.settings.iconSvg3 | image_url: width: section.settings.iconSvg3_width }}, {{ section.settings.iconSvg3 | image_url: width: section.settings.iconSvg3 }} 2x"
+                  src="{{ section.settings.iconSvg3}}"
+                  alt="{{ section.settings.iconSvg3.alt | escape }}"
+                  loading="lazy"
+                  width="{{ section.settings.iconSvg3.width }}"
+                  height="{{ section.settings.iconSvg3.height }}"
+              >
+          </picture>
+
+          <div class="ContactCard_description">
+                  <h3>{{section.settings.titleCard3}}</h3>
+
+                  <p>{{section.settings.decriptionCard3}}</p>
           </div>
           </section>
    
@@ -325,6 +393,35 @@
   },
    {
     "id": "decriptionCard",
+    "type": "text",
+    "label": "description"
+  }
+  ,{
+    "id": "iconSvg2",
+    "type": "image_picker",
+    "label": "icono"
+  },
+  {
+    "id": "titleCard2",
+    "type": "text",
+    "label": "title"
+  },
+   {
+    "id": "decriptionCard2",
+    "type": "text",
+    "label": "description"
+  },{
+    "id": "iconSvg3",
+    "type": "image_picker",
+    "label": "icono"
+  },
+  {
+    "id": "titleCard3",
+    "type": "text",
+    "label": "title"
+  },
+   {
+    "id": "decriptionCard3",
     "type": "text",
     "label": "description"
   }
