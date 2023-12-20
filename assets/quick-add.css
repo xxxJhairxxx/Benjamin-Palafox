@@ -20,6 +20,7 @@
   left: 0;
   width: 100%;
   background: rgba(var(--color-foreground), 0.2);
+  background: red;
   height: 100%;
 }
 
