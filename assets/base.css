@@ -4150,7 +4150,7 @@ details-disclosure > details {
 .my-store.index .modal-view p {
   display: block;
   font-size: 1.67rem;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 2.08rem;
   color: #fff0c9;
   position: relative;
@@ -4182,4 +4182,9 @@ details-disclosure > details {
     width: calc(3rem * var(--scale));
     left: calc(-6rem * var(--scale));
   }
+}
+
+.product-form__submit{
+  background: #025159;
+  color: white;
 }
