@@ -4188,3 +4188,7 @@ details-disclosure > details {
   background: #025159;
   color: white;
 }
+
+.product .product__media-item grid__item slider__slide{
+  width: 25%;
+}
