@@ -4158,7 +4158,7 @@ details-disclosure > details {
     content: "";
     position: absolute;
     top: 0;
-    left: 0;
+    left: -3rem;
     width: 20px;
     height: 20px;
     background: url("./eye-icon.svg");
