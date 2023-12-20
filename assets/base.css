@@ -4190,7 +4190,6 @@ details-disclosure > details {
 }
 
 .product .product__media-item.grid__item.slider__slide{
-  width: 25%;
-  max-width: 25%;
-  
+ /* width: 25%;
+  max-width: 25%; */
 }
