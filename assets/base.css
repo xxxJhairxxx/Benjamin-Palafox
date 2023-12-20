@@ -4138,6 +4138,7 @@ details-disclosure > details {
 
   @media (min-width: 1200px) {
     height: calc(8.1rem * var(--scale));
+    padding-left: calc(9.4rem * var(--scale));
   }
   
 }
