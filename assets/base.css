@@ -4158,6 +4158,7 @@ details-disclosure > details {
     @media (min-width: 1200px) {
     font-size: calc(2.35rem * var(--scale));
     line-height: calc(2.94rem * var(--scale));
+    text-transform: uppercase;
   }
 
   
