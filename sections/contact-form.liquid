@@ -4,6 +4,9 @@
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    font-family: var(--titleFont) ;
+    font-weight: 700;
+
   }
 
 
@@ -17,18 +20,49 @@
 
   .Contact_container{
     display: flex;
-    
+    flex-direction: column;
+    @media screen and (min-width: 1200px) {
+      flex-direction: row;
+    }
 
     & .Contact_container_details{
           heigth:100%;
-          width:32%;
+
+          @media screen and (min-width: 1200px) {
+     width:32%;
+    }
+          
     }
 
     & .Contact_container_form{
          background-color: white;
          padding:5%;
          border-radius:2rem;
+
+         @media screen and (min-width: 1200px) {
+
          width: calc(95.1rem * var(--scale));
+          }
+
+
+         & .field {
+          &:after{
+              box-shadow:none;
+          }
+
+          .field__input{
+            border: #A6A6A6 solid 1px;
+            border-radius:1.1rem;
+
+            
+          }
+          & > label{
+              color: #A6A6A6 !important;
+              font-family: arial;
+             font-weight: 500 !important;
+            }
+            
+         }
         }
   }
   
@@ -168,8 +202,8 @@
           {{- 'templates.contact.form.comment' | t -}}
         </label>
       </div>
-      <div class="contact__button">
-        <button type="submit" class="button">
+      
+        <button type="submit" class="contact__button">
           {{ 'templates.contact.form.send' | t }}
         </button>
       </div>
