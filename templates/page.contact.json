@@ -30,10 +30,31 @@
         "titleCard3": "Location:",
         "decriptionCard3": "Los Angeles, CA 90011"
       }
+    },
+    "ab4dc72e-4554-4c6d-b615-6b1704c374ad": {
+      "type": "statistics",
+      "settings": {
+        "item1Title": "3.5K+",
+        "item1Text": "<p>Products Sold<\/p>",
+        "item2Title": "1k+",
+        "item2Text": "<p>International Shipments<\/p>",
+        "item3Title": "2k+",
+        "item3Text": "<p>Happy customers<\/p>"
+      }
+    },
+    "80e0409c-0bf4-4c16-85b8-0e829f3690ab": {
+      "type": "sectionMiddle",
+      "settings": {
+        "titleStartMiddle": "",
+        "titleEndMiddle": "",
+        "titleContentMiddle": ""
+      }
     }
   },
   "order": [
     "main",
-    "form"
+    "form",
+    "ab4dc72e-4554-4c6d-b615-6b1704c374ad",
+    "80e0409c-0bf4-4c16-85b8-0e829f3690ab"
   ]
 }
