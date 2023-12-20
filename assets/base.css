@@ -4138,3 +4138,14 @@ details-disclosure > details {
   }
   
 }
+
+.modal-view p{
+  font-size: 1.67rem;
+  line-height: 2.08rem;
+  color: #FFF0C9;
+
+    @media (min-width: 1200px) {
+    font-size: calc(2.35rem * var(--scale));
+    line-height: calc(2.94rem * var(--scale));
+  }
+}
