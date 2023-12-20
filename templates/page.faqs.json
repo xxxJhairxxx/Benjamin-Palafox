@@ -20,39 +20,79 @@
             "page": ""
           }
         },
-        "template--17220398055659__3d66171b-5743-412c-8c07-640ff34a9704-collapsible_row-2": {
+        "eb23a532-efcd-4aa0-8895-c66538ddfe2b": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "2. Can I trust the sizing guide for a perfect fit?",
+            "icon": "none",
+            "row_content": "<p>Absolutely! We understand the importance of a good fit. Our sizing guide is accurate, and we recommend checking it before making a purchase to ensure you get the right size.<\/p>",
             "page": ""
           }
         },
-        "template--17220398055659__3d66171b-5743-412c-8c07-640ff34a9704-collapsible_row-3": {
+        "4642b00f-0c31-4d00-bc4e-920efbfd535a": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "1. What makes your sportswear different from other brands?",
+            "icon": "none",
+            "row_content": "<p>Our sportswear is designed with a perfect blend of style, comfort, and performance. We prioritize quality materials and thoughtful design to enhance your athletic experience.<\/p>",
             "page": ""
           }
         },
-        "template--17220398055659__3d66171b-5743-412c-8c07-640ff34a9704-collapsible_row-4": {
+        "178dc72f-4433-42bc-b0ee-f1b394aff39c": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "1. What makes your sportswear different from other brands?",
+            "icon": "none",
+            "row_content": "<p>Our sportswear is designed with a perfect blend of style, comfort, and performance. We prioritize quality materials and thoughtful design to enhance your athletic experience.<\/p>",
+            "page": ""
+          }
+        },
+        "bfc6fdd9-ec72-47d5-a45a-61e139942a88": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "1. What makes your sportswear different from other brands?",
+            "icon": "none",
+            "row_content": "<p>Our sportswear is designed with a perfect blend of style, comfort, and performance. We prioritize quality materials and thoughtful design to enhance your athletic experience.<\/p>",
+            "page": ""
+          }
+        },
+        "65969322-99ac-48be-96f0-ca6630f4807f": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "1. What makes your sportswear different from other brands?",
+            "icon": "none",
+            "row_content": "<p>Our sportswear is designed with a perfect blend of style, comfort, and performance. We prioritize quality materials and thoughtful design to enhance your athletic experience.<\/p>",
+            "page": ""
+          }
+        },
+        "84e4f8d3-b956-48ca-b507-26f1e0a42467": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "1. What makes your sportswear different from other brands?",
+            "icon": "none",
+            "row_content": "<p>Our sportswear is designed with a perfect blend of style, comfort, and performance. We prioritize quality materials and thoughtful design to enhance your athletic experience.<\/p>",
+            "page": ""
+          }
+        },
+        "011037d0-1a8e-4814-9850-3b8bf23899c6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "1. What makes your sportswear different from other brands?",
+            "icon": "none",
+            "row_content": "<p>Our sportswear is designed with a perfect blend of style, comfort, and performance. We prioritize quality materials and thoughtful design to enhance your athletic experience.<\/p>",
             "page": ""
           }
         }
       },
       "block_order": [
         "template--17220398055659__3d66171b-5743-412c-8c07-640ff34a9704-collapsible_row-1",
-        "template--17220398055659__3d66171b-5743-412c-8c07-640ff34a9704-collapsible_row-2",
-        "template--17220398055659__3d66171b-5743-412c-8c07-640ff34a9704-collapsible_row-3",
-        "template--17220398055659__3d66171b-5743-412c-8c07-640ff34a9704-collapsible_row-4"
+        "eb23a532-efcd-4aa0-8895-c66538ddfe2b",
+        "4642b00f-0c31-4d00-bc4e-920efbfd535a",
+        "178dc72f-4433-42bc-b0ee-f1b394aff39c",
+        "bfc6fdd9-ec72-47d5-a45a-61e139942a88",
+        "65969322-99ac-48be-96f0-ca6630f4807f",
+        "84e4f8d3-b956-48ca-b507-26f1e0a42467",
+        "011037d0-1a8e-4814-9850-3b8bf23899c6"
       ],
       "custom_css": [
 
