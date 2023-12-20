@@ -4130,4 +4130,11 @@ details-disclosure > details {
 
 .modal-view{
   border: 2px solid red;
+  height: 4.8rem;
+  background: #025159;
+
+  @media (min-width: 1200px) {
+    height: calc(8.1rem * var(--scale));
+  }
+  
 }
