@@ -53,8 +53,14 @@
         "id": "swatchType",
         "label": "Swatch type",
         "options": [
-          { "value": "color", "label": "Color" },
-          { "value": "variantImage", "label": "Variant image" }
+          {
+            "value": "color",
+            "label": "Color"
+          },
+          {
+            "value": "variantImage",
+            "label": "Variant image"
+          }
         ],
         "default": "color"
       },
@@ -72,17 +78,29 @@
       },
       {
         "type": "paragraph",
-        "content": "You can also add [image files](/admin/content/files?selectedView=all&media_type=Image) instead of using colors, in lowercase with spaces replaced by hyphens. Example: Green kaki: green-kaki.png"
+        "content": "You can also add [image files](\/admin\/content\/files?selectedView=all&media_type=Image) instead of using colors, in lowercase with spaces replaced by hyphens. Example: Green kaki: green-kaki.png"
       },
       {
         "type": "select",
         "id": "swatchStyle",
         "label": "Swatch style",
         "options": [
-          { "value": "round", "label": "Round" },
-          { "value": "square", "label": "Square" },
-          { "value": "square-round-corners", "label": "Square round corners" },
-          { "value": "portrait", "label": "Portrait" }
+          {
+            "value": "round",
+            "label": "Round"
+          },
+          {
+            "value": "square",
+            "label": "Square"
+          },
+          {
+            "value": "square-round-corners",
+            "label": "Square round corners"
+          },
+          {
+            "value": "portrait",
+            "label": "Portrait"
+          }
         ],
         "default": "round",
         "info": "Portrait mode is only available for the variant image type."
@@ -111,8 +129,8 @@
     "theme_name": "Dawn",
     "theme_version": "12.0.0",
     "theme_author": "Shopify",
-    "theme_documentation_url": "https://help.shopify.com/manual/online-store/themes",
-    "theme_support_url": "https://support.shopify.com/"
+    "theme_documentation_url": "https:\/\/help.shopify.com\/manual\/online-store\/themes",
+    "theme_support_url": "https:\/\/support.shopify.com\/"
   },
   {
     "name": "t:settings_schema.logo.name",
@@ -1167,7 +1185,10 @@
   {
     "name": "t:settings_schema.popups.name",
     "settings": [
-      { "type": "paragraph", "content": "t:settings_schema.popups.paragraph" },
+      {
+        "type": "paragraph",
+        "content": "t:settings_schema.popups.paragraph"
+      },
       {
         "type": "header",
         "content": "t:settings_schema.global.settings.header__border.content"
