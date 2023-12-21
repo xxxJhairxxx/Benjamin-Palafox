@@ -135,25 +135,25 @@
     {{section.settings.description}} 
 
 
-{% for blocks in section.blocks %}
+{% for bloq in section.blocks %}
 
   <section class="ContactCard">
 
         <picture class="ContactCard_thumb">    
               <img
-                  srcset="{{ blocks.settings.iconSvg | image_url: width: blocks.settings.iconSvg_width }}, {{ blocks.settings.iconSvg | image_url: width: blocks.settings.iconSvg }} 2x"
-                  src="{{ blocks.settings.iconSvg}}"
-                  alt="{{ blocks.settings.iconSvg.alt | escape }}"
+                  srcset="{{ bloq.settings.iconSvg | image_url: width: bloq.settings.iconSvg_width }}, {{ bloq.settings.iconSvg | image_url: width: bloq.settings.iconSvg }} 2x"
+                  src="{{ bloq.settings.iconSvg}}"
+                  alt="{{ bloq.settings.iconSvg.alt | escape }}"
                   loading="lazy"
-                  width="{{ blocks.settings.iconSvg.width }}"
-                  height="{{ blocks.settings.iconSvg.height }}"
+                  width="{{ bloq.settings.iconSvg.width }}"
+                  height="{{ bloq.settings.iconSvg.height }}"
               >
           </picture>
 
           <div class="ContactCard_description">
-                  <h3>{{section.settings.titleCard}}</h3>
+                  <h3>{{bloq.settings.titleCard}}</h3>
 
-                  <p>{{section.settings.decriptionCard}}</p>
+                  <p>{{bloq.settings.decriptionCard}}</p>
           </div>
   </section>
 
@@ -357,7 +357,7 @@
   ],
   "blocks": [
     {
-    "name": "ContactCard",
+    "name": "ContactCards",
     "type": "box",
     "settings":[
       {
