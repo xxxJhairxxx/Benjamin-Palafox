@@ -1225,7 +1225,7 @@ summary::-webkit-details-marker {
 
   .slider--tablet.grid--peek.grid--1-col-tablet-down .grid__item,
   .slider--mobile.grid--peek.grid--1-col-tablet-down .grid__item {
-    width: calc(95% - var(--grid-mobile-horizontal-spacing) - 3rem);
+    width: calc(99% - var(--grid-mobile-horizontal-spacing) - 3rem);
   }
 }
 
