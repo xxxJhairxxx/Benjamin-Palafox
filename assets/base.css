@@ -4106,7 +4106,7 @@ details-disclosure > details {
 }
 
 .banner__content {
-  min-height: 56rem !important;
+ /* min-height: 56rem !important; */
 }
 
 .slider-counter {
