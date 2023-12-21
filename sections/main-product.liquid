@@ -578,21 +578,23 @@
     
 
 
-  {% assign description_sizes = product.metafields.custom.sizes_detaills.value %}
-  
-{% if description_sizes %}
-  {% assign group_size = 5 %}
-  {% assign chunks = description_sizes | split: "," %}
-  {% for chunk in chunks %}
-    <tr>
-      {% assign sizes = chunk | split: " " %}
-      {% for size in sizes %}
-        <td>{{ size }}</td>
-      {% endfor %}
-    </tr>
-  {% endfor %}
-{% endif %}
-
+   {% assign description_sizes = product.metafields.custom.sizes_detaills.value %}
+  {% if description_sizes %}
+      <tr class='table-row'>
+        <td>Flat Lay Measurements</td>
+        {% assign size_count = description_sizes.size %}
+        {% for item in description_sizes %}
+          {% assign index = forloop.index0 | modulo: 3 %}
+          {% if index == 0 %}
+            <tr>
+          {% endif %}
+          <td class='table-cell'>{{ item }}</td>
+          {% if index == 2 or forloop.last %}
+            </tr>
+          {% endif %}
+        {% endfor %}
+      </tr>
+  {% endif %}
 
   </table>
 
