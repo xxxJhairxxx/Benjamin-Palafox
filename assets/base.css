@@ -4206,6 +4206,7 @@ details-disclosure > details {
     font-size: calc(2rem * var(--scale));
     line-height: calc(2.48rem * var(--scale));
     font-family: var(--font-body-family);
+    font-weight: 600;
 }
 
 .product .multicolumn-card__info {
