@@ -4278,6 +4278,10 @@ details-disclosure > details {
   padding-left: 1.9rem;
 }
 
+.product .accordion .metafield-rich_text_field{
+  color: red;
+}
+
 .product .accordion .icon-accordion {
   display: none; 
 }
