@@ -493,6 +493,11 @@
    }
 
    @media (min-width: 1200px) {
+    min-height: 50rem;
+
+   }
+
+   @media (min-width: 1700px) {
     min-height: 22rem;
 
    }
