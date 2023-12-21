@@ -576,14 +576,7 @@
     </tr>
   {% endif %}
     
-  {% assign description_sizes = product.metafields.custom.description_sizes.value %}
-  {% if description_sizes %}
-    <tr class='table-row'>
-      {% for size in description_sizes %}
-        <td class='table-cell'>{{ size }}</td>
-      {% endfor %}
-    </tr>
-  {% endif %}
+
 
   {% assign description_sizes = product.metafields.custom.sizes_detaills.value %}
   {% if description_sizes %}
