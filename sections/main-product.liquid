@@ -584,7 +584,7 @@
         <td>Flat Lay Measurements</td>
         {% assign size_count = description_sizes.size %}
         {% for item in description_sizes %}
-          {% assign index = forloop.index0 | modulo: 3 %}
+          {% assign index = forloop.index0 | modulo: 5 %}
           {% if index == 0 %}
             <tr>
           {% endif %}
