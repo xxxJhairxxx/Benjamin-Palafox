@@ -4321,4 +4321,5 @@ details-disclosure > details {
 /* Tabla modal */
 .table-description {
   border: 1px solid peru;
+  border-collapse: collapse;
 }
