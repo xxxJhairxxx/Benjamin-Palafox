@@ -43,13 +43,16 @@
 
   <script>
     document.addEventListener('DOMContentLoaded', function() {
-        // Selecciona el párrafo y la sección por su id
-        var description = document.getElementsByClassName('table-description');
-        var section = document.getElementsByClassName('product-popup-modal__content');
+    // Selecciona el primer párrafo y la sección por su clase
+    var description = document.getElementsByClassName('table-description')[0];
+    var section = document.getElementsByClassName('product-popup-modal__content')[0];
 
+    // Verifica que los elementos sean válidos antes de intentar mover el párrafo
+    if (description && section) {
         // Mueve el párrafo a la sección
         section.appendChild(description);
-    });
+    }
+});
   </script>
 
   {%- assign first_3d_model = product.media | where: 'media_type', 'model' | first -%}
