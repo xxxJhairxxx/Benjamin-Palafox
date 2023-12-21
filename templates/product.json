@@ -48,6 +48,13 @@
           "settings": {
             "custom_liquid": ""
           }
+        },
+        "f2a3d7d2-a2ef-46e7-80ba-3e4d657d4910": {
+          "type": "popup",
+          "settings": {
+            "text": "Pop-up link text",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -58,7 +65,8 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "965573f5-4dbb-4552-992e-6a917dcfe5c1"
+        "965573f5-4dbb-4552-992e-6a917dcfe5c1",
+        "f2a3d7d2-a2ef-46e7-80ba-3e4d657d4910"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -129,57 +137,6 @@
         "padding_bottom": 36
       }
     },
-    "a6d5030e-b05d-4c1e-862c-c0e0f9635fd0": {
-      "type": "collapsible-content",
-      "blocks": {
-        "template--17220397662443__a6d5030e-b05d-4c1e-862c-c0e0f9635fd0-collapsible_row-1": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Description",
-            "icon": "check_mark",
-            "row_content": "{{ product.metafields.custom.description | metafield_tag }}",
-            "page": ""
-          }
-        },
-        "template--17220397662443__a6d5030e-b05d-4c1e-862c-c0e0f9635fd0-collapsible_row-2": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Materials and Care",
-            "icon": "check_mark",
-            "row_content": "{{ product.metafields.custom.material | metafield_tag }}",
-            "page": ""
-          }
-        },
-        "template--17220397662443__a6d5030e-b05d-4c1e-862c-c0e0f9635fd0-collapsible_row-3": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Sport",
-            "icon": "check_mark",
-            "row_content": "{{ product.metafields.custom.perfect | metafield_tag }}",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--17220397662443__a6d5030e-b05d-4c1e-862c-c0e0f9635fd0-collapsible_row-1",
-        "template--17220397662443__a6d5030e-b05d-4c1e-862c-c0e0f9635fd0-collapsible_row-2",
-        "template--17220397662443__a6d5030e-b05d-4c1e-862c-c0e0f9635fd0-collapsible_row-3"
-      ],
-      "settings": {
-        "caption": "",
-        "heading": "",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
-        "color_scheme": "",
-        "container_color_scheme": "",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -221,7 +178,6 @@
   "order": [
     "main",
     "5801ace9-8869-4e43-b519-073f25523e07",
-    "a6d5030e-b05d-4c1e-862c-c0e0f9635fd0",
     "related-products",
     "56fdf890-200d-4103-9612-d66f7544fcbd",
     "6bb0f9e5-9eea-41fe-b71a-f4a45c6f0f03"
