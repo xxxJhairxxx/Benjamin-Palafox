@@ -4265,6 +4265,10 @@ details-disclosure > details {
   border: none;
 }
 
+.product .accordion .collapsible-content__wrapper:after{
+    display: none;
+}
+
 .product .collapsible-content{
 
   @media (min-width: 1200px) {
