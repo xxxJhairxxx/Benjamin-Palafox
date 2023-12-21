@@ -4216,4 +4216,6 @@ details-disclosure > details {
 
 .product .multicolumn-card__info .rte p {
   color: red;
+  font-size: calc(1.9rem * var(--scale));
+  line-height: calc(3.04rem * var(--scale));
 }
