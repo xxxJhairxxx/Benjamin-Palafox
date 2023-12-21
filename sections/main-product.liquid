@@ -580,17 +580,20 @@
 
   {% assign description_sizes = product.metafields.custom.sizes_detaills.value %}
   
-  {% if description_sizes %}
+{% if description_sizes %}
+  {% assign group_size = 5 %}
+  {% assign chunks = description_sizes | split: "," %}
+  {% for chunk in chunks %}
     <tr>
-      {% for item in description_sizes %}
-            
-                <td>{{ item }}</td>
-           
-         
+      {% assign sizes = chunk | split: " " %}
+      {% for size in sizes %}
+        <td>{{ size }}</td>
       {% endfor %}
-   </tr>
+    </tr>
+  {% endfor %}
+{% endif %}
 
-  {% endif %}
+
   </table>
 
                           
