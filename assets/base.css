@@ -4204,5 +4204,5 @@ details-disclosure > details {
 
 .product .multicolumn-card__info {
   flex-direction: column;
-  justify-content: flex-start;
+  align-items: flex-start;
 }
