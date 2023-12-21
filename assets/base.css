@@ -4189,6 +4189,9 @@ details-disclosure > details {
   color: white;
 }
 
+
+/* Multicolumn de producto detalle */
+
 .product .multicolumn {
   display: none;
   background: red;
@@ -4205,4 +4208,8 @@ details-disclosure > details {
 .product .multicolumn-card__info {
   flex-direction: column;
   align-items: flex-start;
+}
+
+.product .section-template--17220397662443__5801ace9-8869-4e43-b519-073f25523e07-padding {
+  border: 2px solid blue;
 }
