@@ -74,7 +74,7 @@
   }
 
   .banner--large:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {
-    min-height: 39rem;
+    min-height: 85vh;
   }
 }
 
@@ -485,14 +485,21 @@
   }
 }
 
-.banner {
-  border: 4px solid red;
+.banner--large:not(.banner--adapt) {
+    min-height: 20rem !important;
 
    @media (min-width: 768px) {
      
    }
 
    @media (min-width: 1200px) {
-     height: 20rem;
+    min-height: 50rem !important;
+
    }
+
+   @media (min-width: 1700px) {
+    min-height: 80rem !important;
+
+   }
+  
 }

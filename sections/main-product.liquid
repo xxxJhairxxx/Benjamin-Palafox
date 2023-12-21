@@ -41,6 +41,20 @@
     <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>
   {%- endif -%}
 
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+    // Selecciona el primer párrafo y la sección por su clase
+    var description = document.getElementsByClassName('table-description')[0];
+    var section = document.getElementsByClassName('product-popup-modal__content')[0];
+
+    // Verifica que los elementos sean válidos antes de intentar mover el párrafo
+    if (description && section) {
+        // Mueve el párrafo a la sección
+        section.appendChild(description);
+    }
+});
+  </script>
+
   {%- assign first_3d_model = product.media | where: 'media_type', 'model' | first -%}
   {%- if first_3d_model -%}
     {{ 'component-product-model.css' | asset_url | stylesheet_tag }}
@@ -550,7 +564,38 @@
       </div>
     {%- endif -%}
   </div>
+  
+  <div class="table-description">
+   {% assign description_sizes = product.metafields.custom.description_sizes.value %}
+  {% if description_sizes %}
+    <p>Description</p>
+    <ul>
+      {% for size in description_sizes %}
+        <li>{{ size }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+  {% assign description_sizes = product.metafields.custom.sizes_head.value %}
+  {% if description_sizes %}
+    <p>Description</p>
+    <ul>
+      {% for size in description_sizes %}
+        <li>{{ size }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+  {% assign description_sizes = product.metafields.custom.sizes_detaills.value %}
+  {% if description_sizes %}
+    <p>Description</p>
+    <ul>
+      {% for size in description_sizes %}
+        <li>{{ size }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+  </div>
 
+                          
   {% render 'product-media-modal' variant_images: variant_images %}
 
   {% assign popups = section.blocks | where: 'type', 'popup' %}
