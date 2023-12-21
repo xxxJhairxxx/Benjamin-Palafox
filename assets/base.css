@@ -4194,7 +4194,6 @@ details-disclosure > details {
 
 .product .multicolumn {
   display: none;
-  background: red;
 
   @media (min-width: 1200px) {
     display: block;
