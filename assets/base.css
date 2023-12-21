@@ -4249,6 +4249,44 @@ details-disclosure > details {
   line-height: calc(3.04rem * var(--scale));
 }
 
-.faqs .accordion {
-  background-color: red;
+.faqs {
+  .collapsible-content {
+    background-color: #f8f6f3;
+    counter-reset: myCounter;
+    .grid__item {
+      background-color: transparent !important;
+      padding: 0;
+      .accordion {
+        background: transparent;
+
+        counter-increment: myCounter;
+        summary {
+          background-color: #fff;
+          border-radius: 2rem;
+          padding-left: 2rem;
+          margin-bottom: 1rem;
+          h3 {
+            font-family: var(--bodyFont) !important;
+            font-weight: 700;
+            font-size: 1.39rem;
+            &::before {
+              content: counter(myCounter);
+            }
+          }
+          .icon-caret {
+            width: 1.6rem;
+            height: 1rem;
+          }
+        }
+
+        .accordion__content {
+          p {
+            padding-left: 1.7rem;
+            padding-right: 1.5rem;
+            font-size: 1.4rem;
+          }
+        }
+      }
+    }
+  }
 }
