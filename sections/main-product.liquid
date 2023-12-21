@@ -577,19 +577,19 @@
   {% endif %}
   {% assign description_sizes = product.metafields.custom.sizes_head.value %}
   {% if description_sizes %}
-    <ul>
+    <tr>
       {% for size in description_sizes %}
-        <li>{{ size }}</li>
+        <td>{{ size }}</td>
       {% endfor %}
-    </ul>
+    </tr>
   {% endif %}
   {% assign description_sizes = product.metafields.custom.sizes_detaills.value %}
   {% if description_sizes %}
-    <ul>
+    <tr>
       {% for size in description_sizes %}
-        <li>{{ size }}</li>
+        <td>{{ size }}</td>
       {% endfor %}
-    </ul>
+    </tr>
   {% endif %}
   </table>
 
