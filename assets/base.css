@@ -4253,10 +4253,14 @@ details-disclosure > details {
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
   /* width: 25%;
   max-width: 25%; */
-  /* margin-top: calc(2.59rem * var(--scale)); */
   @media (min-width: 1200px) {
     width: 25%;
+    margin-top: calc(2.59rem * var(--scale));
     max-width: 25%;
+  }
+
+  &:first-child {
+    margin-top: 0;
   }
 }
 
