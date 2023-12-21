@@ -4327,3 +4327,7 @@ details-disclosure > details {
 .table-row{
   border: 1px solid blue;
 }
+
+.table-cell{
+  border: 1px solid blue;
+}
