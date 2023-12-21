@@ -4265,7 +4265,7 @@ details-disclosure > details {
   border: none;
 }
 
-.product .accordion .collapsible-content__wrapper:after{
+.product .accordion .content-container:after{
     display: none;
 }
 
