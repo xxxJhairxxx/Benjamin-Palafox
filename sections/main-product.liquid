@@ -581,7 +581,6 @@
    {% assign description_sizes = product.metafields.custom.sizes_detaills.value %}
   {% if description_sizes %}
       <tr class='table-row'>
-        <td>Flat Lay Measurements</td>
         {% assign size_count = description_sizes.size %}
         {% for item in description_sizes %}
           {% assign index = forloop.index0 | modulo: 5 %}
