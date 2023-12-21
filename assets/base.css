@@ -4260,6 +4260,10 @@ details-disclosure > details {
 
 /* Acordeon de producto detalle */
 
+.product .accordion{
+  margin-top: 0;
+}
+
 .product .collapsible-content{
   border: 3px solid peru;
 
