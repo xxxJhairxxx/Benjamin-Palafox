@@ -82,7 +82,7 @@
         "template--17172252360939__5801ace9-8869-4e43-b519-073f25523e07-column-1": {
           "type": "column",
           "settings": {
-            "title": "<strong>Description <\/strong>",
+            "title": "Description<strong> <\/strong>",
             "text": "{{ product.metafields.custom.description | metafield_tag }}",
             "link_label": "",
             "link": ""
@@ -91,7 +91,7 @@
         "template--17172252360939__5801ace9-8869-4e43-b519-073f25523e07-column-2": {
           "type": "column",
           "settings": {
-            "title": "<strong>Material Composition <\/strong>",
+            "title": "Material Composition",
             "text": "{{ product.metafields.custom.material | metafield_tag }}",
             "link_label": "",
             "link": ""
@@ -100,7 +100,7 @@
         "template--17172252360939__5801ace9-8869-4e43-b519-073f25523e07-column-3": {
           "type": "column",
           "settings": {
-            "title": "<strong>Perfect for<\/strong>",
+            "title": "Perfect for",
             "text": "{{ product.metafields.custom.perfect | metafield_tag }}",
             "link_label": "",
             "link": ""
