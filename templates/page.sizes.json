@@ -1,0 +1,45 @@
+{
+  "sections": {
+    "309fb08e-4e6d-41e8-abd6-8a73f29b0038": {
+      "type": "bannerPageInter",
+      "settings": {
+        "titleFirts": "ELEVATE",
+        "titleBanner": "<p>YOUR ACTIVE LIFESTYLE WITH <\/p>",
+        "titleEnd": "AVITA ATHLETICA"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "8d78e346-5f5e-4945-8587-30a6dbcd3c21": {
+      "type": "statistics",
+      "settings": {
+        "item1Title": "3.5K+",
+        "item1Text": "<p>Products Sold<\/p>",
+        "item2Title": "1k+",
+        "item2Text": "<p>International Shipments<\/p>",
+        "item3Title": "2k+",
+        "item3Text": "<p>Happy customers<\/p>"
+      }
+    },
+    "4a590c03-5604-4ff0-921c-d500b31a7f0b": {
+      "type": "sectionMiddle",
+      "settings": {
+        "titleStartMiddle": "experience the unique style",
+        "titleEndMiddle": "of our sportswear collection",
+        "titleContentMiddle": "<p>Our sportswear is specifically designed to help you dominate your workout, whether you're pushing yourself in the gym or pushing your limits in the great outdoors.<\/p>"
+      }
+    }
+  },
+  "order": [
+    "309fb08e-4e6d-41e8-abd6-8a73f29b0038",
+    "main",
+    "8d78e346-5f5e-4945-8587-30a6dbcd3c21",
+    "4a590c03-5604-4ff0-921c-d500b31a7f0b"
+  ]
+}
