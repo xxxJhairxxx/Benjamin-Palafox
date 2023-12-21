@@ -4270,7 +4270,7 @@ details-disclosure > details {
             font-weight: 700;
             font-size: 1.39rem;
             &::before {
-              content: counter(myCounter);
+              content: counter(myCounter) ".";
             }
           }
           .icon-caret {
