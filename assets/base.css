@@ -4213,3 +4213,7 @@ details-disclosure > details {
 .product .section-template--17220397662443__5801ace9-8869-4e43-b519-073f25523e07-padding {
    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
 }
+
+.product .multicolumn-card__info .rte p {
+  color: red;
+}
