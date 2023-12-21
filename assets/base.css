@@ -4188,3 +4188,7 @@ details-disclosure > details {
   background: #025159;
   color: white;
 }
+
+.product .multicolumn {
+    background: red;
+}
