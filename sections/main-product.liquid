@@ -565,7 +565,7 @@
     {%- endif -%}
   </div>
   
-  <div class="table-description">
+  <table class="table-description">
    {% assign description_sizes = product.metafields.custom.description_sizes.value %}
   {% if description_sizes %}
     <tr>
@@ -591,7 +591,7 @@
       {% endfor %}
     </ul>
   {% endif %}
-  </div>
+  </table>
 
                           
   {% render 'product-media-modal' variant_images: variant_images %}
