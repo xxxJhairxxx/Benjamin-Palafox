@@ -551,7 +551,15 @@
     {%- endif -%}
   </div>
   <div>
-    Hola, soy shopify.
+   {% assign description_sizes = product.metafields.custom.description_sizes %}
+  {% if description_sizes %}
+    <p>Descripción de Tallas:</p>
+    <ul>
+      {% for size in description_sizes %}
+        <li>{{ size }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
   </div>
   {% render 'product-media-modal' variant_images: variant_images %}
 
