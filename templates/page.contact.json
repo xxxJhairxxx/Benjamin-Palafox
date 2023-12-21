@@ -29,20 +29,11 @@
             "titleCard": "Email:",
             "decriptionCard": "customer@avitaatlhetic.com"
           }
-        },
-        "cf842659-cd97-47b3-9bfc-8598e9b3379b": {
-          "type": "box",
-          "settings": {
-            "iconSvg": "shopify:\/\/shop_images\/Group_8824_1_793ca6ec-4e44-4bb1-ac79-e894d4867fb1.svg",
-            "titleCard": "Location:",
-            "decriptionCard": "Los Angeles, CA 90011"
-          }
         }
       },
       "block_order": [
         "5a4b6ab4-cf17-4718-8e92-7d86d972d5e9",
-        "f67de08a-b336-42f3-85e8-367bac298314",
-        "cf842659-cd97-47b3-9bfc-8598e9b3379b"
+        "f67de08a-b336-42f3-85e8-367bac298314"
       ],
       "settings": {
         "heading": "Contact Us",

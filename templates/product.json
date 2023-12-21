@@ -82,7 +82,7 @@
         "template--17172252360939__5801ace9-8869-4e43-b519-073f25523e07-column-1": {
           "type": "column",
           "settings": {
-            "title": "Description<strong> <\/strong>",
+            "title": "Description",
             "text": "{{ product.metafields.custom.description | metafield_tag }}",
             "link_label": "",
             "link": ""
@@ -101,7 +101,7 @@
           "type": "column",
           "settings": {
             "title": "Perfect for",
-            "text": "{{ product.metafields.custom.perfect | metafield_tag }}",
+            "text": "<p>{{ product.metafields.custom.perfect | metafield_tag }}<\/p>",
             "link_label": "",
             "link": ""
           }
