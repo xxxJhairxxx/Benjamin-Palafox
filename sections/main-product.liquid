@@ -551,7 +551,7 @@
     {%- endif -%}
   </div>
   <div>
-   {% assign description_sizes = product.metafields.custom.description_sizes %}
+   {% assign description_sizes = product.metafields.custom.description_sizes.value %}
   {% if description_sizes %}
     <p>Descripción de Tallas:</p>
     <ul>
