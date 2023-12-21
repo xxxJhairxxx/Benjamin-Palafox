@@ -4279,5 +4279,5 @@ details-disclosure > details {
 }
 
 .product .accordion svg {
-  display: none;
+  /* display: none; */
 }
