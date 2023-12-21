@@ -578,7 +578,18 @@
     
 
 
+  {% assign description_sizes = product.metafields.custom.sizes_detaills.value %}
   
+  {% if description_sizes %}
+      {% for item in description_sizes %}
+            <tr>
+                <td>{{ item }}</td>
+            </tr>
+         
+      {% endfor %}
+  
+
+  {% endif %}
   </table>
 
                           
