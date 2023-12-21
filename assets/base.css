@@ -4262,4 +4262,8 @@ details-disclosure > details {
 
 .product .collapsible-content{
   border: 3px solid peru;
+
+  @media (min-width: 1200px) {
+    display: none;
+  }
 }
