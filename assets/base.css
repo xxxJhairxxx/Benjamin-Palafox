@@ -4277,3 +4277,7 @@ details-disclosure > details {
   border-radius: 1rem;
   background: #FAFAFA;
 }
+
+.product .accordion svg {
+  display: none;
+}
