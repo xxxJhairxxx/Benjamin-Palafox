@@ -553,7 +553,25 @@
   <div>
    {% assign description_sizes = product.metafields.custom.description_sizes.value %}
   {% if description_sizes %}
-    <p>Descripción de Tallas:</p>
+    <p>Description</p>
+    <ul>
+      {% for size in description_sizes %}
+        <li>{{ size }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+  {% assign description_sizes = product.metafields.custom.sizes_head.value %}
+  {% if description_sizes %}
+    <p>Description</p>
+    <ul>
+      {% for size in description_sizes %}
+        <li>{{ size }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+  {% assign description_sizes = product.metafields.custom.sizes_detaills.value %}
+  {% if description_sizes %}
+    <p>Description</p>
     <ul>
       {% for size in description_sizes %}
         <li>{{ size }}</li>
