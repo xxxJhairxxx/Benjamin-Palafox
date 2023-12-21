@@ -4288,6 +4288,12 @@ details-disclosure > details {
   line-height: 2.56rem;
 }
 
+.product .accordion .metafield-rich_text_field li{
+  color: #606060;
+  font-size: 1.6rem;
+  line-height: 2.56rem;
+}
+
 .product .accordion .icon-accordion {
   display: none; 
 }
