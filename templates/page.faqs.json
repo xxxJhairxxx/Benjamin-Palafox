@@ -86,7 +86,7 @@
         "725fe240-1160-4b7f-b4d8-25259d36f53a": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Can I modify my order after it has been placed?",
+            "heading": "9. Can I modify my order after it has been placed?",
             "icon": "none",
             "row_content": "<p>Once an order is confirmed, it goes into processing promptly. To make any modifications, reach out to our customer support team as soon as possible, and we'll do our best to assist you.<\/p>",
             "page": ""
@@ -95,7 +95,7 @@
         "380dca82-de9d-4a27-be5d-65567ecf459a": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "What sets your customer service apart?",
+            "heading": "10. What sets your customer service apart?",
             "icon": "none",
             "row_content": "<p>Our customer service team is dedicated to providing exceptional support. If you have any questions or concerns, contact us through our Contact Us page, and we'll ensure a prompt and helpful response.<\/p>",
             "page": ""
