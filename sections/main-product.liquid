@@ -42,7 +42,14 @@
   {%- endif -%}
 
   <script>
-    alert("Hola shopify");
+    document.addEventListener('DOMContentLoaded', function() {
+        // Selecciona el párrafo y la sección por su id
+        var description = document.getElementsByClassName('table-description');
+        var section = document.getElementsByClassName('product-popup-modal__content');
+
+        // Mueve el párrafo a la sección
+        section.appendChild(description);
+    });
   </script>
 
   {%- assign first_3d_model = product.media | where: 'media_type', 'model' | first -%}
