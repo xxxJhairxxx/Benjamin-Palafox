@@ -492,12 +492,12 @@
    }
 
    @media (min-width: 1200px) {
-    min-height: 50rem;
+    min-height: 50rem !important;
 
    }
 
    @media (min-width: 1700px) {
-    min-height: 50rem;
+    min-height: 50rem !important;
 
    }
   
