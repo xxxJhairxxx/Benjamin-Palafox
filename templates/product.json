@@ -53,7 +53,7 @@
           "type": "popup",
           "settings": {
             "text": "Pop-up link text",
-            "page": "contact"
+            "page": "sizes"
           }
         }
       },
