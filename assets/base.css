@@ -4199,6 +4199,10 @@ details-disclosure > details {
 }
 
 .product .multicolumn .inline-richtext{
-    display: block;
+    display: block; 
+}
+
+.product .multicolumn-card__info {
+  flex-direction: column;
   
 }
