@@ -568,7 +568,6 @@
   <div class="table-description">
    {% assign description_sizes = product.metafields.custom.description_sizes.value %}
   {% if description_sizes %}
-    <p>Description</p>
     <tr>
       {% for size in description_sizes %}
         <td>{{ size }}</td>
@@ -577,7 +576,6 @@
   {% endif %}
   {% assign description_sizes = product.metafields.custom.sizes_head.value %}
   {% if description_sizes %}
-    <p>Description</p>
     <ul>
       {% for size in description_sizes %}
         <li>{{ size }}</li>
@@ -586,7 +584,6 @@
   {% endif %}
   {% assign description_sizes = product.metafields.custom.sizes_detaills.value %}
   {% if description_sizes %}
-    <p>Description</p>
     <ul>
       {% for size in description_sizes %}
         <li>{{ size }}</li>
