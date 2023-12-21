@@ -4278,7 +4278,7 @@ details-disclosure > details {
   padding-left: 1.9rem;
 }
 
-.product .accordion .metafield-rich_text_field{
+.product .accordion .metafield-rich_text_field p{
   color: red;
 }
 
