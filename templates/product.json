@@ -201,12 +201,20 @@
     "56fdf890-200d-4103-9612-d66f7544fcbd": {
       "type": "statistics",
       "settings": {
-        "item1Title": "",
-        "item1Text": "",
-        "item2Title": "",
-        "item2Text": "",
-        "item3Title": "",
-        "item3Text": ""
+        "item1Title": "3.5K+",
+        "item1Text": "<p>Products Sold<\/p>",
+        "item2Title": "1k+",
+        "item2Text": "<p>International Shipments<\/p>",
+        "item3Title": "2k+",
+        "item3Text": "<p>Happy customers<\/p>"
+      }
+    },
+    "6bb0f9e5-9eea-41fe-b71a-f4a45c6f0f03": {
+      "type": "sectionMiddle",
+      "settings": {
+        "titleStartMiddle": "",
+        "titleEndMiddle": "",
+        "titleContentMiddle": ""
       }
     }
   },
@@ -215,6 +223,7 @@
     "5801ace9-8869-4e43-b519-073f25523e07",
     "a6d5030e-b05d-4c1e-862c-c0e0f9635fd0",
     "related-products",
-    "56fdf890-200d-4103-9612-d66f7544fcbd"
+    "56fdf890-200d-4103-9612-d66f7544fcbd",
+    "6bb0f9e5-9eea-41fe-b71a-f4a45c6f0f03"
   ]
 }
