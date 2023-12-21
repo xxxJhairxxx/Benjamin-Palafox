@@ -30,6 +30,7 @@
            @media screen and (min-width: 1200px) {
               padding-inline: calc(7rem * var(--scale));   
               width:42%;
+      
           }
           
           .Contact_container_details_title{
@@ -45,12 +46,12 @@
 
           }
 
-          & p{
+          & > p{
             font-weight: 400;
             font-size:1.7rem;
             @media screen and (min-width: 1200px) {
-              margin-bottom:calc(3rem * var(--scale));}
-            
+              margin-bottom:calc(5rem * var(--scale));}
+             font-size: calc(1.8rem * var(--scale));
           }
 
           
@@ -76,13 +77,21 @@
           .field__input{
             border: #A6A6A6 solid 1px;
             border-radius:1.1rem;
+            @media screen and (min-width: 1200px) {
+              font-size: calc(1.7rem * var(--scale));
+            }
 
+            &:focus{
+              border: #A6A6A6 solid 2px;
+              box-shadow:none;
+            }
             
           }
           & > label{
               color: #A6A6A6 !important;
               font-family: arial;
              font-weight: 500 !important;
+
             }
             
          }
@@ -116,6 +125,12 @@
       h3,p{
         margin:0px;
         font-family: var(--bodyFont);
+         font-size: calc(1.9rem * var(--scale));
+      }
+
+      p{
+         font-size: calc(1.7rem * var(--scale));
+         font-weight: 400;
       }
 
    

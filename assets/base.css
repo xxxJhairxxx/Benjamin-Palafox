@@ -4189,7 +4189,6 @@ details-disclosure > details {
   color: white;
 }
 
-
 /* Multicolumn de producto detalle */
 
 .product .multicolumn {
@@ -4201,8 +4200,8 @@ details-disclosure > details {
   }
 }
 
-.product .multicolumn .inline-richtext{
-    display: block; 
+.product .multicolumn .inline-richtext {
+  display: block;
 }
 
 .product .multicolumn-card__info {
@@ -4210,6 +4209,11 @@ details-disclosure > details {
   align-items: flex-start;
 }
 
-.product .section-template--17220397662443__5801ace9-8869-4e43-b519-073f25523e07-padding {
-   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
+.product
+  .section-template--17220397662443__5801ace9-8869-4e43-b519-073f25523e07-padding {
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
+}
+
+.faqs .accordion {
+  background-color: red;
 }
