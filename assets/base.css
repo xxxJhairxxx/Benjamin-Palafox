@@ -4217,7 +4217,7 @@ details-disclosure > details {
   flex-direction: column;
   align-items: flex-start;
   gap: calc(3.8rem * var(--scale));
-  padding: calc(2.5rem * var(--scale));
+  padding: calc(2.5rem * var(--scale)) !important;
   
 }
 
