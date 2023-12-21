@@ -4259,6 +4259,10 @@ details-disclosure > details {
         margin-top: calc(2.59rem * var(--scale)); 
         max-width: 25%;
     }
+
+    &:first-child{
+      margin-top: 0;
+    }
   
 }
 
