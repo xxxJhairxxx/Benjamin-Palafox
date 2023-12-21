@@ -4280,6 +4280,8 @@ details-disclosure > details {
 
 .product .accordion .metafield-rich_text_field p{
   color: red;
+  font-size: 1.6rem;
+  line-height: 2.56rem;
 }
 
 .product .accordion .icon-accordion {
