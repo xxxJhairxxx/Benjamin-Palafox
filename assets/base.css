@@ -4323,3 +4323,7 @@ details-disclosure > details {
   border: 1px solid peru;
   border-collapse: collapse;
 }
+
+.table-row{
+  border: 1px solid blue;
+}
