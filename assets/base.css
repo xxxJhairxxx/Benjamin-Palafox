@@ -4252,4 +4252,6 @@ details-disclosure > details {
 
 .product .product__media-item.grid__item.slider__slide{
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.10);
+  width: 25%;
+  max-width: 25%;
 }
