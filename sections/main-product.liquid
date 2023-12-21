@@ -584,8 +584,11 @@
         {% assign size_count = description_sizes.sizes_detaills.value.size %}
         {% for item in description_sizes.sizes_detaills.value %}
           {% assign index = forloop.index0 | modulo: 5 %}
+
+        
           {% if index == 0 %}
             <tr>
+              <td>{{description_sizes.description_sizes.value[index] }}</td>
           {% endif %}
           <td class='table-cell'>{{ item }}</td>
           {% if index == 5 or forloop.last %}
