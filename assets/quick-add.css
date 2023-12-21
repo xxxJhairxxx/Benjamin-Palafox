@@ -129,10 +129,10 @@
   right: 1.5rem;
 
     @media (min-width: 1200px) {
-      width: calc(4rem * var(--scale));
+     /* width: calc(4rem * var(--scale));
       height: calc(4rem * var(--scale));
       top: calc(1.5rem * var(--scale));
-      right: calc(1.5rem * var(--scale));
+      right: calc(1.5rem * var(--scale)); */
       
     }
 }
