@@ -134,16 +134,19 @@
    <h3 class="Contact_container_details_title">{{section.settings.heading}}</h3> 
     {{section.settings.description}} 
 
-        <section class="ContactCard">
+
+{% for in section.blocks %}
+
+  <section class="ContactCard">
 
         <picture class="ContactCard_thumb">    
               <img
-                  srcset="{{ section.settings.iconSvg | image_url: width: section.settings.iconSvg_width }}, {{ section.settings.iconSvg | image_url: width: section.settings.iconSvg }} 2x"
-                  src="{{ section.settings.iconSvg}}"
-                  alt="{{ section.settings.iconSvg.alt | escape }}"
+                  srcset="{{ blocks.settings.iconSvg | image_url: width: blocks.settings.iconSvg_width }}, {{ blocks.settings.iconSvg | image_url: width: blocks.settings.iconSvg }} 2x"
+                  src="{{ blocks.settings.iconSvg}}"
+                  alt="{{ blocks.settings.iconSvg.alt | escape }}"
                   loading="lazy"
-                  width="{{ section.settings.iconSvg.width }}"
-                  height="{{ section.settings.iconSvg.height }}"
+                  width="{{ blocks.settings.iconSvg.width }}"
+                  height="{{ blocks.settings.iconSvg.height }}"
               >
           </picture>
 
@@ -153,44 +156,10 @@
                   <p>{{section.settings.decriptionCard}}</p>
           </div>
           </section>
-           <section class="ContactCard">
 
-        <picture class="ContactCard_thumb">    
-              <img
-                  srcset="{{ section.settings.iconSvg2 | image_url: width: section.settings.iconSvg2_width }}, {{ section.settings.iconSvg2 | image_url: width: section.settings.iconSvg2 }} 2x"
-                  src="{{ section.settings.iconSvg2}}"
-                  alt="{{ section.settings.iconSvg2.alt | escape }}"
-                  loading="lazy"
-                  width="{{ section.settings.iconSvg2.width }}"
-                  height="{{ section.settings.iconSvg2.height }}"
-              >
-          </picture>
-
-          <div class="ContactCard_description">
-                  <h3>{{section.settings.titleCard2}}</h3>
-
-                  <p>{{section.settings.decriptionCard2}}</p>
-          </div>
-          </section>
-           <section class="ContactCard">
-
-        <picture class="ContactCard_thumb">    
-              <img
-                  srcset="{{ section.settings.iconSvg3 | image_url: width: section.settings.iconSvg3_width }}, {{ section.settings.iconSvg3 | image_url: width: section.settings.iconSvg3 }} 2x"
-                  src="{{ section.settings.iconSvg3}}"
-                  alt="{{ section.settings.iconSvg3.alt | escape }}"
-                  loading="lazy"
-                  width="{{ section.settings.iconSvg3.width }}"
-                  height="{{ section.settings.iconSvg3.height }}"
-              >
-          </picture>
-
-          <div class="ContactCard_description">
-                  <h3>{{section.settings.titleCard3}}</h3>
-
-                  <p>{{section.settings.decriptionCard3}}</p>
-          </div>
-          </section>
+  {% endform %}
+        
+          
    
    </div>
 
