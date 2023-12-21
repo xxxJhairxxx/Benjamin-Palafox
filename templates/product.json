@@ -197,12 +197,24 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "56fdf890-200d-4103-9612-d66f7544fcbd": {
+      "type": "statistics",
+      "settings": {
+        "item1Title": "",
+        "item1Text": "",
+        "item2Title": "",
+        "item2Text": "",
+        "item3Title": "",
+        "item3Text": ""
+      }
     }
   },
   "order": [
     "main",
     "5801ace9-8869-4e43-b519-073f25523e07",
     "a6d5030e-b05d-4c1e-862c-c0e0f9635fd0",
-    "related-products"
+    "related-products",
+    "56fdf890-200d-4103-9612-d66f7544fcbd"
   ]
 }
