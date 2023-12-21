@@ -4244,4 +4244,7 @@ details-disclosure > details {
 
 .product .metafield-rich_text_field ul li{
   list-style: disc;
+  color: #606060;
+  font-size: calc(1.9rem * var(--scale));
+  line-height: calc(3.04rem * var(--scale));
 }
