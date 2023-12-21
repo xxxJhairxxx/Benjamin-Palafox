@@ -4271,3 +4271,8 @@ details-disclosure > details {
     display: none;
   }
 }
+
+.product .accordion summary {
+  border-radius: 1rem;
+  background: #FAFAFA;
+}
