@@ -3779,6 +3779,8 @@ details-disclosure > details {
 
 .header{
     border: 3px solid blue;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 
    @media (min-width: 1200px) {
     padding-top: calc(2.31rem * var(--scale)) !important;
