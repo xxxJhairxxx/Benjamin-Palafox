@@ -4203,6 +4203,8 @@ details-disclosure > details {
 
 .product .multicolumn .inline-richtext{
     display: block; 
+    font-size: calc(2rem * var(--scale));
+    line-height: calc(2.48rem * var(--scale));
 }
 
 .product .multicolumn-card__info {
