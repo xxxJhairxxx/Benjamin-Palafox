@@ -4265,7 +4265,7 @@ details-disclosure > details {
   border: none;
 }
 
-.product .collapsible-content .content-container:after{
+.product .content-container:after{
     box-shadow: none;
 }
 
