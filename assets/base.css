@@ -4254,6 +4254,6 @@ details-disclosure > details {
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.10);
   width: 25%;
   max-width: 25%;
-  margin-top: calc(2.59rem * var(--scale));
+  /* margin-top: calc(2.59rem * var(--scale)); */
   
 }
