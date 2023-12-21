@@ -4331,6 +4331,16 @@ details-disclosure > details {
     }
   }
 }
+.product .product__media-item.grid__item.slider__slide {
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+  /* width: 25%;
+  max-width: 25%; */
+  /* margin-top: calc(2.59rem * var(--scale)); */
+  @media (min-width: 1200px) {
+    width: 25%;
+    max-width: 25%;
+  }
+}
 
 /* Acordeon de producto detalle */
 
@@ -4339,9 +4349,11 @@ details-disclosure > details {
   border: none;
 }
 
-.product .collapsible-content {
-  border: 3px solid peru;
+.product .content-container:after {
+  box-shadow: none;
+}
 
+.product .collapsible-content {
   @media (min-width: 1200px) {
     display: none;
   }
@@ -4350,6 +4362,19 @@ details-disclosure > details {
 .product .accordion summary {
   border-radius: 1rem;
   background: #fafafa;
+  padding-left: 1.9rem;
+}
+
+.product .accordion .metafield-rich_text_field p {
+  color: #606060;
+  font-size: 1.6rem;
+  line-height: 2.56rem;
+}
+
+.product .accordion .metafield-rich_text_field li {
+  color: #606060;
+  font-size: 1.6rem;
+  line-height: 2.56rem;
 }
 
 .product .accordion .icon-accordion {

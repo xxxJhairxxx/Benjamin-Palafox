@@ -176,8 +176,8 @@
         "open_first_collapsible_row": false,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "related-products": {
@@ -197,12 +197,33 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "56fdf890-200d-4103-9612-d66f7544fcbd": {
+      "type": "statistics",
+      "settings": {
+        "item1Title": "3.5K+",
+        "item1Text": "<p>Products Sold<\/p>",
+        "item2Title": "1k+",
+        "item2Text": "<p>International Shipments<\/p>",
+        "item3Title": "2k+",
+        "item3Text": "<p>Happy customers<\/p>"
+      }
+    },
+    "6bb0f9e5-9eea-41fe-b71a-f4a45c6f0f03": {
+      "type": "sectionMiddle",
+      "settings": {
+        "titleStartMiddle": "Experience the unique style of",
+        "titleEndMiddle": "our sportswear collection",
+        "titleContentMiddle": "<p>Elevate your fitness and wellness journey with Women's Best. Our athletic apparel and innovative supplements are designed to help you look, feel, and perform your best.<\/p>"
+      }
     }
   },
   "order": [
     "main",
     "5801ace9-8869-4e43-b519-073f25523e07",
     "a6d5030e-b05d-4c1e-862c-c0e0f9635fd0",
-    "related-products"
+    "related-products",
+    "56fdf890-200d-4103-9612-d66f7544fcbd",
+    "6bb0f9e5-9eea-41fe-b71a-f4a45c6f0f03"
   ]
 }
