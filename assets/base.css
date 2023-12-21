@@ -4197,3 +4197,8 @@ details-disclosure > details {
     display: block;
   }
 }
+
+.product .multicolumn .inline-richtext{
+    display: block;
+  
+}
