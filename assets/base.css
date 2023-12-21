@@ -3781,8 +3781,8 @@ details-disclosure > details {
     border: 3px solid blue;
 
    @media (min-width: 1200px) {
-    padding-top: calc(2.31rem * var(--scale));
-    padding-bottom: calc(2.37rem * var(--scale));
+    padding-top: calc(2.31rem * var(--scale)) !important;
+    padding-bottom: calc(2.37rem * var(--scale)) !important;
   }
 }
 
