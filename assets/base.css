@@ -4239,7 +4239,7 @@ details-disclosure > details {
 }
 
 .product .metafield-rich_text_field ul {
-  padding-left: calc(1rem * var(--scale));
+  padding-left: calc(3rem * var(--scale));
 }
 
 .product .metafield-rich_text_field ul li{
