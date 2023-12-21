@@ -4189,10 +4189,11 @@ details-disclosure > details {
   color: white;
 }
 
+
 /* Multicolumn de producto detalle */
 
-.product {
-  background: #f8f6f3;
+.product{
+    background: #F8F6F3;
 }
 
 .product .multicolumn {
@@ -4204,12 +4205,12 @@ details-disclosure > details {
   }
 }
 
-.product .multicolumn .inline-richtext {
-  display: block;
-  font-size: calc(2rem * var(--scale));
-  line-height: calc(2.48rem * var(--scale));
-  font-family: var(--font-body-family);
-  font-weight: 600;
+.product .multicolumn .inline-richtext{
+    display: block; 
+    font-size: calc(2rem * var(--scale));
+    line-height: calc(2.48rem * var(--scale));
+    font-family: var(--font-body-family);
+    font-weight: 600;
 }
 
 .product .multicolumn-card__info {
@@ -4217,24 +4218,19 @@ details-disclosure > details {
   align-items: flex-start;
   gap: calc(3.8rem * var(--scale));
   padding: calc(2.5rem * var(--scale)) !important;
+  
 }
 
 .product .multicolumn-list__item {
-  border-right: 1px solid #c6c6c6;
-
-  &:last-child {
-    border: none;
-  }
+  border-right: 1px solid #C6C6C6;
+  
+    &:last-child {
+      border: none;
+    }
 }
 
-.product
-  .section-template--17220397662443__5801ace9-8869-4e43-b519-073f25523e07-padding {
-  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
-}
-
-.product
-  .section-template--17220397662443__5801ace9-8869-4e43-b519-073f25523e07-padding {
-  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
+.product .section-template--17220397662443__5801ace9-8869-4e43-b519-073f25523e07-padding {
+   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
 }
 
 .product .multicolumn-card__info .rte p {
@@ -4247,13 +4243,13 @@ details-disclosure > details {
   padding-left: calc(3.3rem * var(--scale));
 }
 
-.product .metafield-rich_text_field ul li {
+.product .metafield-rich_text_field ul li{
   list-style: disc;
   color: #606060;
   font-size: calc(1.9rem * var(--scale));
   line-height: calc(3.04rem * var(--scale));
 }
 
-.faqs .accordion {
-  background-color: red;
+.product .product__media-item grid__item.slider__slide{
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.10);
 }
