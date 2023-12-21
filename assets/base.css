@@ -4262,6 +4262,7 @@ details-disclosure > details {
 
 .product .accordion{
   margin-top: 0;
+  border: none;
 }
 
 .product .collapsible-content{
