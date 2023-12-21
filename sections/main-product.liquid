@@ -566,23 +566,25 @@
   </div>
   
   <table class="table-description">
-   {% assign description_sizes = product.metafields.custom.description_sizes.value %}
-  {% if description_sizes %}
-    <tr>
-        <td>&nbsp;</td>
-      {% for size in description_sizes %}
-        <td>{{ size }}</td>
-      {% endfor %}
-    </tr>
-  {% endif %}
   {% assign description_sizes = product.metafields.custom.sizes_head.value %}
   {% if description_sizes %}
     <tr>
+      <td>&nbsp;</td>
       {% for size in description_sizes %}
         <td>{{ size }}</td>
       {% endfor %}
     </tr>
   {% endif %}
+    
+  {% assign description_sizes = product.metafields.custom.description_sizes.value %}
+  {% if description_sizes %}
+    <tr>
+      {% for size in description_sizes %}
+        <td>{{ size }}</td>
+      {% endfor %}
+    </tr>
+  {% endif %}
+
   {% assign description_sizes = product.metafields.custom.sizes_detaills.value %}
   {% if description_sizes %}
     <tr>
