@@ -977,6 +977,10 @@ a.product__text {
   padding: 1.5rem;
 }
 
+.product-popup-modal__content-info h1{
+  color: red;
+}
+
 .product-popup-modal__content-info > * {
   height: auto;
   margin: 0 auto;
