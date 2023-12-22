@@ -4348,6 +4348,10 @@ details-disclosure > details {
 }
 
 .table-row.desc .table-cell:first-child{
+  border: 1px solid #025159;
+}
+
+.table-row.desc .table-cell:first-child{
 
   .cellCont{
     background: #025159;
