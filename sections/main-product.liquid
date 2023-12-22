@@ -586,7 +586,7 @@
         {% for item in description_sizes.sizes_detaills.value %}
           
           {% assign index = forloop.index0 | modulo: 5 %}
-            {% assign count = index | divided_by: 5 %}
+          {% assign count = forloop.index0 | divided_by: 5 %}
         
           {% if index == 0 %}
             <tr>
