@@ -4375,6 +4375,13 @@ details-disclosure > details {
     color: #606060;
     font-size: 1.55rem;
     line-height: 2.48rem;
+
+     @media (min-width: 1200px) {
+        height: calc(4.6rem * var(--scale));
+        padding: calc(1.1rem * var(--scale)) calc(2.9rem * var(--scale));
+        font-size: calc(1.7rem * var(--scale));
+        line-height: calc(2.72rem * var(--scale));         
+      }
   }
 }
 
