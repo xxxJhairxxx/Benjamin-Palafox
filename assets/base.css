@@ -4358,7 +4358,8 @@ details-disclosure > details {
     font-weight: 600;
 
       @media (min-width: 1200px) {
-        height: 10rem;
+        height: calc(4.6rem * var(--scale));
+        padding: calc(1.3rem * var(--scale)) calc(2rem * var(--scale));
       }
   }
 }
