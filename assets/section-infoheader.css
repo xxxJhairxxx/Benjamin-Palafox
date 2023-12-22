@@ -2,6 +2,10 @@
   background: #025159;
 }
 
+.infoheader-list {
+  border: 1px solid red;
+}
+
 .infoheader li {
     font-size: calc(rem * var(--scale));
     line-height: calc(2.94rem * var(--scale));
