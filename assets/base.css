@@ -4288,12 +4288,10 @@ details-disclosure > details {
   display: none;
 }
 
-
 .table-description {
   border-spacing: 0;
   padding: 1.5rem;
 }
-
 
 .table-row {
 }
@@ -4374,9 +4372,6 @@ details-disclosure > details {
   align-items: center;
 }
 
-<<<<<<< HEAD
-/* sape */
-=======
 .modal-size {
   border: 1px solid #025159;
   height: 4.8rem;
@@ -4432,4 +4427,3 @@ details-disclosure > details {
 .product-popup-modal__content {
   padding: 0 !important;
 }
->>>>>>> 025bd54426c2b7dcb809aeff5ee07a33c9c89b4e
