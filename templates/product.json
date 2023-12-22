@@ -143,36 +143,27 @@
         "template--17220397662443__34a357d0-f7ee-486e-b7a5-f5c21d835791-collapsible_row-1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Description",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Our Boxer Panty is perfect for intense workouts, everyday wear, or layering under workout gear. It offers unparalleled comfort and durability for women who demand the best from their sportswear.<\/p>",
             "page": ""
           }
         },
         "template--17220397662443__34a357d0-f7ee-486e-b7a5-f5c21d835791-collapsible_row-2": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Material Composition",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<ul><li>72% Rayon<\/li><li>23% Modal<\/li><li>5% Spandex<\/li><\/ul>",
             "page": ""
           }
         },
         "template--17220397662443__34a357d0-f7ee-486e-b7a5-f5c21d835791-collapsible_row-3": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Perfect for",
             "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "template--17220397662443__34a357d0-f7ee-486e-b7a5-f5c21d835791-collapsible_row-4": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<ul><li>Intense workouts<\/li><li>Everyday comfort<\/li><li>Layering under workout gear<\/li><\/ul>",
             "page": ""
           }
         }
@@ -180,8 +171,7 @@
       "block_order": [
         "template--17220397662443__34a357d0-f7ee-486e-b7a5-f5c21d835791-collapsible_row-1",
         "template--17220397662443__34a357d0-f7ee-486e-b7a5-f5c21d835791-collapsible_row-2",
-        "template--17220397662443__34a357d0-f7ee-486e-b7a5-f5c21d835791-collapsible_row-3",
-        "template--17220397662443__34a357d0-f7ee-486e-b7a5-f5c21d835791-collapsible_row-4"
+        "template--17220397662443__34a357d0-f7ee-486e-b7a5-f5c21d835791-collapsible_row-3"
       ],
       "settings": {
         "caption": "",
