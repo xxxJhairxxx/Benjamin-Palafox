@@ -4337,7 +4337,12 @@ details-disclosure > details {
     color: white;
     font-size: 1.7rem;
     line-height: 2.1rem;
+    
   }
+}
+
+.table-row.desc td:not(:first-child){
+  color: red;
 }
 
 .table-cell{
