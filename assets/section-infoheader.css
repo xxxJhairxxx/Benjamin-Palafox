@@ -21,4 +21,7 @@
   line-height: calc(2.94rem * var(--scale));
   list-style: none;
   color: white;
+  display: flex;
+  align-items: center;
+  gap: calc(1rem * var(--scale));
 }
