@@ -594,7 +594,9 @@
            </div>
           </td>  
        {% endif %}
-           <td class='table-cell'>{{ item }}</td>
+           <td class='table-cell'>
+            <div class='cellCont'>{{ item }}</div>
+           </td>  
         {% if index == 5 or forloop.last %}
           </tr>
         {% endif %}
