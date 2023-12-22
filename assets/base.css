@@ -4282,28 +4282,51 @@ details-disclosure > details {
 
 /* Tabla modal */
 .table-description {
+  border-spacing: 0;
 }
 
 .table-row {
 }
 
 .table-cell {
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 .table-row.size {
   border: 1px solid #025159 !important;
 }
 
+.table-row.size .table-cell:first-child {
+  border-left: 1px solid #025159;
+  border-right: 1px solid #025159;
+}
+
+.table-row.size .table-cell {
+  border-bottom: 1px solid #025159;
+  border-top: 1px solid #025159;
+}
+
+.table-row.size .table-cell:first-child {
+  .cellCont {
+    background: #fafafa;
+    border-radius: 0.47rem;
+    padding: 0.95rem 1.14rem;
+    height: 4.6rem;
+    color: #025159;
+    font-size: 1.53rem;
+    line-height: 1.69rem;
+  }
+}
+
 .table-row.size .table-cell:not(:first-child) {
   .cellCont {
-    background: red;
-    /* border-radius: 0.96rem;
-    padding: 1.51rem 2.13rem;
-    height: 5.52rem;
-    color: #606060;
-    font-size: 1.55rem;
-    line-height: 2.48rem; */
+    background: #025159;
+    border-radius: 0.47rem;
+    padding: 1.3rem 2.13rem;
+    height: 4.25rem;
+    color: white;
+    font-size: 1.35rem;
+    line-height: 1.68rem;
   }
 }
 
