@@ -4293,6 +4293,11 @@ details-disclosure > details {
   border-spacing: 0;
   padding: 1.5rem;
   display: none;
+
+  @media (min-width: 1200px) {
+      padding-top: calc(3rem * var(--scale));
+    
+  }
 }
 
 .product-popup-modal .table-description {
