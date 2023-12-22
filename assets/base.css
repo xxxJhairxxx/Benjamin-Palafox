@@ -4335,6 +4335,7 @@ details-disclosure > details {
 
 .table-row.size .table-cell:first-child{
   border-left: 1px solid #025159;
+  border-right: 1px solid #025159;
 }
 
 .table-row.size .table-cell{
