@@ -974,7 +974,7 @@ a.product__text {
 }
 
 .product-popup-modal__content-info {
-  padding-inline: 1.5rem;
+  padding: 1.5rem;
 }
 
 .product-popup-modal__content-info > * {
