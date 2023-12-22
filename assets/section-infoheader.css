@@ -1,8 +1,8 @@
 .infoheader{
   background: #025159;
   height: calc(5.2rem * var(--scale));
-  display: flex;
-  align-items: center;
+  /* display: flex;
+  align-items: center; */
   
 }
 
