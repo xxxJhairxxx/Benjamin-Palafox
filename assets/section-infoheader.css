@@ -13,8 +13,8 @@
 }
 
 .infoheader li {
-    font-size: calc(rem * var(--scale));
-    line-height: calc(2.94rem * var(--scale));
-    list-style: none;
-    color: white;
+  font-size: calc(rem * var(--scale));
+  line-height: calc(2.94rem * var(--scale));
+  list-style: none;
+  color: white;
 }
