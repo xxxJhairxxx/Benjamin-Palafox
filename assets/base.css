@@ -4326,6 +4326,13 @@ details-disclosure > details {
     font-size: 1.53rem;
     line-height: 1.69rem;
     font-weight: 700;
+
+     @media (min-width: 1200px) {
+        height: calc(4.3rem * var(--scale));
+        padding: calc(1.4rem * var(--scale)) calc(1.9rem * var(--scale));
+        font-size: calc(1.7rem * var(--scale));
+        line-height: calc(2.05rem * var(--scale));
+      }
   }
 }
 
