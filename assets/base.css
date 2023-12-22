@@ -4326,6 +4326,7 @@ details-disclosure > details {
     font-size: 1.53rem;
     line-height: 1.69rem;
     font-weight: 700;
+    justify-content: flex-start;
 
      @media (min-width: 1200px) {
         height: calc(4.3rem * var(--scale));
