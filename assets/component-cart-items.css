@@ -42,7 +42,7 @@ cart-item .cart-item__totals {
 }
 
 .cart-item__image {
-  height: 15rem;
+  height: 13rem;
   width: 100%;
   img {
     object-fit: contain !important;
@@ -66,7 +66,7 @@ cart-item .cart-item__totals {
 }
 
 .cart-item__details > * + * {
-  margin-top: 0.6rem;
+  margin-bottom: 0.6rem;
 }
 
 .cart-item__media {
@@ -86,7 +86,7 @@ cart-item .cart-item__totals {
 
 .cart-item__name {
   text-decoration: none;
-  font-size: calc(1.8rem * var(--scale));
+  font-size: calc(1.5rem * var(--scale));
   display: block;
   font-family: var(--bodyFont);
   font-weight: 600;

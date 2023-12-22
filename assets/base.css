@@ -4427,3 +4427,10 @@ details-disclosure > details {
 .product-popup-modal__content {
   padding: 0 !important;
 }
+
+.afnone {
+  &::after,
+  &::before {
+    display: none;
+  }
+}
