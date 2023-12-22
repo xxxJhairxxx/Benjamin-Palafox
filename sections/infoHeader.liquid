@@ -1,11 +1,11 @@
-{{ 'section-footer.css' | asset_url | stylesheet_tag }}
+{{ 'section-infoheader.css' | asset_url | stylesheet_tag }}
 
 
 
 <!-- Welcome section starts -->
 
 
-  <section class="infoHeader">
+  <section class="infoheader">
 
 
     <div>
@@ -34,28 +34,18 @@
 
 {% schema %}
   {
-    "name": "Footer",
+    "name": "InfoHeader",
     "settings": [
        {
     "id": "FooterCompetitiveTitle",
     "type": "text",
     "label": "Competitive title"
   },
- {
-    "id": "FooterCompetitiveText",
-    "type": "richtext",
-    "label": "Competitive text"
-  },
   {
     "id": "FooterMenuTitle",
     "type": "text",
     "label": "Menu title"
-  },
-  {
-    "id": "FooterMenuText",
-    "type": "richtext",
-    "label": "Description"
-  }   
+  }
     ],"presets": [
 {
 "name": "InfoHeader",
