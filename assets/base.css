@@ -4328,7 +4328,7 @@ details-disclosure > details {
   border: 1px solid blue;
 }
 
-.table-row.desc{
+.table-row.desc td{
   &:first-child{
     background: #025159;
   }
