@@ -978,6 +978,7 @@ a.product__text {
 
 .product-popup-modal__content-info {
   padding: 1.5rem;
+  display: none;
 }
 
 .product-popup-modal__content-info h1{
