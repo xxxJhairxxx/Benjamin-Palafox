@@ -145,7 +145,7 @@
           "settings": {
             "heading": "Description",
             "icon": "check_mark",
-            "row_content": "<p>Our Boxer Panty is perfect for intense workouts, everyday wear, or layering under workout gear. It offers unparalleled comfort and durability for women who demand the best from their sportswear.<\/p>",
+            "row_content": "{{ product.metafields.custom.description | metafield_tag }}",
             "page": ""
           }
         },
@@ -154,7 +154,7 @@
           "settings": {
             "heading": "Material Composition",
             "icon": "check_mark",
-            "row_content": "<ul><li>72% Rayon<\/li><li>23% Modal<\/li><li>5% Spandex<\/li><\/ul>",
+            "row_content": "{{ product.metafields.custom.material | metafield_tag }}",
             "page": ""
           }
         },
@@ -163,7 +163,7 @@
           "settings": {
             "heading": "Perfect for",
             "icon": "check_mark",
-            "row_content": "<ul><li>Intense workouts<\/li><li>Everyday comfort<\/li><li>Layering under workout gear<\/li><\/ul>",
+            "row_content": "{{ product.metafields.custom.perfect | metafield_tag }}",
             "page": ""
           }
         }
