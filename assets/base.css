@@ -4302,7 +4302,7 @@ details-disclosure > details {
   padding: 0.5rem;
 
    @media (min-width: 1200px) {
-        paddding: calc(1rem * var(--scale));
+        paddding: calc(1.5rem * var(--scale));
     }
 }
 
