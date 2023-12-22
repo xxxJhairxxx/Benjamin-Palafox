@@ -4334,6 +4334,8 @@ details-disclosure > details {
 }
 
 .table-row.size .table-cell:not(:first-child){
+
+  .cellCont{
     background: red;
     /* border-radius: 0.96rem;
     padding: 1.51rem 2.13rem;
@@ -4341,6 +4343,8 @@ details-disclosure > details {
     color: #606060;
     font-size: 1.55rem;
     line-height: 2.48rem; */
+  }
+ 
 }
 
 .table-row.desc .table-cell:first-child{
@@ -4358,13 +4362,17 @@ details-disclosure > details {
 }
 
 .table-row.desc .table-cell:not(:first-child){
-    background: white;
-    border-radius: 0.96rem;
-    padding: 1.51rem 2.13rem;
-    height: 5.52rem;
-    color: #606060;
-    font-size: 1.55rem;
-    line-height: 2.48rem;
+
+    .cellCont{
+      background: white;
+      border-radius: 0.96rem;
+      padding: 1.51rem 2.13rem;
+      height: 5.52rem;
+      color: #606060;
+      font-size: 1.55rem;
+      line-height: 2.48rem;
+    }
+   
 }
 
 .cellCont{
