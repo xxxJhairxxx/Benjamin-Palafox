@@ -588,7 +588,7 @@
         
           {% if index == 0 %}
             <tr>
-              <td>{{description_sizes.description_sizes.value[2] }}</td>
+              <td>{{description_sizes.description_sizes.value[forloop.index0] }}</td>
           {% endif %}
           <td class='table-cell'>{{ item }}</td>
           {% if index == 5 or forloop.last %}
