@@ -4330,7 +4330,7 @@ details-disclosure > details {
 }
 
 .table-row.size{
-  border: 1px solid #025159;
+  border: 1px solid #025159 !important;
 }
 
 .table-row.desc .table-cell:first-child{
