@@ -1,5 +1,7 @@
 .infoheader{
   background: #025159;
+  height: calc(5.2rem * var(--scale));
+  
 }
 
 .infoheader-list {
