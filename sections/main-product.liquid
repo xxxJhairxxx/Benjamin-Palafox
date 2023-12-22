@@ -571,7 +571,11 @@
     <tr class='table-row size'>
       <td>Flat Lay Measurements</td>
       {% for size in description_sizes %}
-        <td class='table-cell'>{{ size }}</td>
+        <td class='table-cell'>
+          <div class='cellCont'>
+            {{ size }}
+          </div>
+         </td>
       {% endfor %}
     </tr>
   {% endif %}
