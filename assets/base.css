@@ -4232,9 +4232,9 @@ details-disclosure > details {
   /* width: 25%;
   max-width: 25%; */
   @media (min-width: 1200px) {
-    width: 25%;
+    width: 20%;
     margin-top: calc(2.59rem * var(--scale));
-    max-width: 25%;
+    max-width: 20%;
   }
 
   &:first-child {
