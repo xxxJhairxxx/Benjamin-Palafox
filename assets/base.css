@@ -4283,9 +4283,14 @@ details-disclosure > details {
 }
 
 /* Tabla modal */
+
+.my-store.index .table-description {
+  display: none;
+}
+
+
 .table-description {
   border-spacing: 0;
-  border: 2px solid red;
   padding: 1.5rem;
 }
 
