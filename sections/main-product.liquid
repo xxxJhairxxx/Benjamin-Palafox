@@ -587,10 +587,10 @@
       {% assign count = forloop.index0 | divided_by: 5 %}
         
       {% if index == 0 %}
-         <tr class='table-row'>
+         <tr class='table-row desc'>
            <td>{{ description_sizes.description_sizes.value[count] }}</td>     
        {% endif %}
-           <td class='table-cell desc'>{{ item }}</td>
+           <td class='table-cell'>{{ item }}</td>
         {% if index == 5 or forloop.last %}
           </tr>
         {% endif %}
