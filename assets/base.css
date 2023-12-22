@@ -4343,7 +4343,7 @@ details-disclosure > details {
     
 }
 
-.table-row.desc td div:not(:first-child){
+.table-row.desc .table-cell .cellCont:not(:first-child){
     background: white;
     border-radius: 0.96rem;
     padding: 1.51rem 2.13rem;
