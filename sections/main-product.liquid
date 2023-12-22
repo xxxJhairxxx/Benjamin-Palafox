@@ -569,7 +569,11 @@
   {% assign description_sizes = product.metafields.custom.sizes_head.value %}
   {% if description_sizes %}
     <tr class='table-row size'>
-      <td class='table-cell'>Flat Lay Measurements</td>
+      <td class='table-cell'>
+        <div class='cellCont'>
+          Flat Lay Measurements
+        </div>
+      </td>
       {% for size in description_sizes %}
         <td class='table-cell'>
           <div class='cellCont'>
