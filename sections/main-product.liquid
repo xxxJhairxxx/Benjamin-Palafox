@@ -588,9 +588,11 @@
         
       {% if index == 0 %}
          <tr class='table-row desc'>
-          <div class='rowCont'>
-            <td>{{ description_sizes.description_sizes.value[count] }}</td>     
-          </div>
+          <td>
+           <div class='rowCont'>
+            {{ description_sizes.description_sizes.value[count] }}   
+           </div>
+          </td>  
        {% endif %}
            <td class='table-cell'>{{ item }}</td>
         {% if index == 5 or forloop.last %}
