@@ -240,7 +240,7 @@ cart-remove-button .icon-remove {
 
   .cart-item {
     display: grid;
-    grid-template: 1fr / repeat(3, 1fr);
+    grid-template: 1fr / 30% 65%;
     gap: 1.5rem;
   }
 
