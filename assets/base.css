@@ -4296,7 +4296,8 @@ details-disclosure > details {
 }
 
 .product-popup-modal .table-description {
-  display: block;
+  display: flex;
+  justify-content: center;
 }
 
 
