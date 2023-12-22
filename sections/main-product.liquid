@@ -593,13 +593,13 @@
             {{ description_sizes.description_sizes.value[count] }}   
            </div>
           </td>  
-       {% endif %}
+      {% endif %}
            <td class='table-cell'>
             <div class='cellCont'>{{ item }}</div>
            </td>  
-        {% if index == 5 or forloop.last %}
-          </tr>
-        {% endif %}
+      {% if index == 5 or forloop.last %}
+         </tr>
+      {% endif %}
     {% endfor %}
       
   {% endif %}
