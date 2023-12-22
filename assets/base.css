@@ -4333,7 +4333,7 @@ details-disclosure > details {
   border: 1px solid #025159 !important;
 }
 
-.table-row.size .table-cell:first-child{
+.table-row.size .table-cell{
   border-bottom: 1px solid #025159;
 }
 
