@@ -581,7 +581,7 @@
    {% assign description_sizes = product.metafields.custom %}
     {% assign count = 0 %}
   {% if description_sizes %}
-      <tr class='table-row'>
+      
         {% assign size_count = description_sizes.sizes_detaills.value.size %}
         {% for item in description_sizes.sizes_detaills.value %}
           
@@ -589,7 +589,7 @@
           {% assign count = forloop.index0 | divided_by: 5 %}
         
           {% if index == 0 %}
-            <tr>
+            <tr class='table-row'>
               <td>{{description_sizes.description_sizes.value[count] }}</td>
             
           {% endif %}
@@ -598,7 +598,7 @@
             </tr>
           {% endif %}
         {% endfor %}
-      </tr>
+      
   {% endif %}
 
   </table>
