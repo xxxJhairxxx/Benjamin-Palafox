@@ -8,11 +8,17 @@
     <div class='page-width'>
 
          <div class='infoheader-list'>
-            {% render 'icon-caret' %}
-            <li>{{ section.settings.address }}</li>
+       
+            <li>
+               {% render 'icon-location' %}
+               {{ section.settings.address }}
+            </li>
 
            <div class='infoheader-links'>
-            <li>{{ section.settings.phone }}</li>
+            <li> 
+               {% render 'icon-phone' %}   
+               {{ section.settings.phone }}
+            </li>
             <li>{{ section.settings.email }}</li>
             <li>{{ section.settings.schedule }}</li>
            </div>
