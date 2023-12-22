@@ -4336,7 +4336,7 @@ details-disclosure > details {
 .table-row.size .table-cell:first-child{
 
   .cellCont{
-    background: wheat;
+    background: #fafafa;
     border-radius: 0.47rem;
     padding: 0.95rem 1.14rem;
     height: 4.6rem;
@@ -4382,7 +4382,7 @@ details-disclosure > details {
 .table-row.desc .table-cell:not(:first-child){
 
     .cellCont{
-      background: wheat;
+      background: #fafafa;
       border-radius: 0.96rem;
       padding: 1.51rem 2.13rem;
       height: 5.52rem;
