@@ -978,8 +978,10 @@ a.product__text {
 }
 
 .product-popup-modal__content-info h1{
-  color: red;
+  color: #025159;
   font-family: var(--bodyFont);
+  font-size: 1.6rem;
+  line-height: 1.98rem;
 }
 
 .product-popup-modal__content-info > * {
