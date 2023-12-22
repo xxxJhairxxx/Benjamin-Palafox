@@ -4342,7 +4342,13 @@ details-disclosure > details {
 }
 
 .table-row.desc td:not(:first-child){
-  color: red;
+    background: white;
+    border-radius: 0.96rem;
+    padding: 1.51rem 2.13rem;
+    height: 5.52rem;
+    color: #606060;
+    font-size: 1.55rem;
+    line-height: 2.48rem;
 }
 
 .table-cell{
