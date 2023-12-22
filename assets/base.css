@@ -4286,7 +4286,7 @@ details-disclosure > details {
 .table-description {
   border-spacing: 0;
   border: 2px solid red;
-  padding-inline: 2rem;
+  padding-inline: 1.5rem;
 }
 
 
