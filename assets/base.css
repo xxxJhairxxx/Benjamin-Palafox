@@ -4295,6 +4295,10 @@ details-disclosure > details {
   display: none;
 }
 
+.product-popup-modal .table-description {
+  display: block;
+}
+
 
 .table-row {
 }
