@@ -4320,6 +4320,10 @@ details-disclosure > details {
   border-right: 1px solid #025159;
 }
 
+.table-row.size .table-cell:last-child {
+  border-right: 1px solid #025159;
+}
+
 .table-row.size .table-cell {
   border-bottom: 1px solid #025159;
   border-top: 1px solid #025159;
