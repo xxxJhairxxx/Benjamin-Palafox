@@ -4333,13 +4333,17 @@ details-disclosure > details {
 }
 
 .table-row.desc .table-cell:first-child{
-  background: #025159;
-  border-radius: 0.47rem;
-  padding: 1.25rem 2rem;
-  height: 4.6rem;
-  color: white;
-  font-size: 1.7rem;
-  line-height: 2.1rem;
+
+  .cellCont{
+    background: #025159;
+    border-radius: 0.47rem;
+    padding: 1.25rem 2rem;
+    height: 4.6rem;
+    color: white;
+    font-size: 1.7rem;
+    line-height: 2.1rem;
+  }
+ 
     
 }
 
