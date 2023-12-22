@@ -4381,7 +4381,7 @@ details-disclosure > details {
         padding: calc(1.1rem * var(--scale)) calc(2.9rem * var(--scale));
         font-size: calc(1.7rem * var(--scale));
         line-height: calc(2.72rem * var(--scale));         
-      }
+    }
   }
 }
 
