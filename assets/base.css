@@ -4348,7 +4348,7 @@ details-disclosure > details {
 }
 
 .table-row.desc .table-cell:first-child{
-  border: 1px solid #025159;
+  border-right: 1px solid #025159;
 }
 
 .table-row.desc .table-cell:first-child{
