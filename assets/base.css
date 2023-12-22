@@ -4320,6 +4320,7 @@ details-disclosure > details {
 
 /* Tabla modal */
 .table-description {
+  border-spacing: 0;
 }
 
 .table-row{
