@@ -1037,7 +1037,7 @@ a.product__text {
   right: 1.5rem;
 
     @media (min-width: 1200px) {
-      top: calc(1.5rem * var(--scale));
+      top: calc(1.55rem * var(--scale));
     }
 }
 
