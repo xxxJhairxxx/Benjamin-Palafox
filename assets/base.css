@@ -4366,4 +4366,19 @@ details-disclosure > details {
   align-items: center;
 }
 
+.modal-size {
+  border: 1px solid #025159;
+  height: 4.8rem;
+  height: 7rem;
+  background: #025159;
+  padding-left: 4.5rem;
+  display: flex;
+  align-items: center;
+
+  @media (min-width: 1200px) {
+    height: calc(8.1rem * var(--scale));
+    padding-left: calc(9.4rem * var(--scale));
+  }
+}
+
 /* sape */
