@@ -4356,6 +4356,10 @@ details-disclosure > details {
     font-size: 1.7rem;
     line-height: 2.1rem;
     font-weight: 600;
+
+      @media (min-width: 1200px) {
+        height: 10rem;
+      }
   }
 }
 
