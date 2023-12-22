@@ -1,12 +1,69 @@
+{{ 'section-footer.css' | asset_url | stylesheet_tag }}
+
+
+
+<!-- Welcome section starts -->
+
+
+  <section class="infoHeader">
+
+
+    <div>
+        <div>
+            <h4>{{ section.settings.FooterMenuTitle }}</h4>
+              {{ section.settings.FooterMenuText }}
+         </div>
+       
+          <div>
+            <h4>{{ section.settings.FooterHelpTitle }}</h4>
+           {{ section.settings.FooterHelpText}}
+         </div>
+         <div>
+              <h4>{{ section.settings.FooterServiceTitle }}</h4>
+              {{ section.settings.FooterServiceText}}
+          </div>     
+    </div>
+    
+   
+  </section>
+
+ 
+
+<!-- Welcome section ends -->
+
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Footer",
+    "settings": [
+       {
+    "id": "FooterCompetitiveTitle",
+    "type": "text",
+    "label": "Competitive title"
+  },
+ {
+    "id": "FooterCompetitiveText",
+    "type": "richtext",
+    "label": "Competitive text"
+  },
+  {
+    "id": "FooterMenuTitle",
+    "type": "text",
+    "label": "Menu title"
+  },
+  {
+    "id": "FooterMenuText",
+    "type": "richtext",
+    "label": "Description"
+  }   
+    ],"presets": [
+{
+"name": "InfoHeader",
+"category": "ADVANCED LAYOUT"
+}
+]
   }
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
 
 {% javascript %}
 {% endjavascript %}
