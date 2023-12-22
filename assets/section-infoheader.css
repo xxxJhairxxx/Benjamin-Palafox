@@ -12,6 +12,8 @@
 
 .infoheader-links {
   display: flex;
+  gap: calc(10.8rem * var(--scale));
+  
 }
 
 .infoheader li {
