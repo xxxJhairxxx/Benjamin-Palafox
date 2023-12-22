@@ -4389,6 +4389,43 @@ details-disclosure > details {
   }
 }
 
+.modal-size p {
+  display: block;
+  font-size: 1.67rem;
+  font-weight: 700;
+  line-height: 2.08rem;
+  color: #fff0c9;
+  position: relative;
+
+  @media (min-width: 1200px) {
+    font-size: calc(2.35rem * var(--scale));
+    line-height: calc(2.94rem * var(--scale));
+    text-transform: uppercase;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -3rem;
+    width: 2rem;
+    height: 2rem;
+    background: url("./eye-icon.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 100;
+  }
+}
+
+@media (min-width: 1200px) {
+  .modal-size p:before {
+    height: calc(3rem * var(--scale));
+    width: calc(3rem * var(--scale));
+    left: calc(-6rem * var(--scale));
+  }
+}
+
 .product-popup-modal__content {
   padding: 0 !important;
 }
