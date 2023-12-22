@@ -4332,7 +4332,7 @@ details-disclosure > details {
   padding: 1rem;
 }
 
-.table-row.desc .table-cell .cellCont:first-child{
+.table-row.desc .table-cell:first-child{
   background: #025159;
   border-radius: 0.47rem;
   padding: 1.25rem 2rem;
@@ -4343,7 +4343,7 @@ details-disclosure > details {
     
 }
 
-.table-row.desc .table-cell .cellCont:not(:first-child){
+.table-row.desc .table-cell:not(:first-child){
     background: white;
     border-radius: 0.96rem;
     padding: 1.51rem 2.13rem;
