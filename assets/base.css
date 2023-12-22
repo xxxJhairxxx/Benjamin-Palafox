@@ -4300,6 +4300,10 @@ details-disclosure > details {
 
 .table-cell {
   padding: 0.5rem;
+
+   @media (min-width: 1200px) {
+        paddding: calc(1rem * var(--scale));
+    }
 }
 
 .table-row.size {
@@ -4333,7 +4337,7 @@ details-disclosure > details {
         padding: calc(1.4rem * var(--scale)) calc(1.9rem * var(--scale));
         font-size: calc(1.7rem * var(--scale));
         line-height: calc(2.05rem * var(--scale));
-      }
+    }
   }
 }
 
