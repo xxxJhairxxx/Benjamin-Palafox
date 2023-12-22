@@ -983,6 +983,11 @@ a.product__text {
   font-family: var(--bodyFont);
   font-size: 1.6rem;
   line-height: 1.98rem;
+
+   @media (min-width: 1200px) {
+        font-size: calc(1.6rem * var(--scale));
+        line-height: calc(1.98rem * var(--scale));
+    }
 }
 
 .product-popup-modal__content-info > * {
