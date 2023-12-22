@@ -579,6 +579,7 @@
 
 
    {% assign description_sizes = product.metafields.custom %}
+    {% assign count = 0 %}
   {% if description_sizes %}
       <tr class='table-row'>
         {% assign size_count = description_sizes.sizes_detaills.value.size %}
@@ -589,6 +590,7 @@
           {% if index == 0 %}
             <tr>
               <td>{{description_sizes.description_sizes.value[index] }}</td>
+            
           {% endif %}
           <td class='table-cell'>{{ item }}</td>
           {% if index == 5 or forloop.last %}
