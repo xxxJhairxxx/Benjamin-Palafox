@@ -4326,6 +4326,8 @@ details-disclosure > details {
     font-size: 1.53rem;
     line-height: 1.69rem;
     font-weight: 700;
+    white-space: normal;
+    
   }
 }
 
@@ -4356,6 +4358,7 @@ details-disclosure > details {
     font-size: 1.7rem;
     line-height: 2.1rem;
     font-weight: 600;
+    white-space: normal;
   }
 }
 
