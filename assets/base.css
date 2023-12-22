@@ -4292,6 +4292,7 @@ details-disclosure > details {
 .table-description {
   border-spacing: 0;
   padding: 1.5rem;
+  display: none;
 }
 
 
