@@ -4328,7 +4328,7 @@ details-disclosure > details {
   border: 1px solid blue;
 }
 
-.table-row.desc td{
+.table-row.desc td div{
   &:first-child{
     background: #025159;
     border-radius: 0.47rem;
@@ -4341,7 +4341,7 @@ details-disclosure > details {
   }
 }
 
-.table-row.desc td:not(:first-child){
+.table-row.desc td div:not(:first-child){
     background: white;
     border-radius: 0.96rem;
     padding: 1.51rem 2.13rem;
