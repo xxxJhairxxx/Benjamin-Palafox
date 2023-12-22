@@ -4328,6 +4328,10 @@ details-disclosure > details {
   border: 1px solid blue;
 }
 
+.table-cell{
+  padding: 1rem;
+}
+
 .table-row.desc .table-cell .cellCont:first-child{
 
     background: #025159;
