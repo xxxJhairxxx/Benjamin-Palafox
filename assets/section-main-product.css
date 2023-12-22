@@ -896,7 +896,8 @@ a.product__text {
   margin: 0 auto;
   left: 50%;
   transform: translateX(-50%);
-  margin-top: 5rem;
+  /* margin-top: 5rem; */
+  margin-top: 14rem;
   width: 92%;
   position: absolute;
   top: 0;
