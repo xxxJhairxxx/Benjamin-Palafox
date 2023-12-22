@@ -4295,7 +4295,7 @@ details-disclosure > details {
   display: none;
 
   @media (min-width: 1200px) {
-      padding-top: calc(3rem * var(--scale));
+      padding-top: calc(5rem * var(--scale));
     
   }
 }
