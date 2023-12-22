@@ -4286,7 +4286,9 @@ details-disclosure > details {
 .table-description {
   border-spacing: 0;
   border: 2px solid red;
+  padding-inline: 2rem;
 }
+
 
 .table-row {
 }
@@ -4382,4 +4384,6 @@ details-disclosure > details {
   }
 }
 
-/* sape */
+.product-popup-modal__content {
+  padding: 0;
+}
