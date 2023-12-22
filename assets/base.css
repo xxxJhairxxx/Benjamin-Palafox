@@ -4307,7 +4307,7 @@ details-disclosure > details {
   padding: 0.5rem;
 
    @media (min-width: 1200px) {
-        padding: calc(0.7rem * var(--scale));
+        padding: calc(0.55rem * var(--scale));
     }
 }
 
