@@ -979,6 +979,7 @@ a.product__text {
 
 .product-popup-modal__content-info h1{
   color: red;
+  font-family: var(--bodyFont);
 }
 
 .product-popup-modal__content-info > * {
