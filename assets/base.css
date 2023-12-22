@@ -4338,6 +4338,7 @@ details-disclosure > details {
     color: white;
     font-size: 1.35rem;
     line-height: 1.68rem;
+    font-weight: 700;
   }
 }
 
