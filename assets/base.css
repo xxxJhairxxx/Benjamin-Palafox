@@ -4282,10 +4282,9 @@ details-disclosure > details {
 
 /* Tabla modal */
 .table-description {
-  border: 1px solid peru;
-  border-collapse: collapse;
 }
 
+<<<<<<< HEAD
 .table-row {
   border: 1px solid blue;
 }
@@ -4293,3 +4292,67 @@ details-disclosure > details {
 .table-cell {
   border: 1px solid blue;
 }
+=======
+.table-row{
+}
+
+.table-cell{
+  padding: 1rem;
+}
+
+.table-row.size{
+  border: 1px solid #025159 !important;
+}
+
+.table-row.size .table-cell:not(:first-child){
+
+  .cellCont{
+    background: red;
+    /* border-radius: 0.96rem;
+    padding: 1.51rem 2.13rem;
+    height: 5.52rem;
+    color: #606060;
+    font-size: 1.55rem;
+    line-height: 2.48rem; */
+  }
+ 
+}
+
+.table-row.desc .table-cell:first-child{
+  border-right: 1px solid #025159;
+}
+
+.table-row.desc .table-cell:first-child{
+
+  .cellCont{
+    background: #025159;
+    border-radius: 0.47rem;
+    padding: 1.25rem 2rem;
+    height: 4.6rem;
+    color: white;
+    font-size: 1.7rem;
+    line-height: 2.1rem;
+  }
+  
+}
+
+.table-row.desc .table-cell:not(:first-child){
+
+    .cellCont{
+      background: white;
+      border-radius: 0.96rem;
+      padding: 1.51rem 2.13rem;
+      height: 5.52rem;
+      color: #606060;
+      font-size: 1.55rem;
+      line-height: 2.48rem;
+    }
+   
+}
+
+.cellCont{
+}
+
+.table-cell{
+}
+>>>>>>> e6ef15ad17797e57242eabb406ec1f07f545a987

@@ -568,36 +568,43 @@
   <table class="table-description">
   {% assign description_sizes = product.metafields.custom.sizes_head.value %}
   {% if description_sizes %}
-    <tr class='table-row'>
+    <tr class='table-row size'>
       <td>Flat Lay Measurements</td>
       {% for size in description_sizes %}
-        <td class='table-cell'>{{ size }}</td>
+        <td class='table-cell'>
+          <div class='cellCont'>
+            {{ size }}
+          </div>
+         </td>
       {% endfor %}
     </tr>
   {% endif %}
     
-
-
-   {% assign description_sizes = product.metafields.custom %}
-    {% assign count = 0 %}
+  {% assign description_sizes = product.metafields.custom %}
+  {% assign count = 0 %}
   {% if description_sizes %}
       
-        {% assign size_count = description_sizes.sizes_detaills.value.size %}
-        {% for item in description_sizes.sizes_detaills.value %}
+    {% assign size_count = description_sizes.sizes_detaills.value.size %}
+    {% for item in description_sizes.sizes_detaills.value %}
           
-          {% assign index = forloop.index0 | modulo: 5 %}
-          {% assign count = forloop.index0 | divided_by: 5 %}
+      {% assign index = forloop.index0 | modulo: 5 %}
+      {% assign count = forloop.index0 | divided_by: 5 %}
         
-          {% if index == 0 %}
-            <tr class='table-row'>
-              <td>{{ description_sizes.description_sizes.value[count] }}</td>
-            
-          {% endif %}
-          <td class='table-cell'>{{ item }}</td>
-          {% if index == 5 or forloop.last %}
-            </tr>
-          {% endif %}
-        {% endfor %}
+      {% if index == 0 %}
+         <tr class='table-row desc'>
+          <td class='table-cell'>
+           <div class='cellCont'>
+            {{ description_sizes.description_sizes.value[count] }}   
+           </div>
+          </td>  
+      {% endif %}
+           <td class='table-cell'>
+            <div class='cellCont'>{{ item }}</div>
+           </td>  
+      {% if index == 5 or forloop.last %}
+         </tr>
+      {% endif %}
+    {% endfor %}
       
   {% endif %}
 
