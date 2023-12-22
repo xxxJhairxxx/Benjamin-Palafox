@@ -4385,5 +4385,5 @@ details-disclosure > details {
 }
 
 .product-popup-modal__content {
-  padding: 0;
+  padding: 0 !important;
 }
