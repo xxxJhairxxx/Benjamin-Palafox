@@ -1035,6 +1035,10 @@ a.product__text {
   position: fixed;
   top: 1.5rem;
   right: 1.5rem;
+
+    @media (min-width: 1200px) {
+      top: calc(1.5rem * var(--scale));
+    }
 }
 
 .product-popup-modal__toggle:hover {
