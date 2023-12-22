@@ -4348,7 +4348,7 @@ details-disclosure > details {
 
 .table-row.desc .table-cell:not(:first-child) {
   .cellCont {
-    background: white;
+    background: #fafafa;
     border-radius: 0.96rem;
     padding: 1.51rem 2.13rem;
     height: 5.52rem;
@@ -4359,7 +4359,7 @@ details-disclosure > details {
 }
 
 .cellCont {
-}
-
-.table-cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
