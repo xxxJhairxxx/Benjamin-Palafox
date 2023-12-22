@@ -43,16 +43,16 @@
 
   <script>
     document.addEventListener('DOMContentLoaded', function() {
-    // Selecciona el primer párrafo y la sección por su clase
-    var description = document.getElementsByClassName('table-description')[0];
-    var section = document.getElementsByClassName('product-popup-modal__content')[0];
+     // Selecciona el primer párrafo y la sección por su clase
+     var description = document.getElementsByClassName('table-description')[0];
+     var section = document.getElementsByClassName('product-popup-modal__content')[0];
 
-    // Verifica que los elementos sean válidos antes de intentar mover el párrafo
-    if (description && section) {
+     // Verifica que los elementos sean válidos antes de intentar mover el párrafo
+     if (description && section) {
         // Mueve el párrafo a la sección
         section.appendChild(description);
-    }
-});
+     }
+    });
   </script>
 
   {%- assign first_3d_model = product.media | where: 'media_type', 'model' | first -%}
@@ -565,35 +565,43 @@
     {%- endif -%}
   </div>
   
-  <div class="table-description">
-   {% assign description_sizes = product.metafields.custom.description_sizes.value %}
-  {% if description_sizes %}
-    <p>Description</p>
-    <ul>
-      {% for size in description_sizes %}
-        <li>{{ size }}</li>
-      {% endfor %}
-    </ul>
-  {% endif %}
+  <table class="table-description">
   {% assign description_sizes = product.metafields.custom.sizes_head.value %}
   {% if description_sizes %}
-    <p>Description</p>
-    <ul>
+    <tr class='table-row'>
+      <td>Flat Lay Measurements</td>
       {% for size in description_sizes %}
-        <li>{{ size }}</li>
+        <td class='table-cell'>{{ size }}</td>
       {% endfor %}
-    </ul>
+    </tr>
   {% endif %}
-  {% assign description_sizes = product.metafields.custom.sizes_detaills.value %}
+    
+
+
+   {% assign description_sizes = product.metafields.custom %}
+    {% assign count = 0 %}
   {% if description_sizes %}
-    <p>Description</p>
-    <ul>
-      {% for size in description_sizes %}
-        <li>{{ size }}</li>
-      {% endfor %}
-    </ul>
+      
+        {% assign size_count = description_sizes.sizes_detaills.value.size %}
+        {% for item in description_sizes.sizes_detaills.value %}
+          
+          {% assign index = forloop.index0 | modulo: 5 %}
+          {% assign count = forloop.index0 | divided_by: 5 %}
+        
+          {% if index == 0 %}
+            <tr class='table-row'>
+              <td>{{ description_sizes.description_sizes.value[count] }}</td>
+            
+          {% endif %}
+          <td class='table-cell'>{{ item }}</td>
+          {% if index == 5 or forloop.last %}
+            </tr>
+          {% endif %}
+        {% endfor %}
+      
   {% endif %}
-  </div>
+
+  </table>
 
                           
   {% render 'product-media-modal' variant_images: variant_images %}
