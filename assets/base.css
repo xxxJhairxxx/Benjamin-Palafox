@@ -3755,7 +3755,7 @@ details-disclosure > details {
 }
 
 /* li del header */
-.list-menu.list-menu--inline{
+.list-menu.list-menu--inline span{
   color: red;  
 }
 
