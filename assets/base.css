@@ -4504,6 +4504,10 @@ details-disclosure > details {
   border: 2px solid blue;
   padding-top: 3.9rem !important;
   padding-bottom: 5.3rem !important;
+
+   @media (min-width: 1200px) {
+    padding-top: calc(3.1rem * var(--scale));
+    padding-bottom: calc(8.9rem * var(--scale));
 }
 
 .related-products__heading.inline-richtext.h2{
