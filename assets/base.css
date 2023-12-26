@@ -4502,6 +4502,7 @@ details-disclosure > details {
   font-family: var(--bodyFont);
   font-size: 1.8rem;
   line-height: 2.23rem;
+  font-weight: 600;
 
   @media (min-width: 1200px) {
     font-size: calc(3rem * var(--scale));
