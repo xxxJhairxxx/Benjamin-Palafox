@@ -31,12 +31,11 @@
   
 }
 
-.infoheader-links li {
-    &:last-child{
+.infoheader-links li:last-child {
+
       &::after{
         display: none;
       }
-    }
   
 }
 
