@@ -4178,6 +4178,10 @@ details-disclosure > details {
   background: #f8f6f3;
 }
 
+.product__info-wrapper.grid__item{
+  background: #f8f6f3;
+}
+
 .product .multicolumn {
   display: none;
 
