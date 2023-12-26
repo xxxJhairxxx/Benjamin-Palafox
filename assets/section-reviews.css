@@ -429,4 +429,8 @@
    }
 }
 
+.reviews-list__item.grid__item slider__slide{
+  background: blue;
+}
+
 
