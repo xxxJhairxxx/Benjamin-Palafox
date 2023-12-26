@@ -4502,7 +4502,7 @@ details-disclosure > details {
 
 .section-template--17220397662443__related-products-padding{
   border: 2px solid blue;
-  padding: 0;
+  padding: 0 !important;
 }
 
 .related-products__heading.inline-richtext.h2{
