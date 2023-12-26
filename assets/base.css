@@ -4075,6 +4075,8 @@ details-disclosure > details {
 
 .section-template--17220397629675__d4e53bdf-33d7-4146-b235-d83944ee457f-padding {
   background-image: url("./featured-bg.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
 .card__information {
