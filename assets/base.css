@@ -4174,6 +4174,10 @@ details-disclosure > details {
   background: #f8f6f3;
 }
 
+.grid__item product__media-wrapper{
+  background: #f8f6f3;
+}
+
 .product .multicolumn {
   display: none;
 
@@ -4228,18 +4232,6 @@ details-disclosure > details {
   line-height: calc(3.04rem * var(--scale));
 }
 
-/*.product .product__media-item.grid__item.slider__slide {
- 
-  @media (min-width: 1200px) {
-    width: 20%;
-    margin-top: calc(2.59rem * var(--scale));
-    max-width: 20%;
-  }
-
-  &:first-child {
-    margin-top: 0;
-  }
-}  */
 
 .product__media-item.grid__item.slider__slide {
    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
