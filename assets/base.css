@@ -4500,6 +4500,10 @@ details-disclosure > details {
 
 /* Productos relacionados */
 
+.section-template--17220397662443__related-products-padding{
+  border: 2px solid blue;
+}
+
 .related-products__heading.inline-richtext.h2{
   font-family: var(--bodyFont);
   font-size: 1.8rem;
