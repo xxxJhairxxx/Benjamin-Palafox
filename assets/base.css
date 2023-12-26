@@ -3754,6 +3754,11 @@ details-disclosure > details {
   }
 }
 
+/* li del header */
+.list-menu.list-menu--inline{
+  color: red;  
+}
+
 .my-store.index .BannerPageInter {
   display: none;
 }
