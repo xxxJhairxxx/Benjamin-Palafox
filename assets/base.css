@@ -3793,7 +3793,7 @@ details-disclosure > details {
   @media (min-width: 1200px) {
     font-size: calc(1.9rem * var(--scale));
     line-height: calc(2.33rem * var(--scale));
-    width: calc(60.5rem * var(--scale));
+    width: calc(78.5rem * var(--scale));
     margin: 0 auto;
   }
 }
