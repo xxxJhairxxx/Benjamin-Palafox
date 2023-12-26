@@ -4497,3 +4497,7 @@ details-disclosure > details {
     display: none;
   }
 }
+
+.related-products__heading.inline-richtext.h2{
+  font-family: var(--bodyFont);
+}
