@@ -3756,7 +3756,11 @@ details-disclosure > details {
 
 /* li del header */
 .list-menu.list-menu--inline span{
-  color: red;  
+
+     @media (min-width: 1200px) {
+        font-size: calc(1.9rem * var(--scale));
+        line-height: calc(3.32rem * var(--scale));
+     }  
 }
 
 .my-store.index .BannerPageInter {
