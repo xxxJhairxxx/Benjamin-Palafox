@@ -4514,9 +4514,10 @@ details-disclosure > details {
 
 .product{
   border: 4px solid blue;
+  background-color: #F8F6F3 !important;
+  
 }
 
 .product .product-grid .grid__item{
   border: 2px solid red;
-  background-color: #F8F6F3 !important;
 }
