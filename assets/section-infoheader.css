@@ -27,7 +27,7 @@
     height: 100%;
     width: 2px;
     background: white;
-    right: calc(3rem * var(--scale));
+    right: calc(-5rem * var(--scale));
   
 }
 
