@@ -98,13 +98,9 @@
     },
     "94669b97-0ea1-4a60-9924-75c3c6eaa632": {
       "type": "featured-collection",
-<<<<<<< HEAD
-      "custom_css": [".color-background-1 {background: #F8F6F3;}"],
-=======
       "custom_css": [
         ".color-background-1 {background: #f8f6f3;}"
       ],
->>>>>>> c6918cd46ec74236d117dab797f49cdda43d9ce9
       "settings": {
         "title": "BEST SELLERS PRODUCTS",
         "heading_size": "h1",
@@ -144,7 +140,7 @@
         "description_style": "body",
         "collection": "leggins",
         "products_to_show": 4,
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
@@ -178,13 +174,9 @@
     },
     "d4e53bdf-33d7-4146-b235-d83944ee457f": {
       "type": "featured-collection",
-<<<<<<< HEAD
-      "custom_css": [".color-background-1 {/* background: #F8F6F3; */}"],
-=======
       "custom_css": [
         ".color-background-1 {\/* background: #dfcaad; *\/}"
       ],
->>>>>>> c6918cd46ec74236d117dab797f49cdda43d9ce9
       "settings": {
         "title": "<strong>GET EARLY ACCESS TO OUR NEWEST ARRIVALS<\/strong>",
         "heading_size": "h1",
