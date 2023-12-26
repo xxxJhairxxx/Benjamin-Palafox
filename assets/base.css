@@ -4536,7 +4536,7 @@ details-disclosure > details {
     &::before {
     content: "";
     position: absolute;
-    top: 0;
+    top: 1rem;
     left: -3rem;
     width: 2rem;
     height: 2rem;
