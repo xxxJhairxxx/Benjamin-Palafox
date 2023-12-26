@@ -29,4 +29,14 @@
   display: flex;
   align-items: center;
   gap: calc(1rem * var(--scale));
+  position: relative;
+
+  &::after{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 2px;
+    background: white;
+    right: 0;
+  }
 }
