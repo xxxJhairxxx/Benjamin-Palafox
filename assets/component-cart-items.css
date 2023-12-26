@@ -456,8 +456,9 @@ cart-remove-button .icon-remove {
   .cart__footer {
     background-color: white;
     padding-inline: calc(4rem * var(--scale));
-    margin-top: calc(11rem * var(--scale));
-    position: fixed;
+    position: sticky !important;
+    top: calc(30rem * var(--scale));
+    left: auto;
   }
 
   .btn-cart-close {

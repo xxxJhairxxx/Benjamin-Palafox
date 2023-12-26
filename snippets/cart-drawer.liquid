@@ -17,9 +17,9 @@
   }
 </style>
 
-<cart-drawer   class="drawer{% if cart == empty %} is-empty{% endif %}">
-  <div id="CartDrawer"   class="cart-drawer">
-    <div id="CartDrawer-Overlay"  class="cart-drawer__overlay"></div>
+<cart-drawer class="drawer{% if cart == empty %} is-empty{% endif %}">
+  <div id="CartDrawer" class="cart-drawer">
+    <div id="CartDrawer-Overlay" class="cart-drawer__overlay"></div>
     <div
       class="drawer__inner gradient color-{{ settings.cart_color_scheme }}"
       role="dialog"
@@ -31,8 +31,8 @@
       {%- if cart == empty -%}
         <div class="drawer__inner-empty">
           <div class="cart-drawer__warnings center{% if settings.cart_drawer_collection != blank %} cart-drawer__warnings--has-collection{% endif %}">
-            <div class="cart-drawer__empty-content" >
-              <h2 class="cart__empty-text"  >{{ 'sections.cart.empty' | t }}</h2>
+            <div class="cart-drawer__empty-content">
+              <h2 class="cart__empty-text">{{ 'sections.cart.empty' | t }}</h2>
               <button
                 class="drawer__close"
                 type="button"
@@ -60,9 +60,20 @@
           {%- endif -%}
         </div>
       {%- endif -%}
-      <div class="drawer__header" style="background-color: var(--primary);width:100%;padding-inline:4%;padding-block:0.3rem">
-       {% render 'icon-bag' %} <h2 class="drawer__heading" style="color: #FFF0C9;font-family: 'Harmonia Sans';
-    font-weight: 300;">Shopping bag</h2>
+      <div
+        class="drawer__header"
+        style="background-color: var(--primary);width:100%;padding-inline:4%;padding-block:0.3rem"
+      >
+        {% render 'icon-bag' %}
+        <h2
+          class="drawer__heading"
+          style="
+            color: #FFF0C9;font-family: 'Harmonia Sans';
+            font-weight: 300;
+          "
+        >
+          Shopping bag
+        </h2>
         <button
           class="drawer__close"
           type="button"
@@ -73,7 +84,8 @@
           {% render 'icon-close-small' %}
         </button>
       </div>
-      <cart-drawer-items style="overflow: hidden;"
+      <cart-drawer-items
+        style="overflow: hidden;"
         {% if cart == empty %}
           class=" is-empty"
         {% endif %}
@@ -84,13 +96,18 @@
           class="cart__contents cart-drawer__form"
           method="post"
         >
-          <div id="CartDrawer-CartItems"   class="drawer__contents js-contents">
+          <div id="CartDrawer-CartItems" class="drawer__contents js-contents">
             {%- if cart != empty -%}
               <div class="drawer__cart-items-wrapper ">
-                <table class="cart-items"  role="table">
-                  <tbody role="rowgroup" >
+                <table class="cart-items" role="table">
+                  <tbody role="rowgroup">
                     {%- for item in cart.items -%}
-                      <tr style="position: relative;padding:2%;padding-right:10%;padding-top:3rem"  id="CartDrawer-Item-{{ item.index | plus: 1 }}" class="cart-item" role="row">
+                      <tr
+                        style="position: relative;padding:2%;padding-right:10%;padding-top:3rem"
+                        id="CartDrawer-Item-{{ item.index | plus: 1 }}"
+                        class="cart-item"
+                        role="row"
+                      >
                         <td class="cart-item__media" role="cell" headers="CartDrawer-ColumnProductImage">
                           {% if item.image %}
                             {% comment %} Leave empty space due to a:empty CSS display: none rule {% endcomment %}
@@ -108,19 +125,19 @@
 
                         <td class="cart-item__details" role="cell" headers="CartDrawer-ColumnProduct">
                           <cart-remove-button
-                                id="CartDrawer-Remove-{{ item.index | plus: 1 }}"
-                                data-index="{{ item.index | plus: 1 }}"
-                                style="position: absolute;right:8px;top:17px"
-                              >
-                                <button
-                                  type="button"
-                                  class="button button--tertiary cart-remove-button"
-                                  aria-label="{{ 'sections.cart.remove_title' | t: title: item.title }}"
-                                  data-variant-id="{{ item.variant.id }}"
-                                >
-                                  {% render 'icon-remove' %}
-                                </button>
-                              </cart-remove-button>
+                            id="CartDrawer-Remove-{{ item.index | plus: 1 }}"
+                            data-index="{{ item.index | plus: 1 }}"
+                            style="position: absolute;right:8px;top:17px"
+                          >
+                            <button
+                              type="button"
+                              class="button button--tertiary cart-remove-button"
+                              aria-label="{{ 'sections.cart.remove_title' | t: title: item.title }}"
+                              data-variant-id="{{ item.variant.id }}"
+                            >
+                              {% render 'icon-remove' %}
+                            </button>
+                          </cart-remove-button>
                           {%- if settings.show_vendor -%}
                             <p class="caption-with-letter-spacing light">{{ item.product.vendor }}</p>
                           {%- endif -%}
@@ -207,7 +224,6 @@
                             {%- endfor -%}
                           </ul>
 
-                              
                           <quantity-popover>
                             <div class="cart-item__quantity-wrapper quantity-popover-wrapper">
                               <div class="quantity-popover-container{% if has_qty_rules or has_vol_pricing %} quantity-popover-container--hover{% endif %}">
@@ -252,7 +268,6 @@
                                   </button>
                                 </quantity-input>
                               </div>
-                              
                             </div>
                             {%- if has_qty_rules or has_vol_pricing -%}
                               <button
@@ -354,7 +369,7 @@
                               </svg>
                             </div>
                           </quantity-popover>
-                           <div class="cart-item__price-wrapper">
+                          <div class="cart-item__price-wrapper">
                             {%- if item.original_line_price != item.final_line_price -%}
                               <div class="cart-item__discounted-prices">
                                 <span class="visually-hidden">
@@ -371,7 +386,7 @@
                                 </span>
                               </div>
                             {%- else -%}
-                              <span class="price price--end" >
+                              <span class="price price--end">
                                 {{ item.original_line_price | money }}
                               </span>
                             {%- endif -%}
@@ -404,14 +419,13 @@
                             assign has_vol_pricing = true
                           endif
                         -%}
-                    
                       </tr>
                     {%- endfor -%}
                   </tbody>
                 </table>
               </div>
             {%- endif -%}
-            <p id="CartDrawer-LiveRegionText"  class="visually-hidden" role="status"></p>
+            <p id="CartDrawer-LiveRegionText" class="visually-hidden" role="status"></p>
             <p id="CartDrawer-LineItemStatus" class="visually-hidden" aria-hidden="true" role="status">
               {{ 'accessibility.loading' | t }}
             </p>
@@ -419,9 +433,9 @@
           <div id="CartDrawer-CartErrors" role="alert"></div>
         </form>
       </cart-drawer-items>
-      <div class="drawer__footer" >
+      <div class="drawer__footer">
         {%- if settings.show_cart_note -%}
-          <details id="Details-CartDrawer" >
+          <details id="Details-CartDrawer">
             <summary>
               <span class="summary__title">
                 {{ 'sections.cart.note' | t }}
@@ -443,7 +457,7 @@
         <!-- Start blocks -->
         <!-- Subtotals -->
 
-        <div class="cart-drawer__footer" style="width:90%;margin-inline:auto;margin-block:5%" {{ block.shopify_attributes }}>
+        <div class="cart-drawer__footer" style="" {{ block.shopify_attributes }}>
           <div>
             {%- if cart.cart_level_discount_applications.size > 0 -%}
               <ul class="discounts list-unstyled" role="list" aria-label="{{ 'customer.order.discount' | t }}">
@@ -458,7 +472,7 @@
             {%- endif -%}
           </div>
 
-          <div class="totals" role="status" >
+          <div class="totals" role="status">
             <h2 class="totals__total">{{ 'sections.cart.estimated_total' | t }}</h2>
             <p class="totals__total-value">{{ cart.total_price | money_with_currency }}</p>
           </div>
