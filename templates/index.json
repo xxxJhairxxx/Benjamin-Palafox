@@ -281,7 +281,7 @@
       ],
       "settings": {
         "title": "WHAT OUR CUSTOMERS SAY",
-        "description": "Lorem Ipsum blahd",
+        "description": "All reviews have been written by customers who have actually purchased the product.",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
