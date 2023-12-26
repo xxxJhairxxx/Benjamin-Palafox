@@ -305,7 +305,7 @@
         ".experienceMiddle span {text-align: center;}"
       ],
       "settings": {
-        "custom_liquid": "<div class='experienceMiddle'>\n  <p>\n    EXPERIENCE THE UNIQUE STYLE \n    OF OUR SPORTSWEAR \n    COLLECTION\n  <\/p>\n  <span>\n    Elevate your fitness and \n    wellness journey with \n    Women's Best. Our \n    athletic apparel and \n    innovative supplements \n    are designed to help you \n    look, feel, and perform \n    your best.\n  <\/span>\n<\/div>",
+        "custom_liquid": "<div class='experienceMiddle'>\n  <p>\n    EXPERIENCE THE UNIQUE \n    STYLE OF OUR SPORTSWEAR \n    COLLECTION\n  <\/p>\n  <span>\n   Our sportswear is \n   specifically designed to \n   help you dominate your \n   workout, whether you're \n   pushing yourself in the \n   gym or pushing your limits \n   in the great outdoors.\n  <\/span>\n<\/div>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
