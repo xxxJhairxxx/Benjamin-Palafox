@@ -278,6 +278,7 @@ cart-remove-button .icon-remove {
     box-shadow: none;
     width: 100%;
     display: table;
+    background-color: white;
   }
 
   .cart-items th {
@@ -360,4 +361,7 @@ cart-remove-button .icon-remove {
   .cart-items .quantity-popover__info-button {
     padding-left: 1.5rem;
   }
+}
+
+@media screen and (min-width: 1200px) {
 }
