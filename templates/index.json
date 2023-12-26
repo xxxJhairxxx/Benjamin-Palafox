@@ -130,7 +130,8 @@
     "65270fa5-31d1-470b-a657-8eb84c515f7e": {
       "type": "featured-collection",
       "custom_css": [
-        ".color-background-1 {background: var(--secondary);}"
+        ".color-background-1 {background: var(--secondary);}",
+        ".grid__item.slider__slide {background: #FFF7E3;}"
       ],
       "settings": {
         "title": "WOMEN'S WORKOUT LEGGINS",
