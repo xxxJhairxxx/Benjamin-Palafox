@@ -4508,6 +4508,7 @@ details-disclosure > details {
    @media (min-width: 1200px) {
     padding-top: calc(3.1rem * var(--scale)) !important;
     padding-bottom: calc(8.9rem * var(--scale)) !important;
+  }
 }
 
 .related-products__heading.inline-richtext.h2{
