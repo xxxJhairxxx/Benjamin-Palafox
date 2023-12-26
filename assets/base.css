@@ -4500,4 +4500,11 @@ details-disclosure > details {
 
 .related-products__heading.inline-richtext.h2{
   font-family: var(--bodyFont);
+  font-size: 1.8rem;
+  line-height: 2.23rem;
+
+  @media (min-width: 1200px) {
+    font-size: calc(3rem * var(--scale));
+    line-height: calc(3.72rem * var(--scale));
+  }
 }
