@@ -4240,7 +4240,7 @@ details-disclosure > details {
   }
 }  */
 
-.thumbnail-list__item.slider__slide.thumbnail-list_item--variant{
+.thumbnail-list__item.slider__slide{
     border: 3px solid red;
 }
 
