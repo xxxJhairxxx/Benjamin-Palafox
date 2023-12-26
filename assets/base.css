@@ -4187,7 +4187,7 @@ details-disclosure > details {
 
   @media (min-width: 1200px) {
     display: block;
-    background: white;
+    background: #f8f6f3;
   }
 }
 
