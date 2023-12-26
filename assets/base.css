@@ -4240,6 +4240,10 @@ details-disclosure > details {
   }
 }  */
 
+.thumbnail-list__item.slider__slide.thumbnail-list_item--variant{
+    border: 3px solid red;
+}
+
 /* Acordeon de producto detalle */
 
 .product .accordion {
