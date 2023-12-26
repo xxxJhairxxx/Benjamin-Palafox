@@ -3085,7 +3085,8 @@ details-disclosure > details {
 
 .gradient {
   background: rgb(var(--color-background));
-  background: var(--gradient-background);
+  /* background: var(--gradient-background); */
+  background: #F8F6F3;
   background-attachment: fixed;
 }
 
@@ -4173,13 +4174,25 @@ details-disclosure > details {
   background: #f8f6f3;
 }
 
+.grid__item.product__media-wrapper{
+  background: #f8f6f3;
+}
+
+.product__info-wrapper.grid__item{
+  background: #f8f6f3;
+}
+
 .product .multicolumn {
   display: none;
 
   @media (min-width: 1200px) {
     display: block;
-    background: white;
+    background: #f8f6f3;
   }
+}
+
+.section-template--17220397662443__5801ace9-8869-4e43-b519-073f25523e07-padding{
+    background: white;
 }
 
 .product .multicolumn .inline-richtext {
@@ -4227,19 +4240,15 @@ details-disclosure > details {
   line-height: calc(3.04rem * var(--scale));
 }
 
-.product .product__media-item.grid__item.slider__slide {
-  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
-  /* width: 25%;
-  max-width: 25%; */
-  @media (min-width: 1200px) {
-    width: 20%;
-    margin-top: calc(2.59rem * var(--scale));
-    max-width: 20%;
-  }
 
-  &:first-child {
-    margin-top: 0;
-  }
+.product__media-item.grid__item.slider__slide {
+   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+  
+}
+
+.thumbnail-list__item.slider__slide{
+   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    border: none;
 }
 
 /* Acordeon de producto detalle */
@@ -4487,5 +4496,54 @@ details-disclosure > details {
   &::after,
   &::before {
     display: none;
+  }
+}
+
+/* Productos relacionados */
+
+.section-template--17220397662443__related-products-padding{
+  padding-top: 3.9rem !important;
+  padding-bottom: 5.3rem !important;
+
+   @media (min-width: 1200px) {
+    border-top: 1.5px solid #025159;
+    margin-top: calc(8.6rem * var(--scale));
+    padding-top: calc(3.1rem * var(--scale)) !important;
+    padding-bottom: calc(8.9rem * var(--scale)) !important;
+  }
+}
+
+.related-products__heading.inline-richtext.h2{
+  font-family: var(--bodyFont);
+  font-size: 1.8rem;
+  line-height: 2.23rem;
+  font-weight: 600;
+
+  @media (min-width: 1200px) {
+    font-size: calc(3rem * var(--scale));
+    line-height: calc(3.72rem * var(--scale));
+  }
+}
+
+.product .product-grid .grid__item{
+  /* border: 2px solid black; */
+}
+
+.product-popup-modal__button.link{
+  position: relative;
+  padding-left: 2.7rem;
+
+    &::before {
+    content: "";
+    position: absolute;
+    top: 1rem;
+    left: 0rem;
+    width: 2rem;
+    height: 2rem;
+    background: url("./ruler-icon2.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 100;
   }
 }
