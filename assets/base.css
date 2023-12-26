@@ -4531,4 +4531,19 @@ details-disclosure > details {
 
 .product-popup-modal__button.link{
   border: 2px solid blue;
+  position: relative;
+
+    &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -3rem;
+    width: 2rem;
+    height: 2rem;
+    background: url("./ruler-icon.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 100;
+  }
 }
