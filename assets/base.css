@@ -4498,6 +4498,8 @@ details-disclosure > details {
   }
 }
 
+/* Productos relacionados */
+
 .related-products__heading.inline-richtext.h2{
   font-family: var(--bodyFont);
   font-size: 1.8rem;
@@ -4508,4 +4510,8 @@ details-disclosure > details {
     font-size: calc(3rem * var(--scale));
     line-height: calc(3.72rem * var(--scale));
   }
+}
+
+.product .product-grid .grid__item{
+  border: 2px solid red;
 }
