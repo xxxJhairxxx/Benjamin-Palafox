@@ -3949,6 +3949,11 @@ details-disclosure > details {
   font-weight: 400;
   font-size: 22px;
   line-height: 27.29px;
+
+    @media (min-width: 1200px) {
+      font-size: calc(1.9rem * var(--scale));
+      line-height: calc(2.33rem * var(--scale));
+    }
 }
 
 .multicolumn-card {
