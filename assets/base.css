@@ -4532,12 +4532,13 @@ details-disclosure > details {
 .product-popup-modal__button.link{
   border: 2px solid blue;
   position: relative;
+  padding-left: 3rem;
 
     &::before {
     content: "";
     position: absolute;
     top: 1rem;
-    left: -3rem;
+    left: 0rem;
     width: 2rem;
     height: 2rem;
     background: url("./ruler-icon2.svg");
