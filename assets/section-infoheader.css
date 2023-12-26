@@ -22,13 +22,12 @@
 }
 
 .infoheader-links li:after {
-    
     content: '';
     position: absolute;
     height: 100%;
     width: 2px;
     background: white;
-    right: 0;
+    right: calc(3rem * var(--scale));
   
 }
 
