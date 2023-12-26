@@ -4528,3 +4528,7 @@ details-disclosure > details {
 .product .product-grid .grid__item{
   /* border: 2px solid black; */
 }
+
+.product-popup-modal__button.link{
+  border: 2px solid blue;
+}
