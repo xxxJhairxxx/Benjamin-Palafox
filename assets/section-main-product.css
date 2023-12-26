@@ -970,6 +970,11 @@ a.product__text {
   text-underline-offset: 0.3rem;
   text-decoration-thickness: 0.1rem;
   transition: text-decoration-thickness var(--duration-short) ease;
+
+   @media (min-width: 1200px) {
+    font-size: calc(1.9rem * var(--scale));
+    line-height: calc(3.04rem * var(--scale));
+  }
 }
 
 .product-popup-modal__button:hover {
