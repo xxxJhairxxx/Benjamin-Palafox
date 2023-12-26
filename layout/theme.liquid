@@ -8,7 +8,6 @@
     <link rel="canonical" href="{{ canonical_url }}">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-
     {%- if settings.favicon != blank -%}
       <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
     {%- endif -%}
@@ -259,8 +258,8 @@
       {{ settings.title_font | font_face }}
       {{ settings.bodySemibold_font | font_face }}
       {{ settings.bodyRegular_font | font_face }}
-  
-      
+
+
       :root {
           --bannerFont: {{ settings.banner_font.family }};
           --banner2Font: {{ settings.banner2_font.family }};
@@ -268,13 +267,9 @@
           --bodySemiboldFont: {{ settings.bodySemibold_font.family }};
           --bodyRegularFont: {{ settings.bodyRegular_font.family }};
 
-        
+
           --bannerFontWeight: {{ settings.banner_font.weight }};
       }
-
-      
-
-  
     </style>
     {{ 'base.css' | asset_url | stylesheet_tag }}
     {{ 'Faqs.amg.css' | asset_url | stylesheet_tag }}
@@ -308,7 +303,10 @@
     </script>
   </head>
 
-  <body  style="background-color: #F8F6F3;"  class="gradient{% if settings.animations_hover_elements != 'none' %}  animate--hover-{{ settings.animations_hover_elements }}{% endif %} {{ page_title | handle }} {{ template.name }}">
+  <body
+    style="background-color: #F8F6F3;"
+    class="gradient{% if settings.animations_hover_elements != 'none' %}  animate--hover-{{ settings.animations_hover_elements }}{% endif %} {{ page_title | handle }} {{ template.name }}"
+  >
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ 'accessibility.skip_to_text' | t }}
     </a>
@@ -319,7 +317,12 @@
 
     {% sections 'header-group' %}
 
-    <main id="MainContent" class="content-for-layout focus-none"  role="main" tabindex="-1">
+    <main
+      id="MainContent"
+      class="content-for-layout focus-none {% if request.path =="/cart" %}cart_page_ultimate{% endif %}"
+      role="main"
+      tabindex="-1"
+    >
       {{ content_for_layout }}
     </main>
 
