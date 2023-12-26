@@ -22,7 +22,7 @@
 }
 
 .infoheader li {
-  font-size: calc(rem * var(--scale));
+  font-size: calc(1.6rem * var(--scale));
   line-height: calc(2.94rem * var(--scale));
   list-style: none;
   color: white;
