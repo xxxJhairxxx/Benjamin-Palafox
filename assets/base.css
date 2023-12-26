@@ -4512,6 +4512,10 @@ details-disclosure > details {
   }
 }
 
+.product{
+  border: 4px solid blue;
+}
+
 .product .product-grid .grid__item{
   border: 2px solid red;
 }
