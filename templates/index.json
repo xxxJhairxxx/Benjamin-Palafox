@@ -102,9 +102,9 @@
         ".color-background-1 {background: #f8f6f3;}"
       ],
       "settings": {
-        "title": "BEST SELLERS PRODUCTS",
+        "title": "WOMEN'S BOXERS & BIKER SHORTS",
         "heading_size": "h1",
-        "description": "<p>Our top recommendations for you<\/p>",
+        "description": "<p>Experience all-day comfort with our women's biker shorts and boxers. <\/p>",
         "show_description": false,
         "description_style": "body",
         "collection": "best-seller",
@@ -133,9 +133,9 @@
         ".color-background-1 {background: var(--secondary);}"
       ],
       "settings": {
-        "title": "<strong>SHOP OUR FAVORITES<\/strong>",
+        "title": "WOMEN'S WORKOUT LEGGINGS",
         "heading_size": "h1",
-        "description": "<p>holitas cher y short<\/p>",
+        "description": "<p>Discover the leggings everyone's talking about! Shop our best sellers for a perfect blend of style and comfort for you.<\/p>",
         "show_description": false,
         "description_style": "body",
         "collection": "leggins",
@@ -166,7 +166,7 @@
         ".discoverMiddle span {color: #fff0c9;}"
       ],
       "settings": {
-        "custom_liquid": "<div class='discoverMiddle'>\n<p>\n<span>\n  DISCOVER <\/span> STYLISH AND \n  FUNCTIONAL SPORTSWEAR DESIGNED \n <span> FOR YOUR BEST PERFORMANCE <\/span>\n<\/p>\n<\/div>",
+        "custom_liquid": "<div class='discoverMiddle'>\n<p>WE ARE CONFIDENT THAT YOU WILL LOVE\n<span>\n  OUR SPORTSWEAR COLLECTION.<\/span> IF YOU ARE NOT COMPLETELY SATISFIED,\n <span>YOU CAN RETURN IT ANY TIME!<\/span>\n<\/p>\n<\/div>",
         "color_scheme": "background-2",
         "padding_top": 0,
         "padding_bottom": 0
@@ -178,9 +178,9 @@
         ".color-background-1 {\/* background: #dfcaad; *\/}"
       ],
       "settings": {
-        "title": "<strong>GET EARLY ACCESS TO OUR NEWEST ARRIVALS<\/strong>",
+        "title": "SPORTS BRA",
         "heading_size": "h1",
-        "description": "<p>Exercise with the most comfy bras<\/p>",
+        "description": "<p>Avita Athletica’s bras have been specifically designed to suit all body types, so you can finally feel confident and comfortable in your own skin<\/p>",
         "show_description": false,
         "description_style": "body",
         "collection": "bras",
@@ -209,9 +209,9 @@
         ".color-background-1 {background: #f8f6f3;}"
       ],
       "settings": {
-        "title": "<strong>MAN SECTIONS<\/strong>",
+        "title": "MEN'S BOXERS & HOODIES",
         "heading_size": "h1",
-        "description": "<p>Check out what's new! We've just added fresh styles and items.<\/p>",
+        "description": "<p>Explore our latest collection of comfortable boxers and stylish hoodies.<\/p>",
         "show_description": false,
         "description_style": "body",
         "collection": "men",
