@@ -4240,6 +4240,11 @@ details-disclosure > details {
   }
 }  */
 
+.product__media-item.grid__item.slider__slide.product__media-item--variant {
+   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+  
+}
+
 .thumbnail-list__item.slider__slide{
    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
     border: none;
