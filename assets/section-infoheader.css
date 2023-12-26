@@ -31,6 +31,15 @@
   
 }
 
+.infoheader-links li {
+    &:last-child{
+      &::after{
+        display: none;
+      }
+    }
+  
+}
+
 .infoheader li {
   font-size: calc(1.6rem * var(--scale));
   line-height: calc(2.94rem * var(--scale));
