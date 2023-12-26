@@ -4545,5 +4545,10 @@ details-disclosure > details {
     background-size: contain;
     background-repeat: no-repeat;
     z-index: 100;
+
+   @media (min-width: 1200px) {
+     width: calc(3rem * var(--scale));
+     height: calc(3rem * var(--scale));
+   }
   }
 }
