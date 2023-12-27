@@ -123,7 +123,7 @@
     "checkout_logo_position": "center",
     "checkout_accent_color": "#156f21",
     "checkout_button_color": "#1b4743",
-    "checkout_layout": "threepage",
+    "checkout_layout": "onepage",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
