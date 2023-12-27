@@ -3771,7 +3771,7 @@ details-disclosure > details {
 .list-menu.list-menu--inline li {
    @media (min-width: 1200px) {
      color: #025159;
-     padding-inline: calc(1.5rem * var(--scale)) !important;
+     padding-inline: calc(1rem * var(--scale)) !important;
      
    }
 }
