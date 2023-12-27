@@ -119,6 +119,10 @@
     "show_cart_note": false,
     "cart_drawer_collection": "",
     "cart_color_scheme": "background-1",
+    "checkout_logo_position": "center",
+    "checkout_sidebar_background_image": "shopify:\/\/shop_images\/the-best-sportswear-for-every-shape-size-and-style.jpg",
+    "checkout_accent_color": "#156f21",
+    "checkout_button_color": "#1b4743",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
@@ -393,5 +397,10 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      "h2s {color: #1b4743;}"
+    ]
   }
 }
