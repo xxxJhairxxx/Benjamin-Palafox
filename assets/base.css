@@ -3754,6 +3754,10 @@ details-disclosure > details {
   }
 }
 
+.header__search{
+  display: none;
+}
+
 /* li del header */
 .list-menu.list-menu--inline span{
 
