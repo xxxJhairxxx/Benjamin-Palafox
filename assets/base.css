@@ -3755,7 +3755,7 @@ details-disclosure > details {
 }
 
 .header__search{
-  display: none;
+  display: none !important;
 }
 
 /* li del header */
