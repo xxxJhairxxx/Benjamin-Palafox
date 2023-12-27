@@ -3762,6 +3762,12 @@ details-disclosure > details {
   display: none !important;
 }
 
+.list-menu.list-menu--inline{
+  @media (min-width: 1200px) {
+    gap: calc(3rem * var(--scale)) !important;
+  }
+}
+
 /* li del header */
 .list-menu.list-menu--inline span{
 
