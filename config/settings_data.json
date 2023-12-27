@@ -400,8 +400,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "h2 {color: #1b4743 !important;}",
-      "[dir=\"ltr\"] ._16s97g72k {background: red;}"
+      "._1fragemfc._1fragemlg._1frageme0 aside{background: red !important;}"
     ]
   }
 }
