@@ -400,7 +400,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "h2s {color: #1b4743;}"
+      "h2 {color: #1b4743 !important;}"
     ]
   }
 }
