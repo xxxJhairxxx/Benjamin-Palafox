@@ -3,6 +3,7 @@
     "swatchColors": "Black:#000000\nWhite:#f5f5f5\nBlue:#005eff\nRed:#c9002c\nPink:#ffd5e6\nBrown:#a2896b\nOlive:#808000\nPurple:#dac6ef\nGrey:#e2e2e7\nBeige:#d8c7af\nNavy: #073974\nBlue LT: #c1cbec\nGreen: #023c19\nBurgundy: #800020\nLavander: #E9CBFF\nApricot: #FFB16D\nBlue Steel: #4682B4\nDenim: #6F8FAF",
     "logo": "shopify:\/\/shop_images\/Group_154.svg",
     "logo_width": 220,
+    "favicon": "shopify:\/\/shop_images\/avita-logo.png",
     "type_header_font": "prompt_n7",
     "heading_scale": 100,
     "type_body_font": "harmonia_sans_n4",
