@@ -2544,6 +2544,10 @@ product-info .loading__spinner:not(.hidden) ~ *,
     grid-template-areas: "heading navigation icons";
     grid-template-columns: auto auto 1fr;
     column-gap: 2rem;
+
+    @media (min-width: 1200px) {
+      column-gap: calc(9rem * var(--scale));
+    }
   }
 
   .header--middle-center:not(.drawer-menu) {
