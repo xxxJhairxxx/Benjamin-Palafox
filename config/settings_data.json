@@ -400,7 +400,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "._1fragemfc._1fragemlg._1frageme0 aside{background: red !important;}"
+      ".Polaris-Frame__Main_yj28s {background: red !important;}"
     ]
   }
 }
