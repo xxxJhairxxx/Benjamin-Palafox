@@ -68,6 +68,14 @@
         "aboutCardTitle": "JOIN US ON THE JOURNEY",
         "aboutCardText": "<p>We invite you to explore our collections, each piece a testament to our dedication to your athletic experience. Join us on this journey where design, craftsmanship, and performance converge. Thank you for choosing Avita Athletica—where your journey begins in style.<\/p>"
       }
+    },
+    "e9d791a0-cf69-4b1c-a2de-61e2a97fc664": {
+      "type": "sectionMiddle",
+      "settings": {
+        "titleStartMiddle": "Experience the unique style of our sportswear collection.",
+        "titleEndMiddle": "",
+        "titleContentMiddle": "<p>Elevate your fitness and wellness journey with Women's Best. Our athletic apparel and innovative supplements are designed to help you look, feel, and perform your best.<\/p>"
+      }
     }
   },
   "order": [
@@ -78,6 +86,7 @@
     "e4679374-f1fd-41de-ba10-cb2d82dd9d4a",
     "4410ccd4-1c92-4e61-8aa4-b7f8d3ae0968",
     "f944ce35-766a-45fd-953e-f4982a466de0",
-    "4fd305a0-efa1-460e-8e70-c1eb039ce06b"
+    "4fd305a0-efa1-460e-8e70-c1eb039ce06b",
+    "e9d791a0-cf69-4b1c-a2de-61e2a97fc664"
   ]
 }
