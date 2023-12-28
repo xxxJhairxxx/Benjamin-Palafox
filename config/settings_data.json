@@ -128,7 +128,7 @@
     "checkout_sidebar_background_color": "#ffffff",
     "checkout_accent_color": "#025159",
     "checkout_button_color": "#025159",
-    "checkout_layout": "threepage",
+    "checkout_layout": "onepage",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
