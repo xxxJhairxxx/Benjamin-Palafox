@@ -422,4 +422,14 @@ cart-drawer-items::-webkit-scrollbar-track-piece {
   .cart-drawer .tax-note {
     padding-inline: calc(3rem * var(--scale));
   }
+  .cart-drawer h2.cart__empty-text {
+    color: var(--primary);
+  }
+  .drawer__inner-empty  a {
+    background-color: var(--primary);
+    border-radius: 1.5rem;
+    &::after {
+      display: none;
+    }
+  }
 }
