@@ -125,7 +125,7 @@
     "checkout_logo_position": "center",
     "checkout_body_background_color": "#f8f6f3",
     "checkout_input_background_color_mode": "white",
-    "checkout_sidebar_background_color": "#f8f6f3",
+    "checkout_sidebar_background_color": "#ffffff",
     "checkout_accent_color": "#025159",
     "checkout_button_color": "#025159",
     "checkout_layout": "threepage",
