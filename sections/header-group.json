@@ -6,8 +6,11 @@
       "type": "infoHeader",
       "settings": {
         "address": "Los Angeles, CA 90011",
-        "phone": "(213) 700-2382",
-        "email": "customer@avitaathletica.com",
+        "addressUrl": "https:\/\/maps.app.goo.gl\/nEnJebuA6SDrfWKFA",
+        "phone": "tel:(213) 700-2382",
+        "phoneUrl": "tel:(213) 700-2382",
+        "email": "mailto:customer@amgbusiness.us",
+        "emailUrl": "mailto:customer@amgbusiness.us",
         "schedule": "Monday to Friday (8:00am - 4:30pm)"
       }
     },

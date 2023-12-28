@@ -19,14 +19,15 @@
     "f9d0d7cc-3da7-4830-9021-e31580f63c24": {
       "type": "custom-liquid",
       "custom_css": [
+        "div {background: transparent;}",
         ".abouttext {padding-inline: 10%; text-align: center;}",
-        ".abouttext-p {max-width: calc(110rem * var(--scale)); margin: auto;}"
+        ".abouttext-p {font-size: calc(2rem * var(--scale)); max-width: calc(150rem * var(--scale)); margin: auto;}"
       ],
       "settings": {
         "custom_liquid": "<section class='abouttext'>\n<p class='abouttext-p'>\nWelcome to Avita Athletica, where passion meets performance! We take pride in crafting sportswear that not only looks good but is born from our dedication to quality and innovation.<\/h2>\n<\/section>",
-        "color_scheme": "",
+        "color_scheme": "background-1",
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 84
       }
     },
     "70f032ef-2858-4314-aa22-45fd885dc7fa": {
@@ -69,6 +70,17 @@
         "aboutCardText": "<p>We invite you to explore our collections, each piece a testament to our dedication to your athletic experience. Join us on this journey where design, craftsmanship, and performance converge. Thank you for choosing Avita Athletica—where your journey begins in style.<\/p>"
       }
     },
+    "9d28587b-47ab-4447-b9bd-50d875b2f1d7": {
+      "type": "statistics",
+      "settings": {
+        "item1Title": "3.5K+",
+        "item1Text": "<p>Products Sold<\/p>",
+        "item2Title": "1k+",
+        "item2Text": "<p>International Shipments<\/p>",
+        "item3Title": "2k+",
+        "item3Text": "<p>Happy customers<\/p>"
+      }
+    },
     "e9d791a0-cf69-4b1c-a2de-61e2a97fc664": {
       "type": "sectionMiddle",
       "settings": {
@@ -87,6 +99,7 @@
     "4410ccd4-1c92-4e61-8aa4-b7f8d3ae0968",
     "f944ce35-766a-45fd-953e-f4982a466de0",
     "4fd305a0-efa1-460e-8e70-c1eb039ce06b",
+    "9d28587b-47ab-4447-b9bd-50d875b2f1d7",
     "e9d791a0-cf69-4b1c-a2de-61e2a97fc664"
   ]
 }
