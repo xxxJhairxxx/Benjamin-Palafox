@@ -170,6 +170,11 @@
             </div>
         {%- endcase -%}
       {%- endfor -%}
+      <div class='bannerBtn'>
+        <a href='{{section.settings.button}}'>
+        See Products
+        </a>
+      </div>
     </div>
   </div>
 </div>
@@ -197,6 +202,11 @@
       "type": "image_picker",
       "id": "image_2",
       "label": "t:sections.image-banner.settings.image_2.label"
+    },
+    {
+      "type": "url",
+      "id": "button",
+      "label": "Button"
     },
     {
       "type": "range",

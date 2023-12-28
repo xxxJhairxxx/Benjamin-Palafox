@@ -4610,10 +4610,10 @@ details-disclosure > details {
   }
 }
 
-.leaf-div {
+/* .leaf-div {
   display: none !important;
 }
 
 .home.index .leaf-div {
   display: block !important;
-}
+} */
