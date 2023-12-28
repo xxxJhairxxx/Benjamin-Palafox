@@ -7,17 +7,17 @@
     <div class="infoheader-list">
       <li>
         {% render 'icon-location' %}
-        <a href="{{ section.settings.addressUrl }}">{{ section.settings.address }}</a>
+        <a href="{{ section.settings.addressUrl }}" target="_blank">{{ section.settings.address }}</a>
       </li>
 
       <div class="infoheader-links">
         <li>
           {% render 'icon-phone' %}
-          <a href="{{ section.settings.phoneUrl }}">{{ section.settings.phone }}</a>
+          <a href="{{ section.settings.phoneUrl }}" target="_blank">{{ section.settings.phone }}</a>
         </li>
         <li>
           {% render 'icon-email' %}
-          <a href="{{ section.settings.emailUrl }}">{{ section.settings.email }}</a>
+          <a href="{{ section.settings.emailUrl }}" target="_blank">{{ section.settings.email }}</a>
         </li>
         <li>
           {% render 'icon-calendar' %}
