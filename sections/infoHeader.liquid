@@ -7,17 +7,17 @@
     <div class="infoheader-list">
       <li>
         {% render 'icon-location' %}
-        {{ section.settings.address }}
+        <a href="{{ section.settings.addressUrl }}">{{ section.settings.address }}</a>
       </li>
 
       <div class="infoheader-links">
         <li>
           {% render 'icon-phone' %}
-          {{ section.settings.phone }}
+          <a href="{{ section.settings.phoneUrl }}">{{ section.settings.phone }}</a>
         </li>
         <li>
           {% render 'icon-email' %}
-          {{ section.settings.email }}
+          <a href="{{ section.settings.emailUrl }}">{{ section.settings.email }}</a>
         </li>
         <li>
           {% render 'icon-calendar' %}
@@ -36,8 +36,13 @@
   "settings": [
     {
       "id": "address",
-      "type": "url",
+      "type": "text",
       "label": "Address"
+    },
+    {
+      "id": "addressUrl",
+      "type": "url",
+      "label": "addressUrl"
     },
     {
       "id": "phone",
@@ -45,9 +50,19 @@
       "label": "Phone"
     },
     {
+      "id": "phoneUrl",
+      "type": "url",
+      "label": "PhoneUrl"
+    },
+    {
       "id": "email",
       "type": "url",
       "label": "Email"
+    },
+    {
+      "id": "emailUrl",
+      "type": "url",
+      "label": "EmailUrl"
     },
     {
       "id": "schedule",
