@@ -371,8 +371,7 @@ slider-component.slider-component-full-width {
   justify-content: center;
 }
 
-.section-template--17251282977003__ca01f063-fe15-4b13-9d39-cb27e04dbf9a-padding
-  .slider-buttons {
+.home .multicolumn .slider-buttons {
   /* prueba de posicion */
   justify-content: space-between !important;
   position: absolute !important;
