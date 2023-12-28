@@ -4654,6 +4654,9 @@ details-disclosure > details {
   }
 }
 
+.home .quick-add-modal__content.global-settings-popup {
+  overflow-y: hidden;
+}
 /* .leaf-div {
   display: none !important;
 }
@@ -4661,3 +4664,26 @@ details-disclosure > details {
 .home.index .leaf-div {
   display: block !important;
 } */
+
+.home .card__badge {
+  transform: rotate(-10deg);
+  position: absolute;
+  top: -18rem;
+
+  @media (min-width: 1200px) {
+    top: calc(-20rem * var(--scale));
+  }
+
+  span {
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 2.5px solid red;
+    text-transform: uppercase;
+    color: red;
+    border-radius: 4px;
+    font-weight: 800;
+
+    @media (min-width: 1200px) {
+      font-size: calc(1.6rem * var(--scale));
+    }
+  }
+}
