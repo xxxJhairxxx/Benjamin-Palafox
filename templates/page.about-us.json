@@ -24,7 +24,7 @@
       ],
       "settings": {
         "custom_liquid": "<section class='abouttext'>\n<p class='abouttext-p'>\nWelcome to Avita Athletica, where passion meets performance! We take pride in crafting sportswear that not only looks good but is born from our dedication to quality and innovation.<\/h2>\n<\/section>",
-        "color_scheme": "",
+        "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
       }
