@@ -28,6 +28,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/the-best-sportswear-for-every-shape-size-and-style.jpg",
         "image_mobile": "shopify:\/\/shop_images\/Group_16497.jpg",
+        "button": "#shopify-section-template--17220397629675__d4e53bdf-33d7-4146-b235-d83944ee457f",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "middle-left",

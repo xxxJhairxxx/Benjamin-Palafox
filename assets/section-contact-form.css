@@ -33,21 +33,17 @@
   font-size: 1.5rem;
 }
 
+@media screen and (min-width: 1200px) {
+  .contact__button {
+    font-size: calc(1.7rem * var(--scale));
+    padding: calc(1.2rem * var(--scale)) calc(5.5rem * var(--scale));
+  }
+}
+
 @media screen and (min-width: 750px) {
   .contact__fields {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 2rem;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .container2 {
-    padding-block: calc(6rem * var(--scale));
-  }
-
-  .contact__button {
-    font-size: calc(1.7rem * var(--scale));
-    padding: calc(1.2rem * var(--scale)) calc(5.5rem * var(--scale));
   }
 }
