@@ -19,20 +19,63 @@
     h4 {
       color: white !important;
       font-family: var(--font-body-family) !important;
+      font-size: 1.6rem;
+      line-height: 1.98rem;
+
+      @media (min-width: 1200px) {
+        font-size: calc(2rem * var(--scale));
+        line-height: calc(2.48rem * var(--scale));
+      }
     }
+
+    p {
+      font-size: 1.4rem;
+      line-height: 2.24rem;
+      opacity: 0.9;
+
+      @media (min-width: 1200px) {
+        font-size: calc(1.7rem * var(--scale));
+        line-height: calc(2.72rem * var(--scale));
+      }
+    }
+
     div {
       h4 {
         color: white !important;
         font-family: var(--font-body-family) !important;
+        font-size: 1.6rem;
+        line-height: 1.98rem;
+
+        @media (min-width: 1200px) {
+          font-size: calc(2rem * var(--scale));
+          line-height: calc(2.48rem * var(--scale));
+        }
       }
       ul {
         list-style: none;
         padding-left: 0px;
 
         li {
+          font-size: 1.4rem;
+          line-height: 2.24rem;
+          opacity: 0.9;
+
+          @media (min-width: 1200px) {
+            font-size: calc(1.7rem * var(--scale));
+            line-height: calc(2.72rem * var(--scale));
+          }
+
           a {
             text-decoration: none;
             color: white;
+            font-size: 1.4rem;
+            line-height: 2.24rem;
+            opacity: 0.9;
+
+            @media (min-width: 1200px) {
+              font-size: calc(1.7rem * var(--scale));
+              line-height: calc(2.72rem * var(--scale));
+            }
           }
         }
       }
@@ -75,5 +118,6 @@
     justify-content: center;
     font-size: calc(1.8rem * var(--scale));
     line-height: calc(2.21rem * var(--scale));
+    opacity: 0.9;
   }
 }

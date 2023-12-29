@@ -3840,22 +3840,17 @@ details-disclosure > details {
   @media (min-width: 1200px) {
     font-size: calc(4rem * var(--scale));
     line-height: calc(5.01rem * var(--scale));
-    margin-bottom: calc(1.2rem * var(--scale));
+    margin-bottom: calc(3rem * var(--scale));
   }
 }
 
 .home.index .collection__description {
   text-align: center;
-  /* color: #606060 !important;
-  font-size: 1.6rem;
-  line-height: 1.96rem; */
 
   @media (min-width: 1200px) {
-    /* font-size: calc(1.9rem * var(--scale));
-    line-height: calc(2.33rem * var(--scale)); */
     width: calc(78.5rem * var(--scale));
     margin: 0 auto;
-    margin-bottom: calc(3.5rem * var(--scale));
+    margin-bottom: calc(4.5rem * var(--scale));
   }
 }
 
@@ -3867,7 +3862,7 @@ details-disclosure > details {
 
   @media (min-width: 1200px) {
     font-size: calc(1.9rem * var(--scale));
-    line-height: calc(2.33rem * var(--scale));
+    line-height: calc(3.1rem * var(--scale));
   }
 }
 
@@ -4130,6 +4125,7 @@ details-disclosure > details {
 
 .experienceMiddle p {
   font-size: 1.8rem;
+  font-family: var(--font-heading-family);
   line-height: 2.25rem;
   color: #025159;
 
