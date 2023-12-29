@@ -10,7 +10,7 @@
       <h1 class="AboutCard_text-title2">
         {{ section.settings.aboutCardTitle}}
       </h1>
-     <picture class="AboutCard_img">
+      <picture class="AboutCard_img">
 
           <img
          srcset="{{ section.settings.aboutCardImage | image_url: width: section.settings.aboutCardImage_width }}, {{ section.settings.aboutCardImage | image_url: width: section.settings.aboutCardImage }} 2x"
@@ -19,19 +19,19 @@
            loading="lazy"
             width="{{ section.settings.aboutCardImage.width }}"
            height="{{ section.settings.aboutCardImage.height }}"
-      >
+          >
     
-  </picture>
+      </picture>
       
 
       <section class="AboutCard_text">
         <h1 class="AboutCard_text-title">
         {{ section.settings.aboutCardTitle}}
-      </h1>
+        </h1>
         {{ section.settings.aboutCardText}}
       </section >
 
-      </article>
+    </article>
     
   </div>
 
@@ -49,7 +49,7 @@
     flex-direction:column;
     
       @media screen and (min-width: 1200px) {
-          gap:calc(10rem * var(--scale)) !important;
+          gap:calc(16.7rem * var(--scale)) !important;
           flex-direction:row;
           background:white;
           border-left: solid calc(0.8rem * var(--scale)) var(--primary);
@@ -83,20 +83,24 @@
        font-size:2rem;
        color:var(--primary);
        text-transform: uppercase;
+       font-size: 2.35rem;
+       line-height: 2.94rem;
+       
       @media screen and (min-width: 1200px) {
         display:none !important;
       }
      }
    .AboutCard_text{
-      display: flex;
+     display: flex;
      justify-content: center;
      flex-direction: column;
-      width:100% !important;
+     width: 100% !important;
      @media screen and (min-width: 1200px) {
      
-     width:60% !important;
-     padding:calc(10rem * calc(--scale)) calc(10rem * calc(--scale));
-     padding-right:  calc(20rem * calc(--scale));
+     width: 60% !important;
+     padding-block: calc(7.9rem * var(--scale));
+     padding-right: calc(14.7rem * var(--scale));
+
      }
 
      
@@ -108,25 +112,35 @@
        font-size:calc(3rem * var(--scale));
        color:var(--primary);
        text-transform: uppercase;
+       font-size: 2.35rem;
+       line-height: 2.94rem;
+
         @media screen and (min-width: 1200px) {
         display:inline-block !important;
+        font-size: calc(2.5rem * var(--scale));
+        line-height: calc(3.13rem * var(--scale));
       }
      }
      & > p{
-       padding-inline:calc(10rem * calc(--scale)) !important; 
+        font-size: 1.6rem;
+        line-height: 2.56rem;
+
+       @media screen and (min-width: 1200px) {
+        font-size: calc(1.9rem * var(--scale));
+        line-height: calc(3.04rem * var(--scale));
+      }
      }
    }
   }
       }
 
   .shopify-section:nth-child(even) .AboutSection  .AboutCard{
-    border-right: solid 0px red !important;
-     }
+     border-right: solid 0px red !important;
+   }
+   
   .shopify-section:nth-child(2n+1) .AboutSection  .AboutCard{
-    border-left: solid 0px red !important;
-    
- 
-     }
+     border-left: solid 0px red !important;
+   }
  
 {% endstylesheet %}
 
