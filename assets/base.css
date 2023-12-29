@@ -3784,6 +3784,15 @@ details-disclosure > details {
   }
 }
 
+.header-wrapper {
+  background-color: #f8f6f3 !important;
+  box-shadow: 0px 8px 10px -10px #000000;
+  /* border: 2px solid red; */
+  @media (min-width: 1200px) {
+    /* height: calc(9.5rem * var(--scale)); */
+  }
+}
+
 .header__search {
   display: none !important;
 }
@@ -4309,12 +4318,62 @@ details-disclosure > details {
   color: white;
 }
 
+.product .product__text.inline-richtext.caption-with-letter-spacing {
+  display: none;
+}
+
+.product .product__title h1 {
+  font-size: 2rem;
+  line-height: 2.48rem;
+
+  @media (min-width: 1200px) {
+    font-size: calc(3rem * var(--scale));
+    line-height: calc(3.72rem * var(--scale));
+    margin-top: calc(3rem * var(--scale));
+  }
+}
+
+.product .product-media-container.media-type-image {
+  width: 100% !important;
+}
+
+.product
+  .product__media-item.grid__item.slider__slide.is-active.product__media-item--variant {
+  @media (min-width: 1200px) {
+    max-width: 85%;
+  }
+}
+
+.product .slider-button.slider-button--prev svg {
+  color: #025159;
+
+  @media (min-width: 1200px) {
+    width: calc(1.75rem * var(--scale));
+    height: calc(1.75rem * var(--scale));
+  }
+}
+
+.product .slider-button.slider-button--next svg {
+  color: #025159;
+
+  @media (min-width: 1200px) {
+    width: calc(1.75rem * var(--scale));
+    height: calc(1.75rem * var(--scale));
+  }
+}
+
+.product .thumbnail-slider.slider-mobile-gutter {
+  @media (min-width: 1200px) {
+    width: 85%;
+  }
+}
+
 /* .home .product-form__submit {
   background: #025159;
   color: white;
   height: 5rem;
   width: 50%;
-
+s
   @screen laptop {
     min-height: 100%;
     height: calc(6rem * var(--scale)) !important;
@@ -4342,8 +4401,6 @@ details-disclosure > details {
 
   @media (min-width: 1200px) {
     display: block;
-    /* background: #f8f6f3; */
-    background: white;
   }
 }
 
@@ -4353,6 +4410,11 @@ details-disclosure > details {
 
 .product .multicolumn > div {
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+  background-color: white;
+
+  @media (min-width: 1200px) {
+    padding-inline: calc(3rem * var(--scale));
+  }
 }
 
 .product .multicolumn .inline-richtext {
@@ -4366,7 +4428,7 @@ details-disclosure > details {
 .product .multicolumn-card__info {
   flex-direction: column;
   align-items: flex-start;
-  gap: calc(3.8rem * var(--scale));
+  gap: calc(3.3rem * var(--scale));
   padding: calc(2.5rem * var(--scale)) !important;
 }
 
