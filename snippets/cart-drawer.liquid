@@ -86,7 +86,6 @@
         </button>
       </div>
       <cart-drawer-items
-        style="overflow: hidden;"
         {% if cart == empty %}
           class=" is-empty"
         {% endif %}
@@ -104,7 +103,7 @@
                   <tbody role="rowgroup">
                     {%- for item in cart.items -%}
                       <tr
-                        style="position: relative;padding:2%;padding-right:15%;padding-top:3rem"
+                        style="position: relative"
                         id="CartDrawer-Item-{{ item.index | plus: 1 }}"
                         class="cart-item"
                         role="row"

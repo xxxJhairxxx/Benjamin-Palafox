@@ -19,7 +19,11 @@
   font-weight: bold;
   font-size: 1.7rem;
   &::after {
-    content: "USD";
+    content: 'USD';
+  }
+
+  @media (min-width: 1200px) {
+    font-size: calc(2rem * var(--scale));
   }
 }
 
