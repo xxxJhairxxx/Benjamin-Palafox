@@ -5,6 +5,10 @@
 .contact .form__message {
   align-items: flex-start;
   font-family: var(--fontBody);
+  color: #eb001b;
+}
+
+.contact .form-status.form-status-list.form__message {
   color: #017b87;
 }
 

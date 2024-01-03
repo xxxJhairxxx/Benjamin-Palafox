@@ -254,7 +254,7 @@
             <span aria-hidden="true">*</span></label
           >
           {%- if form.errors contains 'email' -%}
-            <small class="contact__field-error" id="ContactForm-email-error">
+            <small id="field-error" class="contact__field-error" id="ContactForm-email-error">
               <span class="visually-hidden">{{ 'accessibility.error' | t }}</span>
               <span class="form__message">
                 {%- render 'icon-error' -%}
@@ -365,6 +365,19 @@
     // Espera 3 segundos (3000 milisegundos) y luego oculta el mensaje
     setTimeout(function() {
       formStatus.style.display = "none";
+    }, 3000); // 3000 milisegundos = 3 segundos
+  });
+</script>
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // Selecciona el elemento del mensaje de éxito por su ID
+    var fieldError = document.getElementById("field-error");
+
+    // Espera 3 segundos (3000 milisegundos) y luego oculta el mensaje
+    setTimeout(function() {
+      fieldError.style.display = "none";
     }, 3000); // 3000 milisegundos = 3 segundos
   });
 </script>
