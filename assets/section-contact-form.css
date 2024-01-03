@@ -4,6 +4,8 @@
 
 .contact .form__message {
   align-items: flex-start;
+  font-size: var(--fontBody);
+  color: #017b87;
 }
 
 .contact .icon-success {
