@@ -207,7 +207,7 @@ quick-add-modal .product__column-sticky {
   }
 
   quick-add-modal .product:not(.product--no-media) .product__media-wrapper {
-    max-width: 45%;
+    max-width: 42%;
     width: calc(45% - var(--grid-desktop-horizontal-spacing) / 2);
   }
 
@@ -220,6 +220,7 @@ quick-add-modal .product__column-sticky {
       padding-left: calc(4rem * var(--scale));
       padding-top: calc(3rem * var(--scale));
     }
+    padding-left: 0 !important;
   }
 
   quick-add-modal

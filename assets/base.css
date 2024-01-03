@@ -1429,6 +1429,8 @@ button.shopify-payment-button__button--unbranded {
   -webkit-appearance: none;
   appearance: none;
   background-color: rgba(var(--color-button), var(--alpha-button-background));
+  white-space: nowrap;
+  border-radius: 5rem;
 }
 
 .button:before,
@@ -4347,6 +4349,13 @@ details-disclosure > details {
 
 .home .quick-add-modal__content {
   /* max-height: unset; */
+}
+
+.home .product__description.rte.quick-add-hidden {
+  @media (min-width: 1200px) {
+    font-size: calc(1.8rem * var(--scale));
+    line-height: calc(2.94rem * var(--scale));
+  }
 }
 
 .home .product__info-wrapper variant-radios {

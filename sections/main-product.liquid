@@ -353,6 +353,10 @@
                       {%- endif -%}
                     </price-per-item>
                   {%- endif -%}
+
+                  {%- when 'buy_buttons' -%}
+                    {%- render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, section_id: section.id, show_pickup_availability: true -%}
+
                 </div>
                 <div class="quantity__rules caption no-js-hidden" id="Quantity-Rules-{{ section.id }}">
                   {%- if product.selected_or_first_available_variant.quantity_rule.increment > 1 -%}
@@ -414,6 +418,8 @@
                   {%- endif -%}
                   </volume-pricing>
                 {%- endif -%}
+
+           
               </div>
             {%- when 'popup' -%}
               <modal-opener
@@ -442,8 +448,8 @@
 
             {%- when 'variant_picker' -%}
               {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
-            {%- when 'buy_buttons' -%}
-              {%- render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, section_id: section.id, show_pickup_availability: true -%}
+            {% comment %} {%- when 'buy_buttons' -%}
+              {%- render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, section_id: section.id, show_pickup_availability: true -%} {% endcomment %}
             {%- when 'rating' -%}
               {%- if product.metafields.reviews.rating.value != blank -%}
                 {% liquid
