@@ -1788,6 +1788,10 @@ details[open] > .share-button__fallback {
   min-width: calc(7rem + (var(--inputs-border-width) * 2));
   position: relative;
   border: 0;
+
+  @media (min-width: 1200px) {
+    height: calc(4.8rem * var(--scale));
+  }
 }
 
 .field:before,
@@ -4554,6 +4558,10 @@ s
 
 .product {
   background: #f8f6f3;
+}
+
+.product .multicolumn p:before {
+  display: none;
 }
 
 .grid__item.product__media-wrapper {
