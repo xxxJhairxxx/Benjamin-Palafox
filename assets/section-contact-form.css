@@ -4,7 +4,7 @@
 
 .contact .form__message {
   align-items: flex-start;
-  font-size: var(--fontBody);
+  font-family: var(--fontBody);
   color: #017b87;
 }
 
