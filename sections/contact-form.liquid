@@ -306,13 +306,13 @@
           
         </h2>
       {%- elsif form.errors -%}
-        <div class="form__message">
+        <div id="form-message" class="form__message">
           <h2 class="form-status caption-large text-body" role="alert" tabindex="-1">
             {% render 'icon-error' %}
             {{ 'templates.contact.form.error_heading' | t }}
           </h2>
         </div>
-        <ul class="form-status-list caption-large" role="list">
+        <ul id="form-status" class="form-status-list caption-large" role="list">
           <li>
             <a href="#ContactForm-email" class="link">
               {{ form.errors.translated_fields.email | capitalize }}
@@ -339,6 +339,32 @@
     // Espera 3 segundos (3000 milisegundos) y luego oculta el mensaje
     setTimeout(function() {
       successMessage.style.display = "none";
+    }, 3000); // 3000 milisegundos = 3 segundos
+  });
+</script>
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // Selecciona el elemento del mensaje de éxito por su ID
+    var formMessage = document.getElementById("form-message");
+
+    // Espera 3 segundos (3000 milisegundos) y luego oculta el mensaje
+    setTimeout(function() {
+      formMessage.style.display = "none";
+    }, 3000); // 3000 milisegundos = 3 segundos
+  });
+</script>
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // Selecciona el elemento del mensaje de éxito por su ID
+    var formStatus = document.getElementById("form-status");
+
+    // Espera 3 segundos (3000 milisegundos) y luego oculta el mensaje
+    setTimeout(function() {
+      formStatus.style.display = "none";
     }, 3000); // 3000 milisegundos = 3 segundos
   });
 </script>
