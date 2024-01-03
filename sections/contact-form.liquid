@@ -297,9 +297,8 @@
         <button type="submit" class="contact__button">
           {{ 'templates.contact.form.send' | t }}
         </button>
-      </div>
 
-     {% comment %} Success text  {% endcomment %}
+         {% comment %} Success text  {% endcomment %}
       {%- if form.posted_successfully? -%}
         <h2 id="success-message" class="form-status form-status-list form__message" tabindex="-1" autofocus>
           {% render 'icon-success' %}
@@ -322,6 +321,10 @@
           </li>
         </ul>
       {%- endif -%}
+      
+      </div>
+
+    
     {%- endform -%}
      </div>
   </div>
