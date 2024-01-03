@@ -32,7 +32,7 @@
     </a>
     <div class="title-wrapper-with-link">
       <h1 class="title title--primary-2 ">
-        {{ 'sections.cart.title' | t }} ({{ cart.items.size }} Product{% if cart.items.size > 1 %}s{% endif %} )
+        {{ 'sections.cart.title' | t }} <span>({{ cart.items.size }} Product{% if cart.items.size > 1 %}s{% endif %} )</span> 
       </h1>
     </div>
 
@@ -315,7 +315,7 @@
                         </div>
                       {%- else -%}
                         <div class="product-option product-option-price ">
-                          {{ item.original_price | money }} USD unit.
+                          {{ item.original_price | money }} unit.
                         </div>
                       {%- endif -%}
 

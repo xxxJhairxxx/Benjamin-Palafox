@@ -1,6 +1,6 @@
 .totals {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: flex-end;
 }
 
@@ -23,10 +23,28 @@
 
 .totals__total {
   margin-top: 0.5rem;
+  color: #025159;
+}
+
+.totals__total.subtotal {
+  font-weight: 400;
+
+  @media (min-width: 1200px) {
+    font-size: calc(1.9rem * var(--scale)) !important;
+  }
 }
 
 .totals__total-value {
   font-size: 1.8rem;
+  color: #025159;
+}
+
+.totals__total-value.subtotal {
+  font-weight: 400;
+
+  @media (min-width: 1200px) {
+    font-size: calc(1.9rem * var(--scale)) !important;
+  }
 }
 
 .cart__ctas + .totals {

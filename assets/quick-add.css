@@ -81,6 +81,13 @@
   }
 }
 
+@media screen and (min-width: 990px) {
+  .quick-add-modal__content {
+    width: 60%;
+    border-radius: 2rem;
+  }
+}
+
 .quick-add-modal__content img {
   max-width: 100%;
 }
@@ -186,7 +193,8 @@ quick-add-modal .product__column-sticky {
 
 @media screen and (min-width: 750px) {
   quick-add-modal .quick-add-modal__content {
-    overflow: hidden;
+    /* overflow: hidden; */
+    overflow: auto;
     background-color: #f8f6f3;
     & > div {
       background-color: #f8f6f3;
@@ -194,7 +202,7 @@ quick-add-modal .product__column-sticky {
       display: flex;
       justify-content: center;
 
-      height: calc(80rem * var(--scale));
+      height: calc(68rem * var(--scale));
     }
   }
 
@@ -208,8 +216,9 @@ quick-add-modal .product__column-sticky {
     padding-top: 5.15rem;
     max-width: 54%;
     width: calc(54% - var(--grid-desktop-horizontal-spacing) / 2);
-    & > * {
-      /* padding-block: 0rem; */
+    @media (min-width: 1200px) {
+      padding-left: calc(4rem * var(--scale));
+      padding-top: calc(3rem * var(--scale));
     }
   }
 
@@ -268,4 +277,27 @@ quick-add-modal .product-media-container.constrain-height {
   quick-add-modal .product-media-container.constrain-height {
     --constrained-min-height: 400px;
   }
+}
+
+.price-per-item__container {
+  height: 4rem;
+  margin-top: 1.9rem;
+  @media (min-width: 1200px) {
+    height: calc(4rem * var(--scale));
+    margin-top: calc(1.6rem * var(--scale));
+  }
+}
+
+.price-per-item__container .quantity__input {
+  height: 4rem;
+  background-color: white;
+  border: 1px solid #c6c6c6;
+  @media (min-width: 1200px) {
+    height: calc(4rem * var(--scale));
+  }
+}
+
+.price-per-item__container .quantity__button {
+  background-color: white;
+  border: 1px solid #c6c6c6;
 }

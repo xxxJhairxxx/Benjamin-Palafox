@@ -114,7 +114,7 @@ quantity-popover .quantity__rules span:first-of-type {
 
 .quantity-popover-container {
   display: flex;
-  padding: 0.5rem 0.5rem 0.5rem;
+  /* padding: 0.5rem 0.5rem 0.5rem; */
   border-radius: 2rem;
   height: 3rem;
   border: solid 1px var(--gray-200);

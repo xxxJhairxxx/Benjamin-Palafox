@@ -16,8 +16,14 @@
     }
   }
   @media screen and (min-width: 1200px) {
+
+  .section-{{ section.id }}-padding {
+    padding-top: calc(5rem * var(--scale));
+      padding-bottom: calc(5rem * var(--scale));
+    }
+
     .cart-footer-stiky{
-      margin-top: calc(11rem * var(--scale));
+      margin-top: calc(16rem * var(--scale));
       position:sticky !important;
       top: calc(15rem * var(--scale));
       left:auto;
@@ -105,7 +111,8 @@
                     {% endif %}
                     form="cart"
                   >
-                    {{ 'sections.cart.checkout' | t }}
+                    {% comment %} {{ 'sections.cart.checkout' | t }} {% endcomment %}
+                    Proceed to checkout
                   </button>
                 </div>
 
