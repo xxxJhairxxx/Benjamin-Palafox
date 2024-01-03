@@ -5059,3 +5059,7 @@ s
   border-radius: 5rem;
   background-color: #025159;
 }
+
+.shopify-challenge__button.btn {
+  margin-top: 2rem;
+}
