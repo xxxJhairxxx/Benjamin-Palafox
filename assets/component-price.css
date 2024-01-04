@@ -64,6 +64,30 @@
   display: block;
 }
 
+.price__regular {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  font-size: 1.6rem;
+  line-height: 1.98rem;
+  font-weight: 600;
+  color: #606060;
+
+  @media (min-width: 1200px) {
+    font-size: calc(1.9rem * var(--scale));
+    line-height: calc(2.35rem * var(--scale));
+    gap: calc(2rem * var(--scale));
+  }
+}
+
+.price__regular span {
+  font-weight: 700;
+}
+
+.price__regular p {
+  margin: 0;
+}
+
 .price__sale,
 .price__availability,
 .price .price__badge-sale,
