@@ -543,3 +543,19 @@
     width: calc(16.7rem * var(--scale));
   }
 }
+
+@media only screen and (min-width: 1200px) {
+  .banner--content-align-right .banner__box {
+    text-align: right;
+  }
+
+  .banner--content-align-left .banner__box {
+    text-align: left;
+  }
+
+  .banner--content-align-left.banner--desktop-transparent .banner__box,
+  .banner--content-align-right.banner--desktop-transparent .banner__box,
+  .banner--medium.banner--desktop-transparent .banner__box {
+    max-width: calc(80rem * var(--scale));
+  }
+}
