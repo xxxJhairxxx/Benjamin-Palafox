@@ -1,3 +1,15 @@
+.contact {
+  padding-bottom: 5rem !important;
+  & .breadcumb-container {
+    display: none;
+
+    @media (min-width: 768px) {
+      display: flex;
+      margin-bottom: 1.5rem;
+    }
+  }
+}
+
 .contact img {
   max-width: 100%;
 }
@@ -18,8 +30,20 @@
 
 .contact .field {
   margin-bottom: 1.5rem;
+  @media (min-width: 768px) {
+    margin-bottom: 0rem;
+  }
+
   &:after {
     border-color: none;
+  }
+}
+
+.Contact_container_form {
+  padding-inline: 1rem;
+
+  @media (min-width: 768px) {
+    padding-inline: 0rem;
   }
 }
 
@@ -30,15 +54,21 @@
 }
 
 .contact__button {
-  margin-top: 2rem;
+  width: 100%;
+  margin-top: 1rem;
   background-color: var(--primary);
   border-radius: 3rem;
   border: none;
-  padding: 1rem 4.5rem;
-  color: white;
-  font-size: 1.5rem;
+  padding: 1.5rem 4.5rem;
+  color: #ededed;
+  font-size: 1.7rem;
   cursor: pointer;
   font-weight: 500;
+
+  @media (min-width: 768px) {
+    width: 18rem;
+    padding: 1.2rem 4.5rem;
+  }
 
   @media (min-width: 1200px) {
     padding: calc(1rem * var(--scale)) calc(5.3rem * var(--scale));
@@ -55,7 +85,7 @@
 
 @media screen and (min-width: 1200px) {
   .container2 {
-    padding-block: calc(5rem * var(--scale));
+    padding-block: calc(1rem * var(--scale));
   }
 
   .contact__button {
