@@ -5186,9 +5186,14 @@ s
   }
 }
 
-.breadcumb-container a,
-p {
-  color: #025159 !important;
+.breadcumb-container p {
+  color: #025159;
+  font-weight: 700;
+  margin: 0 !important;
+}
+
+.breadcumb-container a {
+  color: #025159;
   font-weight: 700;
   margin: 0 !important;
 }
