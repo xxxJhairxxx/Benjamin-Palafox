@@ -611,9 +611,10 @@ cart-drawer-items::-webkit-scrollbar-track-piece {
 
   .tax-note {
     color: var(--primary);
-    block: calc(1rem * var(--scale)) !important;
-    padding-bottom: ;
-    font-size: calc(1.7rem * var(--scale)) !important;
+    font-size: 1.3rem;
+    @media (min-width: 1200px) {
+      font-size: calc(1.7rem * var(--scale)) !important;
+    }
   }
 }
 .icon-bag-left {
