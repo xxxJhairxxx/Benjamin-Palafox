@@ -250,10 +250,10 @@
         "template--17172252197099__645e7aaf-cf7d-4888-82b3-03935542569d-column-1": {
           "type": "column",
           "settings": {
-            "name": "Customer 1",
-            "location": "Florida",
+            "name": "Jane Stewart",
+            "location": "California",
             "title": "Column",
-            "text": "<p>\"Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.\"<\/p>",
+            "text": "<p>\"I recently purchased the Boxer Panty for Women, and I must say, it has exceeded my expectations in terms of comfort and durability.\"<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -261,10 +261,10 @@
         "template--17172252197099__645e7aaf-cf7d-4888-82b3-03935542569d-column-2": {
           "type": "column",
           "settings": {
-            "name": "Customer 2",
-            "location": "California",
+            "name": "Caroline Smith",
+            "location": "Florida",
             "title": "Column",
-            "text": "<p>\"Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.\"<\/p>",
+            "text": "<p>\"I really loved the Tapra Femme! First off, the fit is on point. They've got sizes that actually cater to real bodies, and I appreciate that.\"<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -272,10 +272,10 @@
         "template--17172252197099__645e7aaf-cf7d-4888-82b3-03935542569d-column-3": {
           "type": "column",
           "settings": {
-            "name": "Customer 3",
+            "name": "Brandon Davis",
             "location": "Los Angeles",
             "title": "Column",
-            "text": "<p>\"Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.\"<\/p>",
+            "text": "<p>\"Honestly, if you're on the hunt for a solid hoodie, the Blk Hoodie is the winner. Avita Athletica nailed it. I practically live in mine now – worth every penny.\"<\/p>",
             "link_label": "",
             "link": ""
           }
