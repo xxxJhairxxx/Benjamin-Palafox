@@ -42,8 +42,10 @@
 {% stylesheet %}
 
   .AboutSection{
-    margin-bottom:3rem;
-
+    margin-bottom:2rem;
+    @media screen and (min-width: 1200px) {
+      margin-bottom: calc(3rem * var(--scale));
+    }
   .AboutCard{
     display: flex;
     flex-direction:column;
