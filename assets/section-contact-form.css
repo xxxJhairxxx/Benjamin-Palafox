@@ -55,7 +55,7 @@
 
 @media screen and (min-width: 1200px) {
   .container2 {
-    padding-block: calc(6rem * var(--scale));
+    padding-block: calc(5rem * var(--scale));
   }
 
   .contact__button {

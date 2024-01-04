@@ -121,3 +121,9 @@
     opacity: 0.9;
   }
 }
+
+.footer-container p {
+  color: white !important;
+  opacity: 0.9;
+  font-weight: 400;
+}

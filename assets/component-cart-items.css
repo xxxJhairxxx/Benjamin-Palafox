@@ -302,7 +302,7 @@ cart-items .cart-item__details {
     align-items: center;
     place-content: center;
     top: -50%;
-    transform: translateY(10%);
+    /* transform: translateY(10%); */
 
     .quantity-popover-container {
       margin-block: calc(6rem * var(--scale));
@@ -483,8 +483,10 @@ cart-items .cart-item__details {
   }
 
   .cart-item__name_2 {
+    display: flex;
     font-size: calc(2rem * var(--scale));
     line-height: calc(2.48rem * var(--scale));
+    min-width: calc(20.5rem * var(--scale));
     text-decoration: none;
     color: var(--dark);
     font-weight: 600;
