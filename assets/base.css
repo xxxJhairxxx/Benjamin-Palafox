@@ -4531,12 +4531,42 @@ details-disclosure > details {
   width: 100% !important;
 }
 
-.product
+/* .product
   .product__media-item.grid__item.slider__slide.is-active.product__media-item--variant {
+  padding: 0 !important;
+  border: 2px solid red;
+
+
   @media (min-width: 1200px) {
     max-width: 85%;
   }
+} */
+
+/* .product .section-template--17251283271915__main-padding {
+  @media (min-width: 1200px) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+} */
+
+.product .product__media-item.grid__item.slider__slide.is-active {
+  padding: 0 !important;
+
+  img {
+    object-fit: contain;
+  }
+
+  @media (min-width: 1200px) {
+    max-width: 85% !important;
+    width: 85% !important;
+  }
 }
+
+/* .product
+  .product__media-item.grid__item.slider__slide.is-active.product__media-item--variant .product__media.media media--transparent.modal img {
+    object-fit: contain;
+
+  } */
 
 .product .slider-button.slider-button--prev svg {
   color: #025159;
