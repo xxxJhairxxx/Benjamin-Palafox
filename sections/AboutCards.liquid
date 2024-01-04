@@ -42,18 +42,20 @@
 {% stylesheet %}
 
   .AboutSection{
-    margin-bottom:3rem;
-
+    margin-bottom:2rem;
+    @media screen and (min-width: 1200px) {
+      margin-bottom: calc(3rem * var(--scale));
+    }
   .AboutCard{
     display: flex;
     flex-direction:column;
+    display: flex;
     
       @media screen and (min-width: 1200px) {
           gap:calc(16.7rem * var(--scale)) !important;
           flex-direction:row;
           background:white;
           border-left: solid calc(0.8rem * var(--scale)) var(--primary);
-          border-right: solid calc(0.8rem * var(--scale));
       }
 
     .AboutCard_img{
@@ -78,7 +80,7 @@
     }
 
     & > .AboutCard_text-title2{
-       margin: 2rem 0px !important;
+       margin: 0 0px 2rem 0 !important;
        text-align:left;
        font-size:2rem;
        color:var(--primary);
@@ -133,14 +135,15 @@
    }
   }
       }
+@media screen and (min-width: 1200px) {
+    .shopify-section:nth-child(even) .AboutSection  .AboutCard{
+      border-left: 0 !important;
+      border-right: solid calc(0.8rem * var(--scale)) var(--primary);
+    }
+}
 
-  .shopify-section:nth-child(even) .AboutSection  .AboutCard{
-     border-right: solid 0px red !important;
-   }
-   
-  .shopify-section:nth-child(2n+1) .AboutSection  .AboutCard{
-     border-left: solid 0px red !important;
-   }
+  
+  
  
 {% endstylesheet %}
 

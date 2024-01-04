@@ -2296,9 +2296,9 @@ product-info .loading__spinner:not(.hidden) ~ *,
   @media (min-width: 1200px) {
     bottom: calc(3.3rem * var(--scale));
     left: calc(3.3rem * var(--scale));
-    width: calc(3rem * var(--scale));
-    height: calc(3rem * var(--scale));
-    font-size: calc(1.45rem * var(--scale));
+    width: calc(2.35rem * var(--scale));
+    height: calc(2.35rem * var(--scale));
+    font-size: calc(1.35rem * var(--scale));
   }
 }
 
