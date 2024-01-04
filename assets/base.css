@@ -5226,15 +5226,15 @@ s
   padding-left: 3rem;
 
   @media (min-width: 1200px) {
-    padding-left: 0;
+    padding-left: calc(2.9rem * var(--scale));
   }
 }
 
-.contact .breadcumb-container {
+/* .contact .breadcumb-container {
   @media (min-width: 1200px) {
-    padding-left: calc(7rem * var(--scale));
+    padding-left: calc(3rem * var(--scale));
   }
-}
+} */
 
 .cart .breadcumb-container {
   @media (min-width: 1200px) {
@@ -5263,16 +5263,34 @@ s
 
 .breadcumb-container p {
   color: #025159;
-  font-weight: 700;
+  font-weight: 600;
   margin: 0 !important;
+  font-size: 1.32rem;
+  line-height: 2.12rem;
+
+  @media (min-width: 1200px) {
+    font-size: calc(1.9rem * var(--scale));
+    line-height: calc(3.04rem * var(--scale));
+  }
 }
 
 .breadcumb-container a {
   color: #025159;
-  font-weight: 700;
+  font-weight: 600;
   margin: 0 !important;
+  font-size: 1.32rem;
+  line-height: 2.12rem;
+
+  @media (min-width: 1200px) {
+    font-size: calc(1.9rem * var(--scale));
+    line-height: calc(3.04rem * var(--scale));
+  }
 }
 
 .breadcumb-container .underlined-link {
   padding: 0 !important;
+}
+
+.home .card-information .price__regular-label {
+  display: none;
 }

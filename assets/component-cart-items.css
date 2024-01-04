@@ -476,6 +476,7 @@ cart-items .cart-item__details {
     font-size: calc(3rem * var(--scale));
     padding: calc(2rem * var(--scale));
     margin-top: calc(2rem * var(--scale)) !important;
+    padding-left: 0;
   }
 
   .title--primary-2 span {
@@ -523,7 +524,8 @@ cart-items .cart-item__details {
 
   cart-items .cart-items {
     width: calc(90rem * var(--scale));
-    padding-left: calc(2rem * var(--scale));
+    /* padding-left: calc(2rem * var(--scale)); */
+    padding-left: 0;
 
     .tbody_cart {
       display: flex;
