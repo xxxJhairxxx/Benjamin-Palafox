@@ -165,7 +165,7 @@
       "custom_css": [
         ".discoverMiddle {display: flex; justify-content: center; align-items: center; font-family: var(--font-heading-family); text-align: center;}",
         ".discoverMiddle p {color: #ffffff !important; width: calc(120rem * var(--scale));}",
-        ".discoverMiddle span {color: #fff0c9 !im;}"
+        ".discoverMiddle span {color: #fff0c9 !important;}"
       ],
       "settings": {
         "custom_liquid": "<div class='discoverMiddle'>\n<p>YOU WILL LOVE\n<span>\n  OUR SPORTSWEAR COLLECTION.<\/span> IF YOU ARE NOT COMPLETELY SATISFIED,\n <span>YOU CAN RETURN IT ANY TIME!<\/span>\n<\/p>\n<\/div>",
