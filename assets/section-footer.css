@@ -127,3 +127,7 @@
   opacity: 0.9;
   font-weight: 400;
 }
+
+.footer-container a {
+  text-decoration: none;
+}
