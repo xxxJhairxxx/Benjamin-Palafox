@@ -62,15 +62,10 @@
       {%- endif -%}
       <div
         class="drawer__header"
-        style="background-color: var(--primary);width:100%;padding-inline:4%;padding-block:0.3rem"
       >
         {% render 'icon-bag' %}
         <h2
           class="drawer__heading"
-          style="
-            color: #FFF0C9;font-family: 'Harmonia Sans';
-            font-weight: 300;
-          "
         >
           Shopping bag
         </h2>
@@ -79,7 +74,7 @@
           type="button"
 
           onclick="this.closest('cart-drawer').close()"
-          style="background-color: #FFF0C9;margin-right:15px;border-radius:0.7rem;"
+         
           aria-label="{{ 'accessibility.close' | t }}"
         >
           {% render 'icon-close-small' %}
@@ -521,17 +516,7 @@
             <p class="totals__total-value">{{ cart.total_price | money_with_currency }}</p>
           </div>
 
-          <small class="tax-note caption-large rte">
-            {%- if cart.taxes_included and shop.shipping_policy.body != blank -%}
-              {{ 'sections.cart.taxes_included_and_shipping_policy_html' | t: link: shop.shipping_policy.url }}
-            {%- elsif cart.taxes_included -%}
-              {{ 'sections.cart.taxes_included_but_shipping_at_checkout' | t }}
-            {%- elsif shop.shipping_policy.body != blank -%}
-              {{ 'sections.cart.taxes_and_shipping_policy_at_checkout_html' | t: link: shop.shipping_policy.url }}
-            {%- else -%}
-              {{ 'sections.cart.taxes_and_shipping_at_checkout' | t }}
-            {%- endif -%}
-          </small>
+
         </div>
 
         <!-- CTAs -->
@@ -556,7 +541,19 @@
           >
             {{ 'sections.cart.checkout' | t }}
           </button>
+          <small class="tax-note caption-large rte">
+            {%- if cart.taxes_included and shop.shipping_policy.body != blank -%}
+              {{ 'sections.cart.taxes_included_and_shipping_policy_html' | t: link: shop.shipping_policy.url }}
+            {%- elsif cart.taxes_included -%}
+              {{ 'sections.cart.taxes_included_but_shipping_at_checkout' | t }}
+            {%- elsif shop.shipping_policy.body != blank -%}
+              {{ 'sections.cart.taxes_and_shipping_policy_at_checkout_html' | t: link: shop.shipping_policy.url }}
+            {%- else -%}
+              {{ 'sections.cart.taxes_and_shipping_at_checkout' | t }}
+            {%- endif -%}
+          </small>
         </div>
+       
       </div>
     </div>
   </div>
