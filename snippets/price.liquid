@@ -55,6 +55,7 @@
         - div.price__sale: Displayed when a variant is a sale
     {%- endcomment -%}
     <div class="price__regular">
+      <p class="price__regular-label">Price</p>
       {%- if product.quantity_price_breaks_configured? -%}
         {%- if show_compare_at_price and compare_at_price -%}
           {%- unless product.price_varies == false and product.compare_at_price_varies %}
