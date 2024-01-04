@@ -4249,6 +4249,8 @@ details-disclosure > details {
 .believeMiddle p {
   font-size: 1.75rem;
   line-height: 2.32rem;
+  color: white !important;
+  margin: 0 auto !important;
 
   @media (min-width: 1200px) {
     font-size: calc(3.5rem * var(--scale));

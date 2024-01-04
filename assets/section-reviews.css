@@ -24,10 +24,11 @@
 }
 
 .reviews .slider.slider--mobile {
-  padding-top: 2rem;
+  padding-top: 4rem;
 
   @media (min-width: 1200px) {
     padding-top: 0;
+    padding-top: calc(4rem * var(--scale));
   }
 }
 

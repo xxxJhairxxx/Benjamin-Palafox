@@ -14,7 +14,7 @@
     margin-inline: auto;
     font-size: 2rem;
     text-align: center;
-    color: white;
+    color: white !important;
   }
   .BannerPageInter_title_destacado {
     display: inline-flex;
@@ -23,6 +23,7 @@
 
   .BannerPageInter_title > p {
     display: inline;
+    color: white !important;
   }
 
   @media screen and (min-width: 1200px) {
