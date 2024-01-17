@@ -300,6 +300,13 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
       background-color: var(--primary);
       border-radius: 50%;
     }
+
+    @media (min-width: 1200px) {
+      &:before {
+        width: calc(1rem * var(--scale));
+        height: calc(1rem * var(--scale));
+      }
+    }
   }
   .header .header__menu-item span:hover {
     &::before {
@@ -318,6 +325,13 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
       width: 0.8rem;
       background-color: var(--primary);
       border-radius: 50%;
+    }
+
+    @media (min-width: 1200px) {
+      &::after {
+        width: calc(1rem * var(--scale));
+        height: calc(1rem * var(--scale));
+      }
     }
   }
 
