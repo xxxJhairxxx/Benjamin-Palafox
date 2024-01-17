@@ -5322,3 +5322,35 @@ s
 .home .card-information .price__regular-label {
   display: none;
 }
+
+.collection .facet-filters.sorting.caption {
+  display: none;
+}
+
+.collection .product-count.light {
+  display: none;
+}
+
+.collection
+  .mobile-facets__details
+  .mobile-facets__summary
+  .mobile-facets__sort {
+  display: none;
+}
+
+.collection
+  .card__content
+  .card__information
+  .card-information
+  .price__container
+  .price__regular-label {
+  display: none;
+}
+
+.collection .mobile-facets__footer button:after {
+  box-shadow: none;
+}
+
+.collection .mobile-facets__footer button:before {
+  box-shadow: none;
+}
