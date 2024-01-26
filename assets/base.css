@@ -5373,12 +5373,10 @@ s
 
     @media (min-width: 1200px) {
        border: 2px solid blue; 
-      display: flex;
-      justify-content: center;
+       display: flex;
+       justify-content: center;
     }
  
 }
 
-.grid.product-grid.contains-card.contains-card--product {
-  /* border: 2px solid red; */
-}
+
