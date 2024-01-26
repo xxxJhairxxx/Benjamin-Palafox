@@ -5372,6 +5372,7 @@ s
 .collection.section-template--17220397629675__94669b97-0ea1-4a60-9924-75c3c6eaa632-padding ul {
   border: 2px solid blue;
   grid-template-columns: 1fr 1fr 0;
+  margin: 0;
 }
 
 .grid.product-grid.contains-card.contains-card--product {
