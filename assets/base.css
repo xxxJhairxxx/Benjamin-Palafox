@@ -5368,3 +5368,7 @@ s
 .collection .mobile-facets__footer button:before {
   box-shadow: none;
 }
+
+.grid.product-grid.contains-card.contains-card--product {
+  border: 2px solid red;
+}
